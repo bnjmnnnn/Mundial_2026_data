@@ -47,27 +47,36 @@ jobs:
       - name: Transform data (silver)
         run: python -m src.transform.transform
 
-      # 6. Subir capa silver como artifact descargable
-      - name: Upload silver layer
+      # 6. Ejecutar capa Gold (ML)
+      - name: Generate Gold layer (ML datasets)
+        run: python -m src.transform.gold
+
+      # 7. Subir capas silver + gold como artifact descargable
+      - name: Upload datasets
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: silver-data-${{ github.run_number }}
+          name: mundial2026-datasets-${{ github.run_number }}
           path: |
             data/silver/*.csv
             data/silver/*.parquet
+            data/gold/*.csv
+            data/gold/*.parquet
           retention-days: 30
 
-      # 7. Resumen de ejecución
+      # 8. Resumen de ejecución
       - name: Summary
         if: always()
         run: |
           echo "## Mundial 2026 Pipeline" >> $GITHUB_STEP_SUMMARY
           echo "- Commit: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
           echo "- Trigger: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
           if [ -d "data/silver" ]; then
-            echo "- ✅ Silver layer generada" >> $GITHUB_STEP_SUMMARY
+            echo "### ✅ Silver layer" >> $GITHUB_STEP_SUMMARY
             echo "- Archivos: $(ls data/silver | wc -l)" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "- ❌ Silver layer no encontrada" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -d "data/gold" ]; then
+            echo "### ✅ Gold layer (ML & Betting)" >> $GITHUB_STEP_SUMMARY
+            echo "- Archivos: $(ls data/gold | wc -l)" >> $GITHUB_STEP_SUMMARY
           fi

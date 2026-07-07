@@ -148,21 +148,11 @@ El push automáticamente dispara el workflow de GitHub Actions. Ve a tu reposito
 
 1. **Actions** → **Mundial 2026 Pipeline**
 2. Espera a que termine (sección verde ✅)
-3. Al final de la página verás **Artifacts** → descarga `silver-data-XX.zip`
+3. Al final de la página verás **Artifacts** → descarga `mundial2026-datasets-XX.zip`
 
-### 4. Generar capa Gold (ML) — local
-
-La capa Gold se genera **localmente** a partir de la silver. No está en CI/CD porque es una transformación pura que no requiere IP específica.
-
-```bash
-# Con los datos silver ya generados (locales o descargados del artifact)
-python -m src.transform.gold
-```
-
-Esto genera en `data/gold/`:
-- `team_features.csv` — Dataset ML por selección
-- `match_ml_dataset.csv` — Dataset ML por partido (comparativa)
-- `team_tournament_agg.csv` — Agregados por selección
+El ZIP incluye **ambas capas**:
+- `silver/*.csv` + `*.parquet` — Tablas normalizadas
+- `gold/*.csv` + `*.parquet` — Datasets ML listos para usar
 
 ---
 
@@ -178,10 +168,11 @@ Pasos del workflow:
 2. Setup Python 3.11
 3. Instalar dependencias
 4. Verificar que existan datos raw
-5. Ejecutar `python -m src.transform.transform` (capa silver)
-6. Subir `data/silver/*.csv` y `*.parquet` como artifact ZIP
+5. Ejecutar `python -m src.transform.transform` (capa **silver**)
+6. Ejecutar `python -m src.transform.gold` (capa **gold** — ML & apuestas)
+7. Subir `data/silver/` + `data/gold/` como artifact ZIP
 
-> **Nota:** La capa Gold se genera localmente con `python -m src.transform.gold` porque no requiere acceso a la API.
+> **Nota:** Tú solo subes `data/raw/`. El CI/CD hace el resto automáticamente.
 
 ---
 
