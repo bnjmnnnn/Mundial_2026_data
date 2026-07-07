@@ -1,0 +1,728 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group C",
+      "slug": "world-championship-gr-c",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1923839,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 811,
+      "isGroup": true,
+      "groupName": "Group C",
+      "groupSign": "C",
+      "competitionType": 1,
+      "isLive": false,
+      "id": 3956,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड सी",
+          "hr": "FIFA Svjetsko prvenstvo, Grupa C",
+          "az": "FİFA Dünya Kuboku, Qrup C",
+          "nl": "Wereldkampioenschap, Groep C",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. সি",
+          "fr": "Coupe du monde, Groupe C",
+          "de": "Weltmeisterschaft, Gruppe C",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος C",
+          "hu": "Világbajnokság, Csoport C",
+          "id": "Piala Dunia FIFA, Grup C",
+          "sr": "Светско првенство, Група Ц",
+          "it": "Coppa del Mondo, Gruppo C",
+          "ja": "FIFAワールドカップ, グループC",
+          "ko": "FIFA 월드컵, 그룹 C",
+          "no": "Verdensmesterskapet, Gruppe C",
+          "pl": "Mistrzostwa Świata, Grupa C",
+          "pt": "Copa do Mundo FIFA, Grupo C",
+          "ro": "Campionatul Mondial, Grupa C",
+          "es": "Copa Mundial, Grupo C",
+          "pt-pt": "Mundial, Grupo C",
+          "ru": "Чемпионат мира, Группа C",
+          "ar": "بطولة العالم، المجموعة C",
+          "es-la": "Copa Mundial, Grupo C",
+          "sv": "Världsmästerskapet, Grupp C",
+          "th": "ฟุตบอลโลก, กลุ่ม C",
+          "tr": "FIFA Dünya Kupası, Grup C",
+          "vi": "Giải Vô Địch Thế Giới, Bảng C"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 2
+    },
+    "customId": "YUbsEUc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 68324,
+    "venue": {
+      "city": {
+        "name": "Philadelphia",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 20517
+      },
+      "venueCoordinates": {
+        "latitude": 39.90091,
+        "longitude": -75.167489
+      },
+      "hidden": false,
+      "slug": "lincoln-financial-field",
+      "name": "Lincoln Financial Field",
+      "capacity": 69176,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 1833,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "लिंकन फाइनेंशियल फील्ड",
+          "bn": "লিঙ্কন ফাইনান্সিয়াল ফিল্ড",
+          "ar": "ملعب لينكون فاينانشال فيلد",
+          "ru": "Поле Lincoln Financial"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Lincoln Financial Field",
+        "capacity": 69176
+      }
+    },
+    "referee": {
+      "name": "Alejandro Hernandez",
+      "slug": "alejandro-hernandez",
+      "yellowCards": 1955,
+      "redCards": 46,
+      "yellowRedCards": 50,
+      "games": 368,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 86571,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أليخاندرو هيرنانديز",
+          "bn": "আলেজান্দ্রো হার্নান্দেজ",
+          "hi": "एलेजांद्रो हर्नांडेज़",
+          "ru": "Алехандро Эрнандес"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Brazil",
+      "slug": "brazil",
+      "shortName": "Brazil",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 3301872,
+      "manager": {
+        "name": "Carlo Ancelotti",
+        "slug": "carlo-ancelotti",
+        "shortName": "C. Ancelotti",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 52965,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلو أنشيلوتي",
+            "bn": "কার্লো আনচেলত্তি",
+            "hi": "कार्लो एंसेलोटी",
+            "ru": "Карло Анчелотти"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. أنشيلوتي",
+            "bn": "সি. আনচেলত্তি",
+            "hi": "सी. एंसेलोटी",
+            "ru": "К. Анчелотти"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Rio de Janeiro",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "id": 19026
+        },
+        "venueCoordinates": {
+          "latitude": -22.91196,
+          "longitude": -43.23019
+        },
+        "hidden": false,
+        "slug": "est-dio-do-maracan-",
+        "name": "Estádio do Maracanã",
+        "capacity": 78838,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "id": 686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب ماراكانا",
+            "hi": "एस्टैडियो डो माराकाना",
+            "bn": "এস্টাডিও মারাকানা",
+            "ru": "Стадион Маракана"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio do Maracanã",
+          "capacity": 78838
+        }
+      },
+      "nameCode": "BRA",
+      "ranking": 6,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "BR",
+        "alpha3": "BRA",
+        "name": "Brazil",
+        "slug": "brazil"
+      },
+      "id": 4748,
+      "fullName": "Brazil",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffff00",
+        "secondary": "#009933",
+        "text": "#009933"
+      },
+      "foundationDateTimestamp": -1747267200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "البرازيل",
+          "bn": "ব্রাজিল",
+          "hi": "ब्राजील",
+          "ru": "Бразилия"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Haiti",
+      "slug": "haiti",
+      "shortName": "Haiti",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 354305,
+      "manager": {
+        "name": "Sébastien Migné",
+        "slug": "sebastien-migne",
+        "shortName": "S. Migné",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 790200,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان ميني",
+            "ru": "Себастьен Мигне"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ميني",
+            "ru": "С. Мигне"
+          }
+        }
+      },
+      "nameCode": "HAI",
+      "ranking": 83,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "HT",
+        "alpha3": "HTI",
+        "name": "Haiti",
+        "slug": "haiti"
+      },
+      "id": 7229,
+      "fullName": "Haiti",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#3b5aa3",
+        "secondary": "#be0027",
+        "text": "#be0027"
+      },
+      "foundationDateTimestamp": -2082844800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "هايتي",
+          "bn": "হাইতি",
+          "hi": "हैती",
+          "ru": "Гаити"
+        },
+        "shortNameTranslation": {
+          "ar": "هايتي"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 3,
+      "period2": 0,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 6,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1781919631
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1781922655
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "id": 15186856,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "haiti-brazil",
+    "currentPeriodStartTimestamp": 1781919631,
+    "startTimestamp": 1781915400,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

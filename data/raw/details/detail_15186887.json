@@ -1,0 +1,463 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group D",
+      "slug": "world-championship-gr-d",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1908018,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 810,
+      "isGroup": true,
+      "groupName": "Group D",
+      "groupSign": "D",
+      "competitionType": 1,
+      "isLive": false,
+      "id": 3957,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بطولة العالم، المجموعة D",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. ডি",
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड डी",
+          "hr": "FIFA Svjetsko prvenstvo, Grupa D",
+          "az": "FİFA Dünya Kuboku, Qrup D",
+          "nl": "Wereldkampioenschap, Groep D",
+          "fr": "Coupe du monde, Groupe D",
+          "de": "Weltmeisterschaft, Gruppe D",
+          "pt-pt": "Mundial, Grupo D",
+          "ru": "Чемпионат мира, Группа D",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος D",
+          "hu": "Világbajnokság, Csoport D",
+          "id": "Piala Dunia FIFA, Grup D",
+          "it": "Coppa del Mondo, Gruppo D",
+          "ja": "FIFAワールドカップ, グループD",
+          "ko": "FIFA 월드컵, 그룹 D",
+          "no": "Verdensmesterskapet, Gruppe D",
+          "pl": "Mistrzostwa Świata, Grupa D",
+          "pt": "Copa do Mundo FIFA, Grupo D",
+          "ro": "Campionatul Mondial, Grupa D",
+          "es": "Copa Mundial, Grupo D",
+          "es-la": "Copa Mundial, Grupo D",
+          "sv": "Världsmästerskapet, Grupp D",
+          "th": "ฟุตบอลโลก, กลุ่ม D",
+          "tr": "FIFA Dünya Kupası, Grup D",
+          "vi": "Giải Vô Địch Thế Giới, Bảng D",
+          "sr": "Светско првенство, Група Д"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "aUbszUb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 70492,
+    "venue": {
+      "city": {
+        "name": "Inglewood",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 23988
+      },
+      "venueCoordinates": {
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "hidden": false,
+      "slug": "sofi-stadium",
+      "name": "SoFi Stadium",
+      "capacity": 70242,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 29715,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "सोफी स्टेडियम",
+          "bn": "সোফি স্টেডিয়াম",
+          "ar": "ملعب صوفي",
+          "ru": "Стадион SoFi"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "SoFi Stadium",
+        "capacity": 70242
+      }
+    },
+    "referee": {
+      "name": "Mustapha Ghorbal",
+      "slug": "ghorbal-mustapha",
+      "yellowCards": 89,
+      "redCards": 3,
+      "yellowRedCards": 0,
+      "games": 26,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "DZ",
+        "alpha3": "DZA",
+        "name": "Algeria",
+        "slug": "algeria"
+      },
+      "id": 787177,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مصطفى غربال",
+          "ru": "Мустафа Горбаль"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Türkiye",
+      "slug": "turkey",
+      "shortName": "Türkiye",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 509229,
+      "manager": {
+        "name": "Vincenzo Montella",
+        "slug": "vincenzo-montella",
+        "shortName": "V. Montella",
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "id": 1774,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فينتشينزو مونتيلا",
+            "bn": "ভিনসেনজো মন্টেলা",
+            "hi": "विन्सेन्ज़ो मोंटेल्ला",
+            "ru": "Винченцо Монтелла"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. مونتيلا",
+            "bn": "ভি. মন্টেলা",
+            "hi": "वी. मोंटेल्ला",
+            "ru": "В. Монтелла"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Istanbul",
+          "country": {
+            "alpha2": "TR",
+            "alpha3": "TUR",
+            "name": "Türkiye",
+            "slug": "turkiye"
+          },
+          "id": 18208
+        },
+        "venueCoordinates": {
+          "latitude": 41.074473,
+          "longitude": 28.765661
+        },
+        "hidden": true,
+        "slug": "atat-rk-olympic-stadium",
+        "name": "Atatürk Olympic Stadium",
+        "capacity": 77563,
+        "country": {
+          "alpha2": "TR",
+          "alpha3": "TUR",
+          "name": "Türkiye",
+          "slug": "turkiye"
+        },
+        "id": 959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أتاتورك الأولمبي",
+            "hi": "अतातुर्क ओलंपिक स्टेडियम",
+            "bn": "আতাতুর্ক অলিম্পিক স্টেডিয়াম",
+            "ru": "Олимпийский стадион Ататюрка"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Atatürk Olympic Stadium",
+          "capacity": 77563
+        }
+      },
+      "nameCode": "TUR",
+      "ranking": 22,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "TR",
+        "alpha3": "TUR",
+        "name": "Türkiye",
+        "slug": "turkiye"
+      },
+      "id": 4700,
+      "fullName": "Türkiye",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -1473552000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "تركيا",
+          "bn": "তুর্কি",
+          "hi": "तुर्की",
+          "ru": "Турция"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "USA",
+      "slug": "usa",
+      "shortName": "USA",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 246369,
+      "manager": {
+        "name": "Mauricio Pochettino",
+        "slug": "mauricio-pochettino",
+        "shortName": "M. Pochettino",
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
+        "id": 3377,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماوريسيو بوتشيتينو",
+            "bn": "মরিসিও পোচেত্তিনো",
+            "hi": "मौरिसियो पोचेतीनो",
+            "ru": "Маурисио Почеттино"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بوتشيتينو",
+            "bn": "এম. পোচেত্তিনো",
+            "hi": "एम. पोचेतीनो",
+            "ru": "М. Почеттино"
+          }
+        }
+      },
+      "nameCode": "USA",
+      "ranking": 17,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 4724,
+      "fullName": "USA",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -1790640000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الولايات المتحدة",
+          "bn": "ইউএসএ",
+          "hi": "यूएसए",
+          "ru": "США"
+        },
+        "shortNameTranslation": {
+          "ar": "الولايات المتحدة"
+        }
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 2,
+      "period2": 1,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 6,
+      "injuryTime2": 7,
+      "currentPeriodStartTimestamp": 1782443275
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "homeScore.normaltime"
+      ],
+      "changeTimestamp": 1782446525
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": true,
+    "id": 15186887,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "usa-turkiye",
+    "currentPeriodStartTimestamp": 1782443275,
+    "startTimestamp": 1782439200,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

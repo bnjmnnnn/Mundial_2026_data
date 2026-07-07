@@ -1,0 +1,1118 @@
+{
+  "incidents": [
+    {
+      "text": "FT",
+      "homeScore": 1,
+      "awayScore": 0,
+      "isLive": false,
+      "time": 90,
+      "addedTime": 999,
+      "timeSeconds": 5400,
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 0,
+      "periodTimeSeconds": 2700,
+      "incidentType": "period"
+    },
+    {
+      "length": 6,
+      "time": 90,
+      "addedTime": 0,
+      "reversedPeriodTime": 1,
+      "incidentType": "injuryTime"
+    },
+    {
+      "playerIn": {
+        "name": "Jayden Adams",
+        "firstName": "Jayden",
+        "lastName": "Adams",
+        "slug": "jayden-adams",
+        "shortName": "J. Adams",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 175,
+        "userCount": 1099,
+        "gender": "M",
+        "sofascoreId": "zb7a2y",
+        "id": 1049669,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 989020800,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جايدن آدامز",
+            "ru": "Джейден Адамс"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. آدامز",
+            "ru": "Д. Адамс"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Relebohile Mofokeng",
+        "slug": "relebohile-mofokeng",
+        "shortName": "R. Mofokeng",
+        "position": "M",
+        "jerseyNumber": "10",
+        "height": 166,
+        "userCount": 18562,
+        "gender": "M",
+        "sofascoreId": "fpskwx",
+        "id": 1564998,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1098489600,
+        "proposedMarketValueRaw": {
+          "value": 2900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريليبوهيلي موفوكينج",
+            "bn": "রেলেবোহিল মোফোকেং",
+            "hi": "रेलेबोहिले मोफोकेंग",
+            "ru": "Релебохиле Мофокенг"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. موفوكينج",
+            "bn": "আর. মোফোকেং",
+            "hi": "आर. मोफोकेंग",
+            "ru": "Р. Мофокенг"
+          }
+        }
+      },
+      "id": 126426156,
+      "time": 80,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 11,
+      "incidentType": "substitution"
+    },
+    {
+      "player": {
+        "name": "Gue-sung Cho",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gue-sung-cho",
+        "shortName": "G. Cho",
+        "position": "F",
+        "jerseyNumber": "10",
+        "height": 188,
+        "userCount": 2924,
+        "gender": "M",
+        "sofascoreId": "8jmjdy",
+        "id": 1014281,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 885686400,
+        "proposedMarketValueRaw": {
+          "value": 2400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غو سونغ تشو",
+            "bn": "গু-সং চো",
+            "hi": "गुए-सुंग चो",
+            "ru": "Чхо Кю Сун"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. تشو",
+            "bn": "জি. চো",
+            "hi": "जी. चो",
+            "ru": "Ч. Кю Сун"
+          }
+        }
+      },
+      "playerName": "Gue-sung Cho",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 125309659,
+      "time": 79,
+      "isHome": false,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 12,
+      "incidentType": "card"
+    },
+    {
+      "playerIn": {
+        "name": "Iqraam Rayners",
+        "firstName": "Iqraam",
+        "lastName": "Rayners",
+        "slug": "iqraam-rayners",
+        "shortName": "I. Rayners",
+        "position": "F",
+        "jerseyNumber": "13",
+        "height": 176,
+        "userCount": 1826,
+        "gender": "M",
+        "sofascoreId": "snxbfy",
+        "id": 991024,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 819331200,
+        "proposedMarketValueRaw": {
+          "value": 2600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إكرام راينرز",
+            "ru": "Икраам Рейнерс"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. راينرز",
+            "ru": "И. Рейнерс"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "12",
+        "height": 178,
+        "userCount": 1718,
+        "gender": "M",
+        "sofascoreId": "himdgz",
+        "id": 1179164,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1036972800,
+        "proposedMarketValueRaw": {
+          "value": 730000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "id": 126426155,
+      "time": 75,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 16,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Gue-sung Cho",
+        "firstName": "",
+        "lastName": "",
+        "slug": "gue-sung-cho",
+        "shortName": "G. Cho",
+        "position": "F",
+        "jerseyNumber": "10",
+        "height": 188,
+        "userCount": 2924,
+        "gender": "M",
+        "sofascoreId": "8jmjdy",
+        "id": 1014281,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 885686400,
+        "proposedMarketValueRaw": {
+          "value": 2400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غو سونغ تشو",
+            "bn": "গু-সং চো",
+            "hi": "गुए-सुंग चो",
+            "ru": "Чхо Кю Сун"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. تشو",
+            "bn": "জি. চো",
+            "hi": "जी. चो",
+            "ru": "Ч. Кю Сун"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Hyeon-gyu Oh",
+        "slug": "hyun-gyu-oh",
+        "shortName": "H. Oh",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 185,
+        "userCount": 9251,
+        "gender": "M",
+        "sofascoreId": "ce86qw",
+        "id": 1010634,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 987033600,
+        "proposedMarketValueRaw": {
+          "value": 16000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيون-غيو أوه",
+            "bn": "হিয়ুন-গিউ ওহ",
+            "hi": "ह्युन-ग्यू ओह",
+            "ru": "О Хён Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "هيون-غيو أوه",
+            "ru": "О Хён Кю"
+          }
+        }
+      },
+      "id": 126426161,
+      "time": 74,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 17,
+      "incidentType": "substitution"
+    },
+    {
+      "player": {
+        "name": "Aubrey Modiba",
+        "firstName": "Aubrey",
+        "lastName": "Modiba",
+        "slug": "aubrey-modiba",
+        "shortName": "A. Modiba",
+        "position": "D",
+        "jerseyNumber": "6",
+        "height": 167,
+        "userCount": 1194,
+        "gender": "M",
+        "sofascoreId": "vrxnzs",
+        "id": 837099,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 806371200,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوبري موديبا",
+            "bn": "অব্রে মোদিবা",
+            "hi": "ऑब्रे मोदीबा",
+            "ru": "Обри Модиба"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موديبا",
+            "bn": "এ. মোদিবা",
+            "hi": "ए. मोदीबा",
+            "ru": "О. Модиба"
+          }
+        }
+      },
+      "playerName": "Aubrey Modiba",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 125309658,
+      "time": 73,
+      "isHome": true,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 18,
+      "incidentType": "card"
+    },
+    {
+      "playerIn": {
+        "name": "Jin-seob Park",
+        "slug": "jin-seob-park",
+        "shortName": "J. S. Park",
+        "position": "M",
+        "jerseyNumber": "4",
+        "height": 184,
+        "userCount": 250,
+        "gender": "M",
+        "sofascoreId": "cewx7i",
+        "id": 1026069,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 814406400,
+        "proposedMarketValueRaw": {
+          "value": 1100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جين-سوب بارك",
+            "bn": "জিন-সিওব পার্ক",
+            "hi": "जिन-सेओब पार्क",
+            "ru": "Пак Чжин Соб"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بارك",
+            "bn": "জে. এস. পার্ক",
+            "hi": "जेएस पार्क",
+            "ru": "П. Чжин Соб"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Kim Min-jae",
+        "firstName": "Kim",
+        "lastName": "Min-jae",
+        "slug": "kim-min-jae",
+        "shortName": "K. Min-jae",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 190,
+        "userCount": 18031,
+        "gender": "M",
+        "sofascoreId": "kiminjae3",
+        "id": 896569,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 848016000,
+        "proposedMarketValueRaw": {
+          "value": 21000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم مين جاي",
+            "bn": "মিন-জায়ে কিম",
+            "hi": "मिन-जे किम",
+            "ru": "Ким Мин-джэ"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم مين جاي",
+            "bn": "এম. কিম",
+            "hi": "एम. किम",
+            "ru": "К. Мин-джэ"
+          }
+        }
+      },
+      "id": 126426160,
+      "time": 65,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 26,
+      "incidentType": "substitution"
+    },
+    {
+      "homeScore": 1,
+      "awayScore": 0,
+      "player": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "12",
+        "height": 178,
+        "userCount": 1718,
+        "gender": "M",
+        "sofascoreId": "himdgz",
+        "id": 1179164,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1036972800,
+        "proposedMarketValueRaw": {
+          "value": 730000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "assist1": {
+        "name": "Tshepang Moremi",
+        "firstName": "",
+        "lastName": "",
+        "slug": "tshepang-moremi",
+        "shortName": "T. Moremi",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 169,
+        "userCount": 1673,
+        "gender": "M",
+        "sofascoreId": "kmukqu",
+        "id": 1101745,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 970444800,
+        "proposedMarketValueRaw": {
+          "value": 1400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تشيبانج موريمي",
+            "ru": "Чепанг Мореми"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. موريمي",
+            "ru": "Ч. Мореми"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Ime Okon",
+            "firstName": "Ime Okon",
+            "slug": "okon-ime",
+            "shortName": "I. Okon",
+            "position": "D",
+            "jerseyNumber": "21",
+            "height": 187,
+            "userCount": 1372,
+            "gender": "M",
+            "sofascoreId": "p93sfz",
+            "id": 1507710,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1077235200,
+            "proposedMarketValueRaw": {
+              "value": 1900000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيمي أوكون",
+                "ru": "Име Окон"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. أوكون",
+                "ru": "И. Окон"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 63,
+          "playerCoordinates": {
+            "x": 8.8,
+            "y": 65.4
+          },
+          "passEndCoordinates": {
+            "x": 28.9,
+            "y": 74.4
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Evidence Makgopa",
+            "firstName": "Evidence",
+            "lastName": "Makgopa",
+            "slug": "evidence-makgopa",
+            "shortName": "E. Makgopa",
+            "position": "F",
+            "jerseyNumber": "17",
+            "height": 188,
+            "userCount": 1890,
+            "gender": "M",
+            "sofascoreId": "tdbak4",
+            "id": 1022170,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 960163200,
+            "proposedMarketValueRaw": {
+              "value": 1500000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيفيدنس ماكجوبا",
+                "bn": "এভিডেন্স মাকগোপা",
+                "hi": "एविडेंस मक्गोपा",
+                "ru": "Эвиденс Макгопа"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. ماكجوبا",
+                "bn": "ই. মাকগোপা",
+                "hi": "ई. मक्गोपा",
+                "ru": "Э. Макгопа"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 63,
+          "playerCoordinates": {
+            "x": 35.7,
+            "y": 71.4
+          },
+          "passEndCoordinates": {
+            "x": 42,
+            "y": 93.1
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Relebohile Mofokeng",
+            "slug": "relebohile-mofokeng",
+            "shortName": "R. Mofokeng",
+            "position": "M",
+            "jerseyNumber": "10",
+            "height": 166,
+            "userCount": 18562,
+            "gender": "M",
+            "sofascoreId": "fpskwx",
+            "id": 1564998,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1098489600,
+            "proposedMarketValueRaw": {
+              "value": 2900000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريليبوهيلي موفوكينج",
+                "bn": "রেলেবোহিল মোফোকেং",
+                "hi": "रेलेबोहिले मोफोकेंग",
+                "ru": "Релебохиле Мофокенг"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. موفوكينج",
+                "bn": "আর. মোফোকেং",
+                "hi": "आर. मोफोकेंग",
+                "ru": "Р. Мофокенг"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 63,
+          "playerCoordinates": {
+            "x": 41.9,
+            "y": 93.7
+          },
+          "passEndCoordinates": {
+            "x": 62.9,
+            "y": 93.4
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Tshepang Moremi",
+            "firstName": "",
+            "lastName": "",
+            "slug": "tshepang-moremi",
+            "shortName": "T. Moremi",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 169,
+            "userCount": 1673,
+            "gender": "M",
+            "sofascoreId": "kmukqu",
+            "id": 1101745,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 970444800,
+            "proposedMarketValueRaw": {
+              "value": 1400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تشيبانج موريمي",
+                "ru": "Чепанг Мореми"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. موريمي",
+                "ru": "Ч. Мореми"
+              }
+            }
+          },
+          "eventType": "ball-movement",
+          "time": 63,
+          "playerCoordinates": {
+            "x": 62.9,
+            "y": 93.4
+          },
+          "passEndCoordinates": {
+            "x": 87.8,
+            "y": 41.4
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Tshepang Moremi",
+            "firstName": "",
+            "lastName": "",
+            "slug": "tshepang-moremi",
+            "shortName": "T. Moremi",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 169,
+            "userCount": 1673,
+            "gender": "M",
+            "sofascoreId": "kmukqu",
+            "id": 1101745,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 970444800,
+            "proposedMarketValueRaw": {
+              "value": 1400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تشيبانج موريمي",
+                "ru": "Чепанг Мореми"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. موريمي",
+                "ru": "Ч. Мореми"
+              }
+            }
+          },
+          "eventType": "pass",
+          "isAssist": true,
+          "time": 63,
+          "playerCoordinates": {
+            "x": 86.3,
+            "y": 72.1
+          },
+          "passEndCoordinates": {
+            "x": 87.8,
+            "y": 41.4
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Thapelo Maseko",
+            "firstName": "",
+            "lastName": "",
+            "slug": "thapelo-maseko",
+            "shortName": "T. Maseko",
+            "position": "M",
+            "jerseyNumber": "12",
+            "height": 178,
+            "userCount": 1718,
+            "gender": "M",
+            "sofascoreId": "himdgz",
+            "id": 1179164,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1036972800,
+            "proposedMarketValueRaw": {
+              "value": 730000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ثابيلو ماسيكو",
+                "ru": "Тхапело Масеко"
+              },
+              "shortNameTranslation": {
+                "ar": "ث. ماسيكو",
+                "ru": "Т. Масеко"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "left-foot",
+          "time": 63,
+          "playerCoordinates": {
+            "x": 87.7,
+            "y": 39.1
+          },
+          "gkCoordinates": {
+            "x": 98.9,
+            "y": 49.5
+          },
+          "goalShotCoordinates": {
+            "x": 100,
+            "y": 46.8
+          },
+          "goalMouthCoordinates": {
+            "x": 67.2,
+            "y": 91.5
+          },
+          "goalkeeper": {
+            "name": "Kim Seung-gyu",
+            "firstName": "Kim",
+            "lastName": "Seung-gyu",
+            "slug": "kim-seung-gyu",
+            "shortName": "K. Seung-gyu",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 187,
+            "userCount": 617,
+            "gender": "M",
+            "sofascoreId": "fyzynb",
+            "id": 235686,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 654652800,
+            "proposedMarketValueRaw": {
+              "value": 530000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيم سيونج جيو",
+                "bn": "সেউং-গিউ কিম",
+                "hi": "सुंग-ग्यू किम",
+                "ru": "Ким Сын Кю"
+              },
+              "shortNameTranslation": {
+                "ar": "كيم سيونج جيو",
+                "bn": "এস. কিম",
+                "hi": "एस. किम",
+                "ru": "К. Сын Кю"
+              }
+            }
+          },
+          "isHome": true,
+          "goalType": "regular"
+        }
+      ],
+      "id": 352644749,
+      "time": 63,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 28,
+      "incidentType": "goal"
+    },
+    {
+      "playerIn": {
+        "name": "Tshepang Moremi",
+        "firstName": "",
+        "lastName": "",
+        "slug": "tshepang-moremi",
+        "shortName": "T. Moremi",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 169,
+        "userCount": 1673,
+        "gender": "M",
+        "sofascoreId": "kmukqu",
+        "id": 1101745,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 970444800,
+        "proposedMarketValueRaw": {
+          "value": 1400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تشيبانج موريمي",
+            "ru": "Чепанг Мореми"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. موريمي",
+            "ru": "Ч. Мореми"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Oswin Appollis",
+        "firstName": "Oswin",
+        "lastName": "Appollis",
+        "slug": "oswin-appollis",
+        "shortName": "O. Appollis",
+        "position": "M",
+        "jerseyNumber": "12",
+        "height": 172,
+        "userCount": 4684,
+        "gender": "M",
+        "sofascoreId": "b747w6",
+        "id": 984505,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 998697600,
+        "proposedMarketValueRaw": {
+          "value": 2700000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوسوين أبوليس",
+            "ru": "Освин Апполис"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أبوليس",
+            "ru": "О. Апполис"
+          }
+        }
+      },
+      "id": 126426154,
+      "time": 62,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 29,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Jens Castrop",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jens-castrop",
+        "shortName": "J. Castrop",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 177,
+        "userCount": 1329,
+        "gender": "M",
+        "sofascoreId": "sntdin",
+        "id": 1019312,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1059436800,
+        "proposedMarketValueRaw": {
+          "value": 9300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ينس كاستروب",
+            "ru": "Йенс Кастроп"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. كاستروب",
+            "ru": "Й. Кастроп"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Lee Tae-seok",
+        "slug": "tae-seok-lee",
+        "shortName": "T. Lee",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 174,
+        "userCount": 603,
+        "gender": "M",
+        "sofascoreId": "ut5ett",
+        "id": 1002355,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1027814400,
+        "proposedMarketValueRaw": {
+          "value": 2100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لي تاي سوك",
+            "ru": "Ли Тэ Сок"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. تاي سوك",
+            "ru": "Л. Тэ Сок"
+          }
+        }
+      },
+      "id": 126426159,
+      "time": 46,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 45,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Jin-gyu Kim",
+        "slug": "jin-kyu-kim",
+        "shortName": "J. Kim",
+        "position": "M",
+        "jerseyNumber": "97",
+        "height": 177,
+        "userCount": 302,
+        "gender": "M",
+        "sofascoreId": "q49dwx",
+        "id": 1009476,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 856742400,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جين-كيو كيم",
+            "bn": "জিন-কিউ কিম",
+            "hi": "जिन-क्यु किम",
+            "ru": "Ким Чжин Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ك. كيم",
+            "bn": "জে. কে. কিম",
+            "hi": "जे. के. किम",
+            "ru": "К. Чжин Кю"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Seung Ho Paik",
+        "firstName": "Seung Ho",
+        "lastName": "Paik",
+        "slug": "seung-ho-paik",
+        "shortName": "S. Paik",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 182,
+        "userCount": 1623,
+        "gender": "M",
+        "sofascoreId": "igqk3e",
+        "id": 881307,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 858556800,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بايك سيونغ هو",
+            "bn": "সেউং-হো পাইক",
+            "hi": "सुंग-हो पेक",
+            "ru": "Пэк Сын Хо"
+          },
+          "shortNameTranslation": {
+            "ar": "بايك سيونغ هو",
+            "bn": "এস. পাইক",
+            "hi": "एस. पेक",
+            "ru": "П. Сын Хо"
+          }
+        }
+      },
+      "id": 126426158,
+      "time": 46,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 45,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Son Heung-min",
+        "firstName": "Son",
+        "lastName": "Heung-min",
+        "slug": "son-heung-min",
+        "shortName": "S. Heung-min",
+        "position": "F",
+        "jerseyNumber": "7",
+        "height": 184,
+        "userCount": 131316,
+        "gender": "M",
+        "sofascoreId": "HMSon",
+        "id": 111505,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 710553600,
+        "proposedMarketValueRaw": {
+          "value": 16399999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سون هيونغ مين",
+            "bn": "হেউং-মিন সন",
+            "hi": "ह्युंग-मिन सोन",
+            "ru": "Сон Хын Мин"
+          },
+          "shortNameTranslation": {
+            "ar": "سون هيونغ مين",
+            "bn": "এইচ. এম. সন",
+            "hi": "एच.एम. सोन",
+            "ru": "С. Мин"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Hwang Hee-chan",
+        "firstName": "Hwang",
+        "lastName": "Hee-chan",
+        "slug": "hwang-hee-chan",
+        "shortName": "H. Hee-chan",
+        "position": "F",
+        "jerseyNumber": "11",
+        "height": 177,
+        "userCount": 7086,
+        "gender": "M",
+        "sofascoreId": "Hwangso",
+        "id": 786186,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 822614400,
+        "proposedMarketValueRaw": {
+          "value": 5500000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هوانغ هي-تشان",
+            "bn": "হি-চ্যান হোয়াং",
+            "hi": "ही-चान ह्वांग",
+            "ru": "Хван Хи Чан"
+          },
+          "shortNameTranslation": {
+            "ar": "هوانغ هي-تشان",
+            "bn": "এইচ. হোয়াং",
+            "hi": "एच. ह्वांग",
+            "ru": "Х. Хи Чан"
+          }
+        }
+      },
+      "id": 126426157,
+      "time": 46,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 45,
+      "incidentType": "substitution"
+    },
+    {
+      "text": "HT",
+      "homeScore": 0,
+      "awayScore": 0,
+      "isLive": false,
+      "time": 45,
+      "addedTime": 999,
+      "timeSeconds": 2700,
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 0,
+      "periodTimeSeconds": 2700,
+      "incidentType": "period"
+    },
+    {
+      "length": 4,
+      "time": 45,
+      "addedTime": 0,
+      "reversedPeriodTime": 1,
+      "incidentType": "injuryTime"
+    }
+  ],
+  "home": {
+    "goalkeeperColor": {
+      "primary": "f4c589",
+      "number": "ffffff",
+      "outline": "f4c589",
+      "fancyNumber": "222226"
+    },
+    "playerColor": {
+      "primary": "fdd301",
+      "number": "006600",
+      "outline": "fdd301",
+      "fancyNumber": "222226"
+    }
+  },
+  "away": {
+    "goalkeeperColor": {
+      "primary": "3da071",
+      "number": "ffffff",
+      "outline": "3da071",
+      "fancyNumber": "ffffff"
+    },
+    "playerColor": {
+      "primary": "f8373e",
+      "number": "ffffff",
+      "outline": "f8373e",
+      "fancyNumber": "222226"
+    }
+  }
+}

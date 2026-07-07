@@ -1,0 +1,727 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group L",
+      "slug": "world-championship-gr-l",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1908018,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 800,
+      "isGroup": true,
+      "groupName": "Group L",
+      "groupSign": "L",
+      "competitionType": 1,
+      "id": 139406,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بطولة العالم، المجموعة L",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. এল",
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड एल",
+          "hr": "FIFA Svjetsko prvenstvo, Grupa L",
+          "az": "FİFA Dünya Kuboku, Qrup L",
+          "nl": "Wereldkampioenschap, Groep L",
+          "fr": "Coupe du monde, Groupe L",
+          "de": "Weltmeisterschaft, Gruppe L",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος L",
+          "hu": "Világbajnokság, Csoport L",
+          "id": "Piala Dunia FIFA, Grup L",
+          "it": "Coppa del Mondo, Gruppo L",
+          "ja": "FIFAワールドカップ, グループL",
+          "ko": "FIFA 월드컵, 그룹 L",
+          "no": "Verdensmesterskapet, Gruppe L",
+          "pl": "Mistrzostwa Świata, Grupa L",
+          "pt-pt": "Mundial, Grupo L",
+          "ru": "Чемпионат мира, Группа L",
+          "pt": "Copa do Mundo FIFA, Grupo L",
+          "ro": "Campionatul Mondial, Grupa L",
+          "es": "Copa Mundial, Grupo L",
+          "es-la": "Copa Mundial, Grupo L",
+          "sv": "Världsmästerskapet, Grupp L",
+          "tr": "FIFA Dünya Kupası, Grup L",
+          "vi": "Giải Vô Địch Thế Giới, Bảng L",
+          "th": "ฟุตบอลโลก, กลุ่ม L",
+          "sr": "Светско првенство, Група Л"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "nUbsodc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 80663,
+    "venue": {
+      "city": {
+        "name": "East Rutherford",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 22040
+      },
+      "venueCoordinates": {
+        "latitude": 40.813524,
+        "longitude": -74.073401
+      },
+      "hidden": false,
+      "slug": "metlife-stadium",
+      "name": "MetLife Stadium",
+      "capacity": 82500,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 1981,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب ميتلايف",
+          "hi": "मेटलाइफ स्टेडियम",
+          "bn": "মেটলাইফ স্টেডিয়াম",
+          "ru": "Стадион MetLife"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "MetLife Stadium",
+        "capacity": 82500
+      }
+    },
+    "referee": {
+      "name": "Abdulrahman Al-Jassim",
+      "slug": "ibrahim-al-jassim-abdulrahman",
+      "yellowCards": 376,
+      "redCards": 12,
+      "yellowRedCards": 10,
+      "games": 101,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "QA",
+        "alpha3": "QAT",
+        "name": "Qatar",
+        "slug": "qatar"
+      },
+      "id": 326591,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "عبد الرحمن الجاسم",
+          "ru": "Абдулрахман Аль-Джассим"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Panama",
+      "slug": "panama",
+      "shortName": "Panama",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 79235,
+      "manager": {
+        "name": "Thomas Christiansen",
+        "slug": "thomas-christiansen",
+        "shortName": "T. Christiansen",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 396,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس كريستيانسن",
+            "bn": "টমাস ক্রিস্টিয়ানসেন",
+            "hi": "थॉमस क्रिस्टियनसेन",
+            "ru": "Томас Кристиансен"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. كريستيانسن",
+            "bn": "টি. ক্রিস্টিয়ানসেন",
+            "hi": "टी. क्रिस्टियनसेन",
+            "ru": "Т. Кристиансен"
+          }
+        }
+      },
+      "nameCode": "PAN",
+      "ranking": 34,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "PA",
+        "alpha3": "PAN",
+        "name": "Panama",
+        "slug": "panama"
+      },
+      "id": 5164,
+      "fullName": "Panama",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#005293",
+        "text": "#005293"
+      },
+      "foundationDateTimestamp": -1023408000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بنما",
+          "bn": "পানামা",
+          "hi": "पनामा",
+          "ru": "Панама"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "England",
+      "slug": "england",
+      "shortName": "England",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1325954,
+      "manager": {
+        "name": "Thomas Tuchel",
+        "slug": "thomas-tuchel",
+        "shortName": "T. Tuchel",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 785186,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس توخيل",
+            "bn": "টমাস টুখেল",
+            "hi": "थॉमस टुचेल",
+            "ru": "Томас Тухель"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. توخيل",
+            "bn": "টি. টুখেল",
+            "hi": "टी. टुचेल",
+            "ru": "Т. Тухель"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "London",
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 17960
+        },
+        "venueCoordinates": {
+          "latitude": 51.556069,
+          "longitude": -0.279603
+        },
+        "hidden": false,
+        "slug": "wembley-stadium",
+        "name": "Wembley Stadium",
+        "capacity": 90000,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 8,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب ويمبلي",
+            "hi": "वेम्बली स्टेडियम",
+            "bn": "ওয়েম্বলি স্টেডিয়াম",
+            "ru": "Уэмбли"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Wembley Stadium",
+          "capacity": 90000
+        }
+      },
+      "nameCode": "ENG",
+      "ranking": 4,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 4713,
+      "fullName": "England",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -3350851200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "انجلترا",
+          "bn": "ইংল্যান্ড",
+          "hi": "इंग्लैंड",
+          "ru": "Англия"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 0,
+      "period2": 2,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 3,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1782597842
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1782600912
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "id": 15186676,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "panama-england",
+    "currentPeriodStartTimestamp": 1782597842,
+    "startTimestamp": 1782594000,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

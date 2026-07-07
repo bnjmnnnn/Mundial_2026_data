@@ -1,0 +1,768 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group E",
+      "slug": "world-championship-gr-e",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1908018,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 809,
+      "isGroup": true,
+      "groupName": "Group E",
+      "groupSign": "E",
+      "competitionType": 1,
+      "isLive": false,
+      "id": 3958,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بطولة العالم، المجموعة E",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. ই",
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड ई",
+          "hr": "FIFA Svjetsko prvenstvo, Grupa E",
+          "az": "FİFA Dünya Kuboku, Qrup E",
+          "nl": "Wereldkampioenschap, Groep E",
+          "fr": "Coupe du monde, Groupe E",
+          "de": "Weltmeisterschaft, Gruppe E",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος E",
+          "hu": "Világbajnokság, Csoport E",
+          "id": "Piala Dunia FIFA, Grup E",
+          "it": "Coppa del Mondo, Gruppo E",
+          "pt-pt": "Mundial, Grupo E",
+          "ru": "Чемпионат мира, Группа E",
+          "ja": "FIFAワールドカップ, グループE",
+          "ko": "FIFA 월드컵, 그룹 E",
+          "no": "Verdensmesterskapet, Gruppe E",
+          "pl": "Mistrzostwa Świata, Grupa E",
+          "pt": "Copa do Mundo FIFA, Grupo E",
+          "ro": "Campionatul Mondial, Grupa E",
+          "es": "Copa Mundial, Grupo E",
+          "es-la": "Copa Mundial, Grupo E",
+          "sv": "Världsmästerskapet, Grupp E",
+          "th": "ฟุตบอลโลก, กลุ่ม E",
+          "tr": "FIFA Dünya Kupası, Grup E",
+          "vi": "Giải Vô Địch Thế Giới, Bảng E",
+          "sr": "Светско првенство, Група Е"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 2
+    },
+    "customId": "hVbsCqx",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 68598,
+    "venue": {
+      "city": {
+        "name": "Kansas City",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 20923
+      },
+      "venueCoordinates": {
+        "latitude": 39.048941,
+        "longitude": -94.484994
+      },
+      "hidden": false,
+      "slug": "arrowhead-stadium",
+      "name": "Arrowhead Stadium",
+      "capacity": 76416,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 8189,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "एरोहेड स्टेडियम",
+          "bn": "অ্যারোহেড স্টেডিয়াম",
+          "ar": "ملعب أروهيد",
+          "ru": "Стадион Arrowhead"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Arrowhead Stadium",
+        "capacity": 76416
+      }
+    },
+    "referee": {
+      "name": "Ma Ning",
+      "slug": "ning-ma",
+      "yellowCards": 1093,
+      "redCards": 50,
+      "yellowRedCards": 34,
+      "games": 251,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "CN",
+        "alpha3": "CHN",
+        "name": "China",
+        "slug": "china"
+      },
+      "id": 785164,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ما نينغ",
+          "bn": "নিং মা",
+          "hi": "निंग मा",
+          "ru": "Ма Нин"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "shortName": "Ecuador",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 254404,
+      "manager": {
+        "name": "Sebastian Beccacece",
+        "slug": "sebastian-beccacece",
+        "shortName": "S. Beccacece",
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
+        "id": 786550,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان بيكاسيسي",
+            "bn": "সেবাস্টিয়ান বেক্কাসিস",
+            "hi": "सेबेस्टियन बेक्कासे",
+            "ru": "Себастьян Беккаче"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بيكاسيسي",
+            "bn": "এস. বেক্কাসিস",
+            "hi": "एस. बेक्कासे",
+            "ru": "С. Беккаче"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Quito",
+          "country": {
+            "alpha2": "EC",
+            "alpha3": "ECU",
+            "name": "Ecuador",
+            "slug": "ecuador"
+          },
+          "id": 19229
+        },
+        "venueCoordinates": {
+          "latitude": -0.107723,
+          "longitude": -78.489077
+        },
+        "hidden": true,
+        "slug": "estadio-rodrigo-paz-delgado",
+        "name": "Estadio Rodrigo Paz Delgado",
+        "capacity": 41575,
+        "country": {
+          "alpha2": "EC",
+          "alpha3": "ECU",
+          "name": "Ecuador",
+          "slug": "ecuador"
+        },
+        "id": 17523,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب رودريغو باز ديلغادو",
+            "hi": "एस्टेडियो रोड्रिगो पाज़ डेलगाडो",
+            "bn": "এস্তাদিও রদ্রিগো পাজ ডেলগাডো",
+            "ru": "Стадион Rodrigo Paz Delgado"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estadio Rodrigo Paz Delgado",
+          "capacity": 41575
+        }
+      },
+      "nameCode": "ECU",
+      "ranking": 23,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "EC",
+        "alpha3": "ECU",
+        "name": "Ecuador",
+        "slug": "ecuador"
+      },
+      "id": 4757,
+      "fullName": "Ecuador",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffff00",
+        "secondary": "#000063",
+        "text": "#000063"
+      },
+      "foundationDateTimestamp": -1407196800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الاكوادور",
+          "bn": "ইকুয়েডর",
+          "hi": "इक्वाडोर",
+          "ru": "Эквадор"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Curaçao",
+      "slug": "curacao",
+      "shortName": "Curaçao",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 59227,
+      "manager": {
+        "name": "Dick Advocaat",
+        "slug": "dick-advocaat",
+        "shortName": "D. Advocaat",
+        "country": {
+          "alpha2": "NL",
+          "alpha3": "NLD",
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
+        "id": 53298,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديك أدفوكات",
+            "bn": "ডিক অ্যাডভোকাট",
+            "hi": "डिक एडवोकेट",
+            "ru": "Дик Адвоокат"
+          },
+          "shortNameTranslation": {
+            "ar": "د. أدفوكات",
+            "bn": "ডি. অ্যাডভোকাট",
+            "hi": "डी. एडवोकेट",
+            "ru": "Д. Адвоокат"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Willemstad",
+          "country": {
+            "alpha2": "CW",
+            "alpha3": "CUW",
+            "name": "Curacao",
+            "slug": "curacao"
+          },
+          "id": 31940
+        },
+        "venueCoordinates": {
+          "latitude": 12.1084,
+          "longitude": -68.93354
+        },
+        "hidden": true,
+        "slug": "estadio-ergilio-hato",
+        "name": "Estadio Ergilio Hato",
+        "capacity": 15000,
+        "country": {
+          "alpha2": "CW",
+          "alpha3": "CUW",
+          "name": "Curacao",
+          "slug": "curacao"
+        },
+        "id": 26329,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب إرجيلو هاتو",
+            "hi": "एस्टेडियो एर्गिलियो हाटो",
+            "bn": "এস্তাদিও এরগিলিও হাতো",
+            "ru": "Estadio Ergilio Hato"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estadio Ergilio Hato",
+          "capacity": 15000
+        }
+      },
+      "nameCode": "CUR",
+      "ranking": 82,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "CW",
+        "alpha3": "CUW",
+        "name": "Curacao",
+        "slug": "curacao"
+      },
+      "id": 55827,
+      "fullName": "Curaçao",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#004990",
+        "secondary": "#000fff",
+        "text": "#000fff"
+      },
+      "foundationDateTimestamp": -1546300800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كوراساو",
+          "bn": "কুরাকাও",
+          "hi": "क्यूराकाओ",
+          "ru": "Кюрасао"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1782003889
+    },
+    "changes": {
+      "changes": [
+        "eventState.statusIndicator"
+      ],
+      "changeTimestamp": 1782016958
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "id": 15186906,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "curacao-ecuador",
+    "currentPeriodStartTimestamp": 1782003889,
+    "startTimestamp": 1782000000,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

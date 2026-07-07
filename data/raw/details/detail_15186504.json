@@ -1,0 +1,729 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group L",
+      "slug": "world-championship-gr-l",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1923839,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 800,
+      "isGroup": true,
+      "groupName": "Group L",
+      "groupSign": "L",
+      "competitionType": 1,
+      "id": 139406,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بطولة العالم، المجموعة L",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. এল",
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड एल",
+          "hr": "FIFA Svjetsko prvenstvo, Grupa L",
+          "az": "FİFA Dünya Kuboku, Qrup L",
+          "nl": "Wereldkampioenschap, Groep L",
+          "fr": "Coupe du monde, Groupe L",
+          "de": "Weltmeisterschaft, Gruppe L",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος L",
+          "hu": "Világbajnokság, Csoport L",
+          "id": "Piala Dunia FIFA, Grup L",
+          "it": "Coppa del Mondo, Gruppo L",
+          "ja": "FIFAワールドカップ, グループL",
+          "ko": "FIFA 월드컵, 그룹 L",
+          "no": "Verdensmesterskapet, Gruppe L",
+          "pl": "Mistrzostwa Świata, Grupa L",
+          "pt-pt": "Mundial, Grupo L",
+          "ru": "Чемпионат мира, Группа L",
+          "pt": "Copa do Mundo FIFA, Grupo L",
+          "ro": "Campionatul Mondial, Grupa L",
+          "es": "Copa Mundial, Grupo L",
+          "es-la": "Copa Mundial, Grupo L",
+          "sv": "Världsmästerskapet, Grupp L",
+          "tr": "FIFA Dünya Kupası, Grup L",
+          "vi": "Giải Vô Địch Thế Giới, Bảng L",
+          "th": "ฟุตบอลโลก, กลุ่ม L",
+          "sr": "Светско првенство, Група Л"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 1
+    },
+    "customId": "nUbspUb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 70389,
+    "venue": {
+      "city": {
+        "name": "Arlington",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 21018
+      },
+      "venueCoordinates": {
+        "latitude": 32.74785,
+        "longitude": -97.092834
+      },
+      "hidden": false,
+      "slug": "at-t-stadium",
+      "name": "AT&T Stadium",
+      "capacity": 80000,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 6650,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب إيه تي آند تي",
+          "hi": "एटीएंडटी स्टेडियम",
+          "bn": "এটিএন্ড টি স্টেডিয়াম",
+          "ru": "Стадион AT&T"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "AT&T Stadium",
+        "capacity": 80000
+      }
+    },
+    "referee": {
+      "name": "Clement Turpin",
+      "slug": "clement-turpin",
+      "yellowCards": 1770,
+      "redCards": 103,
+      "yellowRedCards": 36,
+      "games": 523,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 52599,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كليمان توربان",
+          "bn": "ক্লিমেন্ট টারপিন",
+          "hi": "क्लेमेंट टर्पिन",
+          "ru": "Клеман Тюрпен"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "England",
+      "slug": "england",
+      "shortName": "England",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 1350515,
+      "manager": {
+        "name": "Thomas Tuchel",
+        "slug": "thomas-tuchel",
+        "shortName": "T. Tuchel",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 785186,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توماس توخيل",
+            "bn": "টমাস টুখেল",
+            "hi": "थॉमस टुचेल",
+            "ru": "Томас Тухель"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. توخيل",
+            "bn": "টি. টুখেল",
+            "hi": "टी. टुचेल",
+            "ru": "Т. Тухель"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "London",
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "id": 17960
+        },
+        "venueCoordinates": {
+          "latitude": 51.556069,
+          "longitude": -0.279603
+        },
+        "hidden": false,
+        "slug": "wembley-stadium",
+        "name": "Wembley Stadium",
+        "capacity": 90000,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 8,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب ويمبلي",
+            "hi": "वेम्बली स्टेडियम",
+            "bn": "ওয়েম্বলি স্টেডিয়াম",
+            "ru": "Уэмбли"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Wembley Stadium",
+          "capacity": 90000
+        }
+      },
+      "nameCode": "ENG",
+      "ranking": 4,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "EN",
+        "alpha3": "ENG",
+        "name": "England",
+        "slug": "england"
+      },
+      "id": 4713,
+      "fullName": "England",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#cc0000",
+        "text": "#cc0000"
+      },
+      "foundationDateTimestamp": -3350851200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "انجلترا",
+          "bn": "ইংল্যান্ড",
+          "hi": "इंग्लैंड",
+          "ru": "Англия"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Croatia",
+      "slug": "croatia",
+      "shortName": "Croatia",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 553411,
+      "manager": {
+        "name": "Zlatko Dalić",
+        "slug": "zlatko-dalic",
+        "shortName": "Z. Dalić",
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "id": 784902,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زلاتكو داليتش",
+            "bn": "জ্লাটকো ডালিক",
+            "hi": "ज़्लाटको डालिक",
+            "ru": "Златко Далич"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. داليتش",
+            "bn": "জেড. ডালিক",
+            "hi": "ज़ेड. डालिक",
+            "ru": "З. Далич"
+          }
+        }
+      },
+      "nameCode": "CRO",
+      "ranking": 11,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "HR",
+        "alpha3": "HRV",
+        "name": "Croatia",
+        "slug": "croatia"
+      },
+      "id": 4715,
+      "fullName": "Croatia",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1816214400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كرواتيا",
+          "bn": "ক্রোয়েশিয়া",
+          "hi": "क्रोएशिया",
+          "ru": "Хорватия"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 4,
+      "display": 4,
+      "period1": 2,
+      "period2": 2,
+      "normaltime": 4
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 2,
+      "period2": 0,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 5,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1781730559
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1781733637
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "id": 15186504,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "croatia-england",
+    "currentPeriodStartTimestamp": 1781730559,
+    "startTimestamp": 1781726400,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

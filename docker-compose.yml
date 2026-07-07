@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   pipeline:
     build:
@@ -10,7 +12,6 @@ services:
     environment:
       - RAW_DATA_PATH=/app/data/raw
       - SILVER_DATA_PATH=/app/data/silver
-    # Puedes anular el CMD para pruebas:
     # command: ["python", "-m", "src.extract.extract"]
 
 volumes:

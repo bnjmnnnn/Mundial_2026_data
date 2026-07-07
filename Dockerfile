@@ -3,10 +3,10 @@
 
 FROM python:3.11-slim
 
-# ---------------------------------------------------------------------------
+# Ejecutar como usuario no root por seguridad
 # Dependencias del sistema necesarias para curl_cffi y compilación
-# ---------------------------------------------------------------------------
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN useradd --create-home --shell /bin/bash appuser && \
+    apt-get update && apt-get install -y --no-install-recommends \
     libcurl4 \
     libssl-dev \
     libffi-dev \
@@ -27,12 +27,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copiar código fuente
 # ---------------------------------------------------------------------------
 COPY src/ ./src/
-COPY plan_hitos_sofascore_mundial2026.md .
 
 # ---------------------------------------------------------------------------
 # Crear directorios de salida
 # ---------------------------------------------------------------------------
 RUN mkdir -p /app/data/raw /app/data/silver
+RUN chown -R appuser:appuser /app
 
 # ---------------------------------------------------------------------------
 # Variables de entorno por defecto
@@ -40,6 +40,8 @@ RUN mkdir -p /app/data/raw /app/data/silver
 ENV PYTHONUNBUFFERED=1
 ENV RAW_DATA_PATH=/app/data/raw
 ENV SILVER_DATA_PATH=/app/data/silver
+
+USER appuser
 
 # ---------------------------------------------------------------------------
 # Ejecución del pipeline completo

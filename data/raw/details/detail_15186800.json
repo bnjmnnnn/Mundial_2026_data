@@ -1,0 +1,769 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group H",
+      "slug": "world-championship-gr-h",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1908018,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 806,
+      "isGroup": true,
+      "groupName": "Group H",
+      "groupSign": "H",
+      "competitionType": 1,
+      "isLive": false,
+      "id": 3961,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. এইচ",
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड एच",
+          "hr": "FIFA Svjetsko prvenstvo, Grupa H",
+          "az": "FİFA Dünya Kuboku, Qrup H",
+          "nl": "Wereldkampioenschap, Groep H",
+          "fr": "Coupe du monde, Groupe H",
+          "de": "Weltmeisterschaft, Gruppe H",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος H",
+          "pt-pt": "Mundial, Grupo H",
+          "ar": "بطولة العالم، المجموعة H",
+          "th": "ฟุตบอลโลก, กลุ่ม H",
+          "tr": "FIFA Dünya Kupası, Grup H",
+          "hu": "Világbajnokság, Csoport H",
+          "id": "Piala Dunia FIFA, Grup H",
+          "it": "Coppa del Mondo, Gruppo H",
+          "ja": "FIFAワールドカップ, グループH",
+          "ko": "FIFA 월드컵, 그룹 H",
+          "no": "Verdensmesterskapet, Gruppe H",
+          "pl": "Mistrzostwa Świata, Grupa H",
+          "pt": "Copa do Mundo FIFA, Grupo H",
+          "ro": "Campionatul Mondial, Grupa H",
+          "es": "Copa Mundial, Grupo H",
+          "es-la": "Copa Mundial, Grupo H",
+          "sv": "Världsmästerskapet, Grupp H",
+          "vi": "Giải Vô Địch Thế Giới, Bảng H",
+          "ru": "Чемпионат мира, Группа H",
+          "sr": "Светско првенство, Група Х"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 2
+    },
+    "customId": "AUbsdVb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 64003,
+    "venue": {
+      "city": {
+        "name": "Miami Gardens",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 28595
+      },
+      "venueCoordinates": {
+        "latitude": 25.958036613568,
+        "longitude": -80.237924235533
+      },
+      "hidden": false,
+      "slug": "hard-rock-stadium",
+      "name": "Hard Rock Stadium",
+      "capacity": 65326,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 17423,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "हार्ड रॉक स्टेडियम",
+          "bn": "হার্ড রক স্টেডিয়াম",
+          "ar": "ملعب هارد روك",
+          "ru": "Стадион Hard Rock"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Hard Rock Stadium",
+        "capacity": 65326
+      }
+    },
+    "referee": {
+      "name": "Espen Eskas",
+      "slug": "espen-eskas",
+      "yellowCards": 1119,
+      "redCards": 15,
+      "yellowRedCards": 24,
+      "games": 325,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "NO",
+        "alpha3": "NOR",
+        "name": "Norway",
+        "slug": "norway"
+      },
+      "id": 92295,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إسبن إسكوس",
+          "bn": "এসপেন এসকাস",
+          "hi": "एस्पेन एस्कास",
+          "ru": "Эспен Эскос"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "shortName": "Uruguay",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 311922,
+      "manager": {
+        "name": "Marcelo Bielsa",
+        "slug": "marcelo-bielsa",
+        "shortName": "M. Bielsa",
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
+        "id": 53560,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيلو بييلسا",
+            "bn": "মার্সেলো বিয়েলসা",
+            "hi": "मार्सेलो बिएल्सा",
+            "ru": "Марсело Бьелса"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بييلسا",
+            "bn": "এম. বিয়েলসা",
+            "hi": "एम. बिएल्सा",
+            "ru": "М. Бьелса"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Montevideo",
+          "country": {
+            "alpha2": "UY",
+            "alpha3": "URY",
+            "name": "Uruguay",
+            "slug": "uruguay"
+          },
+          "id": 18416
+        },
+        "venueCoordinates": {
+          "latitude": -34.894539,
+          "longitude": -56.152684
+        },
+        "hidden": true,
+        "slug": "estadio-centenario",
+        "name": "Estadio Centenario",
+        "capacity": 60235,
+        "country": {
+          "alpha2": "UY",
+          "alpha3": "URY",
+          "name": "Uruguay",
+          "slug": "uruguay"
+        },
+        "id": 1001,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب سنتيناريو",
+            "hi": "एस्टेडियो सेंटेनारियो",
+            "bn": "এস্তাদিও সেন্টেনারিও",
+            "ru": "Стадион Estadio Centenario"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estadio Centenario",
+          "capacity": 60235
+        }
+      },
+      "nameCode": "URU",
+      "ranking": 16,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "UY",
+        "alpha3": "URY",
+        "name": "Uruguay",
+        "slug": "uruguay"
+      },
+      "id": 4725,
+      "fullName": "Uruguay",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#7eacfe",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2201385600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أوروغواي",
+          "bn": "উরুগুয়ে",
+          "hi": "उरुग्वे",
+          "ru": "Уругвай"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Cabo Verde",
+      "slug": "cape-verde",
+      "shortName": "Cabo Verde",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 181559,
+      "manager": {
+        "name": "Bubista",
+        "slug": "bubista",
+        "shortName": "Bubista",
+        "country": {
+          "alpha2": "CV",
+          "alpha3": "CPV",
+          "name": "Cape Verde",
+          "slug": "cape-verde"
+        },
+        "id": 794980,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بوبيستا",
+            "bn": "বুবিস্তা",
+            "hi": "बुबिस्ता",
+            "ru": "Бубиста"
+          },
+          "shortNameTranslation": {
+            "ar": "بوبيستا",
+            "bn": "বুবিস্তা",
+            "hi": "बुबिस्ता"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Praia",
+          "country": {
+            "alpha2": "CV",
+            "alpha3": "CPV",
+            "name": "Cape Verde",
+            "slug": "cape-verde"
+          },
+          "id": 25910
+        },
+        "venueCoordinates": {
+          "latitude": 14.975928,
+          "longitude": -23.530796
+        },
+        "hidden": true,
+        "slug": "est-dio-nacional-de-cabo-verde",
+        "name": "Estádio Nacional de Cabo Verde",
+        "capacity": 15000,
+        "country": {
+          "alpha2": "CV",
+          "alpha3": "CPV",
+          "name": "Cape Verde",
+          "slug": "cape-verde"
+        },
+        "id": 30201,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب الرأس الأخضر الوطني",
+            "hi": "एस्टेडियो नैशनल डी काबो वर्दे",
+            "bn": "এস্তাদিও ন্যাশনাল ডে কাবো ভার্দে",
+            "ru": "Стадион Nacional de Cabo Verde"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estádio Nacional de Cabo Verde",
+          "capacity": 15000
+        }
+      },
+      "nameCode": "CPV",
+      "ranking": 67,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "CV",
+        "alpha3": "CPV",
+        "name": "Cape Verde",
+        "slug": "cape-verde"
+      },
+      "id": 4753,
+      "fullName": "Cabo Verde",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#21418e",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": 401155200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الرأس الأخضر",
+          "bn": "কেপ ভার্দে",
+          "hi": "केप वर्डे",
+          "ru": "Кабо-Верде"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 2,
+      "period2": 0,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 5,
+      "injuryTime2": 8,
+      "currentPeriodStartTimestamp": 1782083441
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1782086657
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "id": 15186800,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "cabo-verde-uruguay",
+    "currentPeriodStartTimestamp": 1782083441,
+    "startTimestamp": 1782079200,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

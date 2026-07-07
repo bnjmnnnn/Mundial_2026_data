@@ -1,0 +1,724 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group D",
+      "slug": "world-championship-gr-d",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1908018,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 810,
+      "isGroup": true,
+      "groupName": "Group D",
+      "groupSign": "D",
+      "competitionType": 1,
+      "isLive": false,
+      "id": 3957,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بطولة العالم، المجموعة D",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. ডি",
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड डी",
+          "hr": "FIFA Svjetsko prvenstvo, Grupa D",
+          "az": "FİFA Dünya Kuboku, Qrup D",
+          "nl": "Wereldkampioenschap, Groep D",
+          "fr": "Coupe du monde, Groupe D",
+          "de": "Weltmeisterschaft, Gruppe D",
+          "pt-pt": "Mundial, Grupo D",
+          "ru": "Чемпионат мира, Группа D",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος D",
+          "hu": "Világbajnokság, Csoport D",
+          "id": "Piala Dunia FIFA, Grup D",
+          "it": "Coppa del Mondo, Gruppo D",
+          "ja": "FIFAワールドカップ, グループD",
+          "ko": "FIFA 월드컵, 그룹 D",
+          "no": "Verdensmesterskapet, Gruppe D",
+          "pl": "Mistrzostwa Świata, Grupa D",
+          "pt": "Copa do Mundo FIFA, Grupo D",
+          "ro": "Campionatul Mondial, Grupa D",
+          "es": "Copa Mundial, Grupo D",
+          "es-la": "Copa Mundial, Grupo D",
+          "sv": "Världsmästerskapet, Grupp D",
+          "th": "ฟุตบอลโลก, กลุ่ม D",
+          "tr": "FIFA Dünya Kupası, Grup D",
+          "vi": "Giải Vô Địch Thế Giới, Bảng D",
+          "sr": "Светско првенство, Група Д"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "QUbsOVb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 68827,
+    "venue": {
+      "city": {
+        "name": "Santa Clara",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 20692
+      },
+      "venueCoordinates": {
+        "latitude": 37.403158,
+        "longitude": -121.969831
+      },
+      "hidden": false,
+      "slug": "levi-s-stadium",
+      "name": "Levi's Stadium",
+      "capacity": 68500,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 15872,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "लेवी स्टेडियम",
+          "bn": "লেভিস স্টেডিয়াম",
+          "ar": "ملعب ليفاي",
+          "ru": "Стадион Levi's"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Levi's Stadium",
+        "capacity": 68500
+      }
+    },
+    "referee": {
+      "name": "Clement Turpin",
+      "slug": "clement-turpin",
+      "yellowCards": 1770,
+      "redCards": 103,
+      "yellowRedCards": 36,
+      "games": 523,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "name": "France",
+        "slug": "france"
+      },
+      "id": 52599,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كليمان توربان",
+          "bn": "ক্লিমেন্ট টারপিন",
+          "hi": "क्लेमेंट टर्पिन",
+          "ru": "Клеман Тюрпен"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Paraguay",
+      "slug": "paraguay",
+      "shortName": "Paraguay",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 188648,
+      "manager": {
+        "name": "Gustavo Alfaro",
+        "slug": "gustavo-alfaro",
+        "shortName": "G. Alfaro",
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
+        "id": 53366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوستافو ألفارو",
+            "ru": "Густаво Альфаро"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. ألفارو",
+            "ru": "Г. Альфаро"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Asuncion",
+          "country": {
+            "alpha2": "PY",
+            "alpha3": "PRY",
+            "name": "Paraguay",
+            "slug": "paraguay"
+          },
+          "id": 18042
+        },
+        "venueCoordinates": {
+          "latitude": -25.291955,
+          "longitude": -57.657416
+        },
+        "hidden": true,
+        "slug": "estadio-defensores-del-chaco",
+        "name": "Estadio Defensores del Chaco",
+        "capacity": 42354,
+        "country": {
+          "alpha2": "PY",
+          "alpha3": "PRY",
+          "name": "Paraguay",
+          "slug": "paraguay"
+        },
+        "id": 1037,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب ديفيندوريس ديل تشاكو",
+            "hi": "एस्टेडियो डिफेन्सोर्स डेल चाको",
+            "bn": "এস্টাডিও ডিফেনসোরস দেল চাকো",
+            "ru": "Стадион Estadio Defensores del Chaco"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Estadio Defensores del Chaco",
+          "capacity": 42354
+        }
+      },
+      "nameCode": "PAR",
+      "ranking": 41,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "PY",
+        "alpha3": "PRY",
+        "name": "Paraguay",
+        "slug": "paraguay"
+      },
+      "id": 4789,
+      "fullName": "Paraguay",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#045ca3",
+        "text": "#045ca3"
+      },
+      "foundationDateTimestamp": -2005171200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "باراغواي",
+          "bn": "প্যারাগুয়ে",
+          "hi": "पराग्वे",
+          "ru": "Парагвай"
+        },
+        "shortNameTranslation": {
+          "ar": "باراغواي"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Australia",
+      "slug": "australia",
+      "shortName": "Australia",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 117459,
+      "manager": {
+        "name": "Tony Popovic",
+        "slug": "anthony-popovic",
+        "shortName": "T. Popovic",
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "id": 635,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توني بوبوفيتش",
+            "ru": "Тони Попович"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. بوبوفيتش",
+            "ru": "Т. Попович"
+          }
+        }
+      },
+      "nameCode": "AUS",
+      "ranking": 27,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "AU",
+        "alpha3": "AUS",
+        "name": "Australia",
+        "slug": "australia"
+      },
+      "id": 4741,
+      "fullName": "Australia",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffcc00",
+        "secondary": "#2d324b",
+        "text": "#2d324b"
+      },
+      "foundationDateTimestamp": -283996800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أستراليا",
+          "bn": "অস্ট্রেলিয়া",
+          "hi": "ऑस्ट्रेलिया",
+          "ru": "Австралия"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 6,
+      "injuryTime2": 5,
+      "currentPeriodStartTimestamp": 1782443287
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1782446305
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "id": 15186891,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "paraguay-australia",
+    "currentPeriodStartTimestamp": 1782443287,
+    "startTimestamp": 1782439200,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

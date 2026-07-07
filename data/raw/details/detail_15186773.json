@@ -1,0 +1,727 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group I",
+      "slug": "world-championship-gr-i",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1908018,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 803,
+      "isGroup": true,
+      "groupName": "Group I",
+      "groupSign": "I",
+      "competitionType": 1,
+      "id": 139403,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hr": "FIFA Svjetsko prvenstvo, Grupa I",
+          "az": "FİFA Dünya Kuboku, Qrup I",
+          "nl": "Wereldkampioenschap, Groep I",
+          "pt-pt": "Mundial, Grupo I",
+          "ru": "Чемпионат мира, Группа I",
+          "ar": "بطولة العالم، المجموعة I",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. আই",
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड आई",
+          "fr": "Coupe du monde, Groupe I",
+          "de": "Weltmeisterschaft, Gruppe I",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος I",
+          "hu": "Világbajnokság, Csoport I",
+          "id": "Piala Dunia FIFA, Grup I",
+          "it": "Coppa del Mondo, Gruppo I",
+          "ja": "FIFAワールドカップ, グループI",
+          "ko": "FIFA 월드컵, 그룹 I",
+          "no": "Verdensmesterskapet, Gruppe I",
+          "sr": "Светско првенство, Група И",
+          "pl": "Mistrzostwa Świata, Grupa I",
+          "pt": "Copa do Mundo FIFA, Grupo I",
+          "ro": "Campionatul Mondial, Grupa I",
+          "es": "Copa Mundial, Grupo I",
+          "es-la": "Copa Mundial, Grupo I",
+          "sv": "Världsmästerskapet, Grupp I",
+          "th": "ฟุตบอลโลก, กลุ่ม I",
+          "tr": "FIFA Dünya Kupası, Grup I",
+          "vi": "Giải Vô Địch Thế Giới, Bảng I"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 1
+    },
+    "customId": "AObsrVb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 63106,
+    "venue": {
+      "city": {
+        "name": "Foxborough",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 28594
+      },
+      "venueCoordinates": {
+        "latitude": 42.091253,
+        "longitude": -71.264465
+      },
+      "hidden": false,
+      "slug": "gillette-stadium",
+      "name": "Gillette Stadium",
+      "capacity": 66829,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 2379,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "जिलेट स्टेडियम",
+          "bn": "জিলেট স্টেডিয়াম",
+          "ar": "ملعب جيليت",
+          "ru": "Стадион Gillette"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Gillette Stadium",
+        "capacity": 66829
+      }
+    },
+    "referee": {
+      "name": "Pierre Ghislain Atcho",
+      "slug": "atcho-pierre-ghislain",
+      "yellowCards": 46,
+      "redCards": 1,
+      "yellowRedCards": 1,
+      "games": 13,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "GA",
+        "alpha3": "GAB",
+        "name": "Gabon",
+        "slug": "gabon"
+      },
+      "id": 789229,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بيير أتشو",
+          "ru": "Пьер Атчо"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Iraq",
+      "slug": "iraq",
+      "shortName": "Iraq",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 165108,
+      "manager": {
+        "name": "Graham Arnold",
+        "slug": "graham-arnold",
+        "shortName": "G. Arnold",
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "id": 53524,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غراهام أرنولد",
+            "bn": "গ্রাহাম আর্নল্ড",
+            "hi": "ग्राहम अर्नोल्ड",
+            "ru": "Грэм Арнольд"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. أرنولد",
+            "bn": "জি. আর্নল্ড",
+            "hi": "जी. अर्नोल्ड",
+            "ru": "Г. Арнольд"
+          }
+        }
+      },
+      "nameCode": "IRA",
+      "ranking": 57,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "IQ",
+        "alpha3": "IRQ",
+        "name": "Iraq",
+        "slug": "iraq"
+      },
+      "id": 4767,
+      "fullName": "Iraq",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#108f5b",
+        "text": "#108f5b"
+      },
+      "foundationDateTimestamp": -670032000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "العراق",
+          "bn": "ইরাক",
+          "hi": "इराक",
+          "ru": "Ирак"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Norway",
+      "slug": "norway",
+      "shortName": "Norway",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 321699,
+      "manager": {
+        "name": "Ståle Solbakken",
+        "slug": "stale-solbakken",
+        "shortName": "S. Solbakken",
+        "country": {
+          "alpha2": "NO",
+          "alpha3": "NOR",
+          "name": "Norway",
+          "slug": "norway"
+        },
+        "id": 53102,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستالي سولباكن",
+            "bn": "স্টেল সোলবাক্কেন",
+            "hi": "स्टाल सोलबैकेन",
+            "ru": "Стаале Солбаккен"
+          },
+          "shortNameTranslation": {
+            "ar": "س. سولباكن",
+            "bn": "এস. সোলবাক্কেন",
+            "hi": "एस. सोलबैकेन",
+            "ru": "С. Солбаккен"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Oslo",
+          "country": {
+            "alpha2": "NO",
+            "alpha3": "NOR",
+            "name": "Norway",
+            "slug": "norway"
+          },
+          "id": 19248
+        },
+        "venueCoordinates": {
+          "latitude": 59.949136,
+          "longitude": 10.734349
+        },
+        "hidden": true,
+        "slug": "ullevaal",
+        "name": "Ullevaal",
+        "capacity": 28000,
+        "country": {
+          "alpha2": "NO",
+          "alpha3": "NOR",
+          "name": "Norway",
+          "slug": "norway"
+        },
+        "id": 7,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أوليفول",
+            "hi": "उल्लेवाल",
+            "bn": "উল্লেভাল",
+            "ru": "Стадион Ullevaal"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Ullevaal",
+          "capacity": 28000
+        }
+      },
+      "nameCode": "NOR",
+      "ranking": 31,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "NO",
+        "alpha3": "NOR",
+        "name": "Norway",
+        "slug": "norway"
+      },
+      "id": 4475,
+      "fullName": "Norway",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ef2b2d",
+        "secondary": "#001f5b",
+        "text": "#001f5b"
+      },
+      "foundationDateTimestamp": -2135635200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "النرويج",
+          "bn": "নরওয়ে",
+          "hi": "नॉर्वे",
+          "ru": "Норвегия"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 1,
+      "period2": 0,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 4,
+      "display": 4,
+      "period1": 2,
+      "period2": 2,
+      "normaltime": 4
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 5,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1781651288
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1781654436
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "id": 15186773,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "iraq-norway",
+    "currentPeriodStartTimestamp": 1781651288,
+    "startTimestamp": 1781647200,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

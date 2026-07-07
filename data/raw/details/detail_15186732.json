@@ -1,0 +1,465 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group A",
+      "slug": "world-championship-gr-a",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1923839,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 813,
+      "isGroup": true,
+      "groupName": "Group A",
+      "groupSign": "A",
+      "competitionType": 1,
+      "isLive": false,
+      "id": 3954,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "fr": "Coupe du monde, Groupe A",
+          "hr": "FIFA Svjetsko prvenstvo, Grupa A",
+          "az": "FİFA Dünya Kuboku, Qrup A",
+          "nl": "Wereldkampioenschap, Groep A",
+          "ru": "Чемпионат мира, Группа A",
+          "ar": "بطولة العالم، المجموعة A",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. এ",
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड ए",
+          "de": "Weltmeisterschaft, Gruppe A",
+          "th": "ฟุตบอลโลก, กลุ่ม A",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος A",
+          "hu": "Világbajnokság, Csoport A",
+          "id": "Piala Dunia FIFA, Grup A",
+          "it": "Coppa del Mondo, Gruppo A",
+          "ja": "FIFAワールドカップ, グループA",
+          "ko": "FIFA 월드컵, 그룹 A",
+          "no": "Verdensmesterskapet, Gruppe A",
+          "pl": "Mistrzostwa Świata, Grupa A",
+          "pt": "Copa do Mundo FIFA, Grupo A",
+          "ro": "Campionatul Mondial, Grupa A",
+          "es": "Copa Mundial, Grupo A",
+          "es-la": "Copa Mundial, Grupo A",
+          "sv": "Världsmästerskapet, Grupp A",
+          "tr": "FIFA Dünya Kupası, Grup A",
+          "vi": "Giải Vô Địch Thế Giới, Bảng A",
+          "pt-pt": "Mundial, Grupo A",
+          "sr": "Светско првенство, Група A"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "oUbsGVb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "attendance": 80824,
+    "venue": {
+      "city": {
+        "name": "Mexico City",
+        "country": {
+          "alpha2": "MX",
+          "alpha3": "MEX",
+          "name": "Mexico",
+          "slug": "mexico"
+        },
+        "id": 18178
+      },
+      "venueCoordinates": {
+        "latitude": 19.303042944598,
+        "longitude": -99.150484788014
+      },
+      "hidden": false,
+      "slug": "estadio-azteca",
+      "name": "Estadio Azteca",
+      "capacity": 87523,
+      "country": {
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "name": "Mexico",
+        "slug": "mexico"
+      },
+      "id": 1004,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ملعب آزتيكا",
+          "hi": "एस्टेडियो एज़्टेका",
+          "bn": "এস্তাদিও আজটেকা",
+          "ru": "Стадион Estadio Azteca"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Estadio Azteca",
+        "capacity": 87523
+      }
+    },
+    "referee": {
+      "name": "Yael Falcon Perez",
+      "slug": "falcon-perez-yael",
+      "yellowCards": 1156,
+      "redCards": 31,
+      "yellowRedCards": 24,
+      "games": 213,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "AR",
+        "alpha3": "ARG",
+        "name": "Argentina",
+        "slug": "argentina"
+      },
+      "id": 787023,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يائيل فالكون بيريز",
+          "bn": "ইয়ায়েল ফ্যালকন পেরেজ",
+          "hi": "याएल फाल्कन पेरेज़",
+          "ru": "Яэль Фалькон Перес"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Czechia",
+      "slug": "czech-republic",
+      "shortName": "Czechia",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 120676,
+      "manager": {
+        "name": "Miroslav Koubek",
+        "slug": "miroslav-koubek",
+        "shortName": "M. Koubek",
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "id": 68799,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميروسلاف كوبيك",
+            "bn": "মিরোস্লাভ কুবেক",
+            "hi": "मिरोस्लाव कोउबेक",
+            "ru": "Мирослав Кубек"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوبيك",
+            "bn": "এম. কুবেক",
+            "hi": "एम. कोउबेक",
+            "ru": "М. Кубек"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Prague",
+          "country": {
+            "alpha2": "CZ",
+            "alpha3": "CZE",
+            "name": "Czechia",
+            "slug": "czechia"
+          },
+          "id": 19090
+        },
+        "venueCoordinates": {
+          "latitude": 50.067494,
+          "longitude": 14.470696
+        },
+        "hidden": false,
+        "slug": "fortuna-arena",
+        "name": "Fortuna Arena",
+        "capacity": 19370,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "id": 1266,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فورتونا أرينا",
+            "hi": "फ़ोर्टुना एरिना",
+            "bn": "ফরচুনা এরিনা",
+            "ru": "Арена Fortuna"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Fortuna Arena",
+          "capacity": 19370
+        }
+      },
+      "nameCode": "CZE",
+      "ranking": 40,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "CZ",
+        "alpha3": "CZE",
+        "name": "Czechia",
+        "slug": "czechia"
+      },
+      "id": 4714,
+      "fullName": "Czechia",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#025095",
+        "text": "#025095"
+      },
+      "foundationDateTimestamp": -2152310400,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "التشيك",
+          "bn": "চেক রিপাবলিক",
+          "hi": "चेक रिपब्लिक",
+          "ru": "Чехия"
+        },
+        "shortNameTranslation": {
+          "ar": "التشيك"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Mexico",
+      "slug": "mexico",
+      "shortName": "Mexico",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 507072,
+      "manager": {
+        "name": "Javier Aguirre",
+        "slug": "javier-aguirre",
+        "shortName": "J. Aguirre",
+        "country": {
+          "alpha2": "MX",
+          "alpha3": "MEX",
+          "name": "Mexico",
+          "slug": "mexico"
+        },
+        "id": 784504,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خافيير أغيري",
+            "bn": "জাভিয়ার আগুয়েরে",
+            "hi": "जेवियर एगुइरे",
+            "ru": "Хавьер Агирре"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. أغيري",
+            "bn": "জে. আগুয়েরে",
+            "hi": "जे. एगुइरे",
+            "ru": "Х. Агирре"
+          }
+        }
+      },
+      "nameCode": "MEX",
+      "ranking": 14,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "name": "Mexico",
+        "slug": "mexico"
+      },
+      "id": 4781,
+      "fullName": "Mexico",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#1a4d3e",
+        "secondary": "#960000",
+        "text": "#960000"
+      },
+      "foundationDateTimestamp": -1336780800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "المكسيك",
+          "bn": "মেক্সিকো",
+          "hi": "मेक्सिको",
+          "ru": "Мексика"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 0,
+      "period2": 3,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1782353140
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "awayScore.normaltime"
+      ],
+      "changeTimestamp": 1782356209
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "id": 15186732,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "mexico-czechia",
+    "currentPeriodStartTimestamp": 1782353140,
+    "startTimestamp": 1782349200,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

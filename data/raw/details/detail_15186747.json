@@ -1,0 +1,765 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Group J",
+      "slug": "world-championship-gr-j",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1908018,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 802,
+      "isGroup": true,
+      "groupName": "Group J",
+      "groupSign": "J",
+      "competitionType": 1,
+      "id": 139404,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, গ্র. জে",
+          "hi": "वर्ल्ड चैंपियनशिप, ग्रेड जे",
+          "hr": "FIFA Svjetsko prvenstvo, Grupa J",
+          "az": "FİFA Dünya Kuboku, Qrup J",
+          "nl": "Wereldkampioenschap, Groep J",
+          "fr": "Coupe du monde, Groupe J",
+          "de": "Weltmeisterschaft, Gruppe J",
+          "el": "Παγκόσμιο Κύπελλο, Όμιλος J",
+          "hu": "Világbajnokság, Csoport J",
+          "id": "Piala Dunia FIFA, Grup J",
+          "it": "Coppa del Mondo, Gruppo J",
+          "pt-pt": "Mundial, Grupo J",
+          "ru": "Чемпионат мира, Группа J",
+          "ar": "بطولة العالم، المجموعة J",
+          "ja": "FIFAワールドカップ, グループJ",
+          "ko": "FIFA 월드컵, 그룹 J",
+          "no": "Verdensmesterskapet, Gruppe J",
+          "pl": "Mistrzostwa Świata, Grupa J",
+          "pt": "Copa do Mundo FIFA, Grupo J",
+          "ro": "Campionatul Mondial, Grupa J",
+          "es": "Copa Mundial, Grupo J",
+          "es-la": "Copa Mundial, Grupo J",
+          "sv": "Världsmästerskapet, Grupp J",
+          "th": "ฟุตบอลโลก, กลุ่ม J",
+          "tr": "FIFA Dünya Kupası, Grup J",
+          "vi": "Giải Vô Địch Thế Giới, Bảng J",
+          "sr": "Светско првенство, Група J"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 3
+    },
+    "customId": "QTbstUb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 3,
+    "attendance": 69045,
+    "venue": {
+      "city": {
+        "name": "Kansas City",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 20923
+      },
+      "venueCoordinates": {
+        "latitude": 39.048941,
+        "longitude": -94.484994
+      },
+      "hidden": false,
+      "slug": "arrowhead-stadium",
+      "name": "Arrowhead Stadium",
+      "capacity": 76416,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 8189,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "एरोहेड स्टेडियम",
+          "bn": "অ্যারোহেড স্টেডিয়াম",
+          "ar": "ملعب أروهيد",
+          "ru": "Стадион Arrowhead"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Arrowhead Stadium",
+        "capacity": 76416
+      }
+    },
+    "referee": {
+      "name": "Ilgiz Tantashev",
+      "slug": "ilgiz-tantashev",
+      "yellowCards": 276,
+      "redCards": 11,
+      "yellowRedCards": 8,
+      "games": 72,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "UZ",
+        "alpha3": "UZB",
+        "name": "Uzbekistan",
+        "slug": "uzbekistan"
+      },
+      "id": 785139,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إلجيز تانتاشيف",
+          "ru": "Ильгиз Танташев"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Algeria",
+      "slug": "algeria",
+      "shortName": "Algeria",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 454303,
+      "manager": {
+        "name": "Vladimir Petković",
+        "slug": "vladimir-petkovic",
+        "shortName": "V. Petković",
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 52898,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلاديمير بيتكوفيتش",
+            "ru": "Владимир Петкович"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. بيتكوفيتش",
+            "ru": "В. Петкович"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Algiers",
+          "country": {
+            "alpha2": "DZ",
+            "alpha3": "DZA",
+            "name": "Algeria",
+            "slug": "algeria"
+          },
+          "id": 18870
+        },
+        "venueCoordinates": {
+          "latitude": 36.759514,
+          "longitude": 2.995272
+        },
+        "hidden": true,
+        "slug": "stade-5-juillet-1962",
+        "name": "Stade 5 Juillet 1962",
+        "capacity": 85000,
+        "country": {
+          "alpha2": "DZ",
+          "alpha3": "DZA",
+          "name": "Algeria",
+          "slug": "algeria"
+        },
+        "id": 1687,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب 5 يوليو 1962",
+            "hi": "स्टेड 5 जुइलियट 1962",
+            "bn": "স্টেড 5 জুলিয়েট1962",
+            "ru": "Спортивный комплекс Stade 5 Juillet 1962"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade 5 Juillet 1962",
+          "capacity": 85000
+        }
+      },
+      "nameCode": "DZA",
+      "ranking": 28,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "DZ",
+        "alpha3": "DZA",
+        "name": "Algeria",
+        "slug": "algeria"
+      },
+      "id": 4691,
+      "fullName": "Algeria",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#23bc55",
+        "text": "#23bc55"
+      },
+      "foundationDateTimestamp": -228873600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الجزائر",
+          "bn": "আলজেরিয়া",
+          "hi": "अल्जीरिया",
+          "ru": "Алжир"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Austria",
+      "slug": "austria",
+      "shortName": "Austria",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 183049,
+      "manager": {
+        "name": "Ralf Rangnick",
+        "slug": "ralf-rangnick",
+        "shortName": "R. Rangnick",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 785379,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رالف رانغنيك",
+            "bn": "রালফ রাংনিক",
+            "hi": "राल्फ रैंगनिक",
+            "ru": "Ральф Рангник"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. رانغنيك",
+            "bn": "আর. রাংনিক",
+            "hi": "आर. रैंगनिक",
+            "ru": "Р. Рангник"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Vienna",
+          "country": {
+            "alpha2": "AT",
+            "alpha3": "AUT",
+            "name": "Austria",
+            "slug": "austria"
+          },
+          "id": 19089
+        },
+        "venueCoordinates": {
+          "latitude": 48.207189,
+          "longitude": 16.420917
+        },
+        "hidden": true,
+        "slug": "ernst-happel-stadion",
+        "name": "Ernst Happel Stadion",
+        "capacity": 50865,
+        "country": {
+          "alpha2": "AT",
+          "alpha3": "AUT",
+          "name": "Austria",
+          "slug": "austria"
+        },
+        "id": 977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب إرنست هابل",
+            "hi": "अर्न्स्ट हैपेल स्टेडियन",
+            "bn": "আর্নস্ট হ্যাপেল স্টেডিয়াম",
+            "ru": "Стадион Эрнст Хаппель"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Ernst Happel Stadion",
+          "capacity": 50865
+        }
+      },
+      "nameCode": "AUT",
+      "ranking": 24,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "AT",
+        "alpha3": "AUT",
+        "name": "Austria",
+        "slug": "austria"
+      },
+      "id": 4718,
+      "fullName": "Austria",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2076192000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "النمسا",
+          "bn": "অস্ট্রিয়া",
+          "hi": "ऑस्ट्रिया",
+          "ru": "Австрия"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "coverage": -1,
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1782616030
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "homeScore.normaltime",
+        "awayScore.normaltime"
+      ],
+      "changeTimestamp": 1782619138
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": false,
+    "id": 15186747,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "austria-algeria",
+    "currentPeriodStartTimestamp": 1782616030,
+    "startTimestamp": 1782612000,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

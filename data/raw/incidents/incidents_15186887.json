@@ -1,0 +1,2151 @@
+{
+  "incidents": [
+    {
+      "text": "FT",
+      "homeScore": 3,
+      "awayScore": 2,
+      "isLive": false,
+      "time": 90,
+      "addedTime": 999,
+      "timeSeconds": 5400,
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 0,
+      "periodTimeSeconds": 2700,
+      "incidentType": "period"
+    },
+    {
+      "homeScore": 3,
+      "awayScore": 2,
+      "player": {
+        "name": "Kaan Ayhan",
+        "firstName": "Kaan",
+        "lastName": "Ayhan",
+        "slug": "kaan-ayhan",
+        "shortName": "K. Ayhan",
+        "position": "D",
+        "jerseyNumber": "22",
+        "height": 185,
+        "userCount": 4654,
+        "gender": "M",
+        "sofascoreId": "em72b8",
+        "id": 138152,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 784425600,
+        "proposedMarketValueRaw": {
+          "value": 1400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كان آيهن",
+            "bn": "কান আয়হান",
+            "hi": "कान अयहान",
+            "ru": "Каан Айхан"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. آيهن",
+            "bn": "কে. আয়হান",
+            "hi": "के. अयहान",
+            "ru": "К. Айхан"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Kaan Ayhan",
+            "firstName": "Kaan",
+            "lastName": "Ayhan",
+            "slug": "kaan-ayhan",
+            "shortName": "K. Ayhan",
+            "position": "D",
+            "jerseyNumber": "22",
+            "height": 185,
+            "userCount": 4654,
+            "gender": "M",
+            "sofascoreId": "em72b8",
+            "id": 138152,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 784425600,
+            "proposedMarketValueRaw": {
+              "value": 1400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كان آيهن",
+                "bn": "কান আয়হান",
+                "hi": "कान अयहान",
+                "ru": "Каан Айхан"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. آيهن",
+                "bn": "কে. আয়হান",
+                "hi": "के. अयहान",
+                "ru": "К. Айхан"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "right-foot",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 97.6,
+            "y": 46.8
+          },
+          "gkCoordinates": {
+            "x": 95.8,
+            "y": 60.5
+          },
+          "goalShotCoordinates": {
+            "x": 100,
+            "y": 48
+          },
+          "goalMouthCoordinates": {
+            "x": 60.75,
+            "y": 91.5
+          },
+          "goalkeeper": {
+            "name": "Matt Turner",
+            "slug": "matt-turner",
+            "shortName": "M. Turner",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 190,
+            "userCount": 2076,
+            "gender": "M",
+            "sofascoreId": "x3xmyt",
+            "id": 833943,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 772416000,
+            "proposedMarketValueRaw": {
+              "value": 2600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مات تيرنر",
+                "bn": "ম্যাট টার্নার",
+                "hi": "मैट टर्नर",
+                "ru": "Мэтт Тёрнер"
+              },
+              "shortNameTranslation": {
+                "ar": "م. تيرنر",
+                "bn": "এম. টার্নার",
+                "hi": "एम. टर्नर",
+                "ru": "М. Тёрнер"
+              }
+            }
+          },
+          "isHome": true,
+          "goalType": "regular"
+        }
+      ],
+      "id": 352740964,
+      "time": 90,
+      "addedTime": 8,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 1,
+      "incidentType": "goal"
+    },
+    {
+      "playerIn": {
+        "name": "İrfan Can Kahveci",
+        "slug": "irfan-can-kahveci",
+        "shortName": "İ. C. Kahveci",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 180,
+        "userCount": 4269,
+        "gender": "M",
+        "sofascoreId": "irfankahveci",
+        "id": 226986,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 805766400,
+        "proposedMarketValueRaw": {
+          "value": 3100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عرفان قهوجي",
+            "bn": "ইরফান ক্যান কাহভেচি",
+            "hi": "इरफान कैन काहवेसी",
+            "ru": "Ирфан Джан Кахведжи"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. قهوجي",
+            "bn": "আই. সি. কাহভেসি",
+            "hi": "आई. कैन",
+            "ru": "И. Кахведжи"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Barış Alper Yılmaz",
+        "firstName": "Baris",
+        "lastName": "Yilmaz",
+        "slug": "baris-alper-yilmaz",
+        "shortName": "B. A. Yılmaz",
+        "position": "M",
+        "jerseyNumber": "21",
+        "height": 186,
+        "userCount": 16257,
+        "gender": "M",
+        "sofascoreId": "barisalperyilmaz",
+        "id": 904096,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 959040000,
+        "proposedMarketValueRaw": {
+          "value": 32000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باريس ألبر يلماز",
+            "bn": "বারিস আলপার উইল্মাজ",
+            "hi": "बारिश अलपर यिलमाज़",
+            "ru": "Барыш Алпер Йылмаз"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أ.يلماز",
+            "bn": "বি. এ. উইল্মাজ",
+            "hi": "बी.ए. यिलमाज़",
+            "ru": "Б. Йылмаз"
+          }
+        }
+      },
+      "id": 126427034,
+      "time": 90,
+      "addedTime": 2,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 1,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Mert Müldür",
+        "firstName": "Mert",
+        "lastName": "Muldur",
+        "slug": "mert-muldur",
+        "shortName": "M. Müldür",
+        "position": "D",
+        "jerseyNumber": "18",
+        "height": 184,
+        "userCount": 3310,
+        "gender": "M",
+        "sofascoreId": "vrnh8s",
+        "id": 836683,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 923097600,
+        "proposedMarketValueRaw": {
+          "value": 7400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميرت مولدور",
+            "bn": "মের্ত মুল্ডার",
+            "hi": "मर्ट मुल्डुर",
+            "ru": "Мерт Мюльдюр"
+          },
+          "shortNameTranslation": {
+            "ar": "م. مولدور",
+            "bn": "এম. মুল্ডার",
+            "hi": "एम. मुल्डुर",
+            "ru": "М. Мюльдюр"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Oğuz Aydın",
+        "firstName": "Oguz",
+        "lastName": "Aydin",
+        "slug": "oguz-aydin",
+        "shortName": "O. Aydın",
+        "position": "M",
+        "jerseyNumber": "24",
+        "height": 183,
+        "userCount": 3768,
+        "gender": "M",
+        "sofascoreId": "q49rbv",
+        "id": 999396,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 972604800,
+        "proposedMarketValueRaw": {
+          "value": 6500000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوغوز أيدين",
+            "bn": "ওগুজ আইদিন",
+            "hi": "ओगुज़ अयदीन",
+            "ru": "Огуз Айдын"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أيدين",
+            "bn": "ও. আয়দিন",
+            "hi": "ओ. अयदीन",
+            "ru": "О. Айдын"
+          }
+        }
+      },
+      "id": 126427033,
+      "time": 90,
+      "addedTime": 2,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 1,
+      "incidentType": "substitution"
+    },
+    {
+      "length": 7,
+      "time": 90,
+      "addedTime": 0,
+      "reversedPeriodTime": 1,
+      "incidentType": "injuryTime"
+    },
+    {
+      "playerIn": {
+        "name": "Kaan Ayhan",
+        "firstName": "Kaan",
+        "lastName": "Ayhan",
+        "slug": "kaan-ayhan",
+        "shortName": "K. Ayhan",
+        "position": "D",
+        "jerseyNumber": "22",
+        "height": 185,
+        "userCount": 4654,
+        "gender": "M",
+        "sofascoreId": "em72b8",
+        "id": 138152,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 784425600,
+        "proposedMarketValueRaw": {
+          "value": 1400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كان آيهن",
+            "bn": "কান আয়হান",
+            "hi": "कान अयहान",
+            "ru": "Каан Айхан"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. آيهن",
+            "bn": "কে. আয়হান",
+            "hi": "के. अयहान",
+            "ru": "К. Айхан"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Orkun Kökçü",
+        "firstName": "Orkun",
+        "lastName": "Kokcu",
+        "slug": "orkun-kokcu",
+        "shortName": "O. Kökçü",
+        "position": "M",
+        "jerseyNumber": "6",
+        "height": 175,
+        "userCount": 20500,
+        "gender": "M",
+        "sofascoreId": "orkunkokcu",
+        "id": 907461,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 978048000,
+        "proposedMarketValueRaw": {
+          "value": 24000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوركون كوكجو",
+            "bn": "ওরকুন কোক্কু",
+            "hi": "ओरकुन कोकचू",
+            "ru": "Оркун Кёкчу"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كوكجو",
+            "bn": "ও. কোকি",
+            "hi": "ओ. कोकचू",
+            "ru": "О. Кёкчу"
+          }
+        }
+      },
+      "id": 126427032,
+      "time": 88,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 3,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Malik Tillman",
+        "slug": "malik-tillman",
+        "shortName": "M. Tillman",
+        "position": "M",
+        "jerseyNumber": "10",
+        "height": 186,
+        "userCount": 8328,
+        "gender": "M",
+        "sofascoreId": "MalikTillman8",
+        "id": 975798,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1022544000,
+        "proposedMarketValueRaw": {
+          "value": 27000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مالك تيلمان",
+            "bn": "মালিক টিলম্যান",
+            "hi": "मलिक टिलमैन",
+            "ru": "Малик Тилльман"
+          },
+          "shortNameTranslation": {
+            "ar": "م. تيلمان",
+            "bn": "এম. টিলম্যান",
+            "hi": "एम. टिलमैन",
+            "ru": "М. Тилльман"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Weston McKennie",
+        "firstName": "Weston",
+        "lastName": "McKennie",
+        "slug": "weston-mckennie",
+        "shortName": "W. McKennie",
+        "position": "M",
+        "jerseyNumber": "22",
+        "height": 180,
+        "userCount": 9768,
+        "gender": "M",
+        "sofascoreId": "west.mckennie",
+        "id": 881931,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 904262400,
+        "proposedMarketValueRaw": {
+          "value": 31000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويستون ماكيني",
+            "bn": "ওয়েস্টন ম্যাককেনি",
+            "hi": "वेस्टन मैकेनी",
+            "ru": "Уэстон Маккенни"
+          },
+          "shortNameTranslation": {
+            "ar": "و. ماكيني",
+            "bn": "ডব্লিউ. ম্যাককেনি",
+            "hi": "डब्लू. मैकेनी",
+            "ru": "У. Маккенни"
+          }
+        }
+      },
+      "id": 126427039,
+      "time": 86,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 5,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Can Uzun",
+        "firstName": "Can Uzun",
+        "lastName": "",
+        "slug": "can-uzun",
+        "shortName": "C. Uzun",
+        "position": "M",
+        "jerseyNumber": "42",
+        "height": 186,
+        "userCount": 12506,
+        "gender": "M",
+        "sofascoreId": "can.uzun10",
+        "id": 1440948,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1131667200,
+        "proposedMarketValueRaw": {
+          "value": 44000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كان أوزون",
+            "bn": "ক্যান উজুন",
+            "hi": "कैन उज़ुन",
+            "ru": "Джан Узун"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. أوزون",
+            "bn": "সি. উজুন",
+            "hi": "सी. उज़ुन",
+            "ru": "Д. Узун"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Kenan Yıldız",
+        "firstName": "Kenan Yıldız",
+        "slug": "yildiz-kenan",
+        "shortName": "K. Yıldız",
+        "position": "F",
+        "jerseyNumber": "11",
+        "height": 187,
+        "userCount": 102144,
+        "gender": "M",
+        "sofascoreId": "KenanYıldız",
+        "id": 1149011,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1115164800,
+        "proposedMarketValueRaw": {
+          "value": 72000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كنان يلدز",
+            "bn": "ইলদিজ, কেনান",
+            "hi": "यिल्डिज़, केनान",
+            "ru": "Кенан Йылдыз"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. يلدز",
+            "bn": "কে. ইলদিজ",
+            "hi": "के. यिल्डिज़",
+            "ru": "К. Йылдыз"
+          }
+        }
+      },
+      "id": 126427031,
+      "time": 84,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 7,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Çağlar Söyüncü",
+        "firstName": "Caglar",
+        "lastName": "Soyuncu",
+        "slug": "caglar-soyuncu",
+        "shortName": "Ç. Söyüncü",
+        "position": "D",
+        "jerseyNumber": "4",
+        "height": 187,
+        "userCount": 4585,
+        "gender": "M",
+        "sofascoreId": "soyuncu_caglar",
+        "id": 758608,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 832809600,
+        "proposedMarketValueRaw": {
+          "value": 3600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تشاغلار سويونجو",
+            "bn": "চাগলার সেয়ুনকু",
+            "hi": "चागलर सोयुनकू",
+            "ru": "Чаглар Сёюнджю"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. سويونجو",
+            "bn": "সি. সেয়ুনকু",
+            "hi": "सी. सोयुनकू",
+            "ru": "Ч. Сёюнджю"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Zeki Çelik",
+        "firstName": "Zeki",
+        "lastName": "Celik",
+        "slug": "zeki-celik",
+        "shortName": "Z. Çelik",
+        "position": "D",
+        "jerseyNumber": "2",
+        "height": 180,
+        "userCount": 3592,
+        "gender": "M",
+        "sofascoreId": "svsfe3",
+        "id": 893008,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 856137600,
+        "proposedMarketValueRaw": {
+          "value": 14500000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زكي شيليك",
+            "bn": "জেকি সেলিক",
+            "hi": "ज़ेकी सेलिक",
+            "ru": "Зеки Челик"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. شيليك",
+            "bn": "জেড. সেলিক",
+            "hi": "ज़ेड. सेलिक",
+            "ru": "З. Челик"
+          }
+        }
+      },
+      "id": 126427030,
+      "time": 84,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 7,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Alexander Freeman",
+        "firstName": "Alexander Freeman",
+        "slug": "alexander-freeman",
+        "shortName": "A. Freeman",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 188,
+        "userCount": 1876,
+        "gender": "M",
+        "sofascoreId": "kmthar",
+        "id": 1184541,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1092009600,
+        "proposedMarketValueRaw": {
+          "value": 3200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكس فريمان",
+            "ru": "Алекс Фримен"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فريمان",
+            "ru": "А. Фримен"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Joe Scally",
+        "firstName": "Joe",
+        "lastName": "Scally",
+        "slug": "joe-scally",
+        "shortName": "J. Scally",
+        "position": "D",
+        "jerseyNumber": "29",
+        "height": 184,
+        "userCount": 1327,
+        "gender": "M",
+        "sofascoreId": "ekj47u",
+        "id": 1002920,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1041292800,
+        "proposedMarketValueRaw": {
+          "value": 6600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جو سكالي",
+            "bn": "স্ক্যালি, জোসেফ",
+            "hi": "स्कैली, जोसेफ",
+            "ru": "Джо Скалли"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. سكالي",
+            "bn": "জে. স্ক্যালি",
+            "hi": "जे. स्कैली",
+            "ru": "Д. Скалли"
+          }
+        }
+      },
+      "id": 126427038,
+      "time": 77,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 14,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Alex Zendejas",
+        "firstName": "Alex",
+        "lastName": "Zendejas",
+        "slug": "alex-zendejas",
+        "shortName": "A. Zendejas",
+        "position": "M",
+        "jerseyNumber": "10",
+        "height": 165,
+        "userCount": 2995,
+        "gender": "M",
+        "sofascoreId": "ha5k3c",
+        "id": 790108,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 886809600,
+        "proposedMarketValueRaw": {
+          "value": 9200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أليخاندرو زينديجاس",
+            "bn": "আলেজান্দ্রো জেনডেজাস",
+            "hi": "एलेजांद्रो ज़ेंडेजास",
+            "ru": "Алекс Сендехас"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. زينديجاس",
+            "bn": "এ. জেনডেজাস",
+            "hi": "ए. ज़ेंडेजास",
+            "ru": "А. Сендехас"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Brenden Aaronson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "brenden-aaronson",
+        "shortName": "B. Aaronson",
+        "position": "M",
+        "jerseyNumber": "11",
+        "height": 178,
+        "userCount": 3201,
+        "gender": "M",
+        "sofascoreId": "xzzwn5",
+        "id": 973431,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 972172800,
+        "proposedMarketValueRaw": {
+          "value": 23000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريندن آرونسون",
+            "bn": "ব্রেন্ডেন অ্যারনসন",
+            "hi": "ब्रेंडन आरोनसन",
+            "ru": "Бренден Ааронсон"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. آرونسون",
+            "bn": "বি. অ্যারনসন",
+            "hi": "बी. आरोनसन",
+            "ru": "Б. Ааронсон"
+          }
+        }
+      },
+      "id": 126427037,
+      "time": 77,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 14,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Sergiño Dest",
+        "firstName": "Sergino",
+        "lastName": "Dest",
+        "slug": "sergino-dest",
+        "shortName": "S. Dest",
+        "position": "D",
+        "jerseyNumber": "8",
+        "height": 173,
+        "userCount": 8675,
+        "gender": "M",
+        "sofascoreId": "sergino",
+        "id": 906021,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 973209600,
+        "proposedMarketValueRaw": {
+          "value": 17200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجينيو ديست",
+            "bn": "সার্জিনো ডেস্ট",
+            "hi": "सर्जिनो डेस्ट",
+            "ru": "Серджино Дест"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ديست",
+            "bn": "এস. ডেস্ট",
+            "hi": "एस. डेस्ट",
+            "ru": "С. Дест"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Giovanni Reyna",
+        "firstName": "",
+        "lastName": "",
+        "slug": "giovanni-reyna",
+        "shortName": "G. Reyna",
+        "position": "M",
+        "jerseyNumber": "13",
+        "height": 185,
+        "userCount": 5838,
+        "gender": "M",
+        "sofascoreId": "gioareyna",
+        "id": 989056,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1037145600,
+        "proposedMarketValueRaw": {
+          "value": 4300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيوفاني رينا",
+            "bn": "জিওভানি রেইনা",
+            "hi": "जियोवानी रेयना",
+            "ru": "Джованни Рейна"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. رينا",
+            "bn": "জি রেইনা",
+            "hi": "जी. रेयना",
+            "ru": "Д. Рейна"
+          }
+        }
+      },
+      "id": 126427036,
+      "time": 76,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 15,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Christian Pulišić",
+        "slug": "christian-pulisic",
+        "shortName": "C. Pulišić",
+        "position": "F",
+        "jerseyNumber": "11",
+        "height": 177,
+        "userCount": 43378,
+        "gender": "M",
+        "sofascoreId": "CMPulisic",
+        "id": 817957,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 906076800,
+        "proposedMarketValueRaw": {
+          "value": 43000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيان بوليسيتش",
+            "bn": "ক্রিশ্চিয়ান পুলিসিচ",
+            "hi": "क्रिश्चियन पुलिसिक",
+            "ru": "Кристиан Пулишич"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. بوليسيتش",
+            "bn": "সি. পুলিসিচ",
+            "hi": "सी.पुलिसिक",
+            "ru": "К. Пулишич"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Timothy Weah",
+        "firstName": "Timothy",
+        "lastName": "Weah",
+        "slug": "tim-weah",
+        "shortName": "T. Weah",
+        "position": "M",
+        "jerseyNumber": "22",
+        "height": 185,
+        "userCount": 12345,
+        "gender": "M",
+        "sofascoreId": "timothyweah",
+        "id": 855810,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 951177600,
+        "proposedMarketValueRaw": {
+          "value": 18200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيموثي ويا",
+            "bn": "ওহ, টিমোথি",
+            "hi": "वेआह, टिमोथी",
+            "ru": "Тимоти Веа"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ويا",
+            "bn": "টি. ওহ",
+            "hi": "टी. वेआह",
+            "ru": "Т. Веа"
+          }
+        }
+      },
+      "id": 126427035,
+      "time": 58,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 33,
+      "incidentType": "substitution"
+    },
+    {
+      "homeScore": 2,
+      "awayScore": 2,
+      "player": {
+        "name": "Sebastian Berhalter",
+        "slug": "sebastian-berhalter",
+        "shortName": "S. Berhalter",
+        "position": "M",
+        "jerseyNumber": "14",
+        "height": 175,
+        "userCount": 1469,
+        "gender": "M",
+        "sofascoreId": "kmsvrw",
+        "id": 1014845,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 989452800,
+        "proposedMarketValueRaw": {
+          "value": 7400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان بيرهالتر",
+            "ru": "Себастьян Берхальтер"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بيرهالتر",
+            "ru": "С. Берхальтер"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Sebastian Berhalter",
+            "slug": "sebastian-berhalter",
+            "shortName": "S. Berhalter",
+            "position": "M",
+            "jerseyNumber": "14",
+            "height": 175,
+            "userCount": 1469,
+            "gender": "M",
+            "sofascoreId": "kmsvrw",
+            "id": 1014845,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 989452800,
+            "proposedMarketValueRaw": {
+              "value": 7400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيباستيان بيرهالتر",
+                "ru": "Себастьян Берхальтер"
+              },
+              "shortNameTranslation": {
+                "ar": "س. بيرهالتر",
+                "ru": "С. Берхальтер"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "right-foot",
+          "time": 49,
+          "playerCoordinates": {
+            "x": 17.8,
+            "y": 35.8
+          },
+          "gkCoordinates": {
+            "x": 1.4,
+            "y": 48.2
+          },
+          "goalShotCoordinates": {
+            "x": 0,
+            "y": 46.1
+          },
+          "goalMouthCoordinates": {
+            "x": 29.03,
+            "y": 86.33
+          },
+          "goalkeeper": {
+            "name": "Uğurcan Çakır",
+            "firstName": "Ugurcan",
+            "lastName": "Cakir",
+            "slug": "ugurcan-cakir",
+            "shortName": "U. Çakır",
+            "position": "G",
+            "jerseyNumber": "23",
+            "height": 192,
+            "userCount": 8295,
+            "gender": "M",
+            "sofascoreId": "tsax45",
+            "id": 754330,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 828662400,
+            "proposedMarketValueRaw": {
+              "value": 14500000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوغورجان تشاكير",
+                "bn": "উগুরকান কাকির",
+                "hi": "उगुरकन चाकिर",
+                "ru": "Угурджан Чакыр"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. تشاكير",
+                "bn": "ইউ. কাকির",
+                "hi": "यू. चाकिर",
+                "ru": "У. Чакыр"
+              }
+            }
+          },
+          "isHome": false,
+          "goalType": "regular"
+        }
+      ],
+      "id": 352740966,
+      "time": 49,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 42,
+      "incidentType": "goal"
+    },
+    {
+      "text": "HT",
+      "homeScore": 2,
+      "awayScore": 1,
+      "isLive": false,
+      "time": 45,
+      "addedTime": 999,
+      "timeSeconds": 2700,
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 0,
+      "periodTimeSeconds": 2700,
+      "incidentType": "period"
+    },
+    {
+      "length": 6,
+      "time": 45,
+      "addedTime": 0,
+      "reversedPeriodTime": 1,
+      "incidentType": "injuryTime"
+    },
+    {
+      "homeScore": 2,
+      "awayScore": 1,
+      "player": {
+        "name": "Barış Alper Yılmaz",
+        "firstName": "Baris",
+        "lastName": "Yilmaz",
+        "slug": "baris-alper-yilmaz",
+        "shortName": "B. A. Yılmaz",
+        "position": "M",
+        "jerseyNumber": "21",
+        "height": 186,
+        "userCount": 16257,
+        "gender": "M",
+        "sofascoreId": "barisalperyilmaz",
+        "id": 904096,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 959040000,
+        "proposedMarketValueRaw": {
+          "value": 32000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باريس ألبر يلماز",
+            "bn": "বারিস আলপার উইল্মাজ",
+            "hi": "बारिश अलपर यिलमाज़",
+            "ru": "Барыш Алпер Йылмаз"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أ.يلماز",
+            "bn": "বি. এ. উইল্মাজ",
+            "hi": "बी.ए. यिलमाज़",
+            "ru": "Б. Йылмаз"
+          }
+        }
+      },
+      "assist1": {
+        "name": "Orkun Kökçü",
+        "firstName": "Orkun",
+        "lastName": "Kokcu",
+        "slug": "orkun-kokcu",
+        "shortName": "O. Kökçü",
+        "position": "M",
+        "jerseyNumber": "6",
+        "height": 175,
+        "userCount": 20500,
+        "gender": "M",
+        "sofascoreId": "orkunkokcu",
+        "id": 907461,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 978048000,
+        "proposedMarketValueRaw": {
+          "value": 24000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوركون كوكجو",
+            "bn": "ওরকুন কোক্কু",
+            "hi": "ओरकुन कोकचू",
+            "ru": "Оркун Кёкчу"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كوكجو",
+            "bn": "ও. কোকি",
+            "hi": "ओ. कोकचू",
+            "ru": "О. Кёкчу"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Arda Güler",
+            "firstName": "Arda Guler",
+            "slug": "arda-guler",
+            "shortName": "A. Güler",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 176,
+            "userCount": 457855,
+            "gender": "M",
+            "sofascoreId": "AGüler",
+            "id": 1091116,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1109289600,
+            "proposedMarketValueRaw": {
+              "value": 87000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أردا غولر",
+                "bn": "আরদা গুলার",
+                "hi": "अर्डा गुलेर",
+                "ru": "Арда Гюлер"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. غولر",
+                "bn": "এ.গুলার",
+                "hi": "ए. गुलेर",
+                "ru": "А. Гюлер"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 31,
+          "playerCoordinates": {
+            "x": 67.1,
+            "y": 62
+          },
+          "passEndCoordinates": {
+            "x": 73.9,
+            "y": 78.3
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Kenan Yıldız",
+            "firstName": "Kenan Yıldız",
+            "slug": "yildiz-kenan",
+            "shortName": "K. Yıldız",
+            "position": "F",
+            "jerseyNumber": "11",
+            "height": 187,
+            "userCount": 102144,
+            "gender": "M",
+            "sofascoreId": "KenanYıldız",
+            "id": 1149011,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1115164800,
+            "proposedMarketValueRaw": {
+              "value": 72000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كنان يلدز",
+                "bn": "ইলদিজ, কেনান",
+                "hi": "यिल्डिज़, केनान",
+                "ru": "Кенан Йылдыз"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. يلدز",
+                "bn": "কে. ইলদিজ",
+                "hi": "के. यिल्डिज़",
+                "ru": "К. Йылдыз"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 31,
+          "playerCoordinates": {
+            "x": 78.9,
+            "y": 76.4
+          },
+          "passEndCoordinates": {
+            "x": 80.9,
+            "y": 66.7
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Arda Güler",
+            "firstName": "Arda Guler",
+            "slug": "arda-guler",
+            "shortName": "A. Güler",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 176,
+            "userCount": 457855,
+            "gender": "M",
+            "sofascoreId": "AGüler",
+            "id": 1091116,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1109289600,
+            "proposedMarketValueRaw": {
+              "value": 87000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أردا غولر",
+                "bn": "আরদা গুলার",
+                "hi": "अर्डा गुलेर",
+                "ru": "Арда Гюлер"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. غولر",
+                "bn": "এ.গুলার",
+                "hi": "ए. गुलेर",
+                "ru": "А. Гюлер"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 31,
+          "playerCoordinates": {
+            "x": 80.9,
+            "y": 66.4
+          },
+          "passEndCoordinates": {
+            "x": 97.8,
+            "y": 69.3
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Eren Elmalı",
+            "firstName": "",
+            "lastName": "",
+            "slug": "eren-elmali",
+            "shortName": "E. Elmalı",
+            "position": "D",
+            "jerseyNumber": "13",
+            "height": 180,
+            "userCount": 4852,
+            "gender": "M",
+            "sofascoreId": "vuumbe",
+            "id": 981483,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 962928000,
+            "proposedMarketValueRaw": {
+              "value": 5400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إرين إلمالي",
+                "bn": "এরেন এলমালি",
+                "hi": "एरेन एल्माली",
+                "ru": "Эрен Эльмалы"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. إلمالي",
+                "bn": "ই. এলমালি",
+                "hi": "ई. एल्माली",
+                "ru": "Э. Эльмалы"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 31,
+          "playerCoordinates": {
+            "x": 97.8,
+            "y": 69.3
+          },
+          "passEndCoordinates": {
+            "x": 95.8,
+            "y": 52.4
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Orkun Kökçü",
+            "firstName": "Orkun",
+            "lastName": "Kokcu",
+            "slug": "orkun-kokcu",
+            "shortName": "O. Kökçü",
+            "position": "M",
+            "jerseyNumber": "6",
+            "height": 175,
+            "userCount": 20500,
+            "gender": "M",
+            "sofascoreId": "orkunkokcu",
+            "id": 907461,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 978048000,
+            "proposedMarketValueRaw": {
+              "value": 24000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوركون كوكجو",
+                "bn": "ওরকুন কোক্কু",
+                "hi": "ओरकुन कोकचू",
+                "ru": "Оркун Кёкчу"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. كوكجو",
+                "bn": "ও. কোকি",
+                "hi": "ओ. कोकचू",
+                "ru": "О. Кёкчу"
+              }
+            }
+          },
+          "eventType": "miss",
+          "isAssist": true,
+          "time": 31,
+          "playerCoordinates": {
+            "x": 95.8,
+            "y": 52.4
+          },
+          "gkCoordinates": {
+            "x": 99.2,
+            "y": 54.6
+          },
+          "goalShotCoordinates": {
+            "x": 100,
+            "y": 43.5
+          },
+          "goalMouthCoordinates": {
+            "x": 84.95,
+            "y": 58.33
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Barış Alper Yılmaz",
+            "firstName": "Baris",
+            "lastName": "Yilmaz",
+            "slug": "baris-alper-yilmaz",
+            "shortName": "B. A. Yılmaz",
+            "position": "M",
+            "jerseyNumber": "21",
+            "height": 186,
+            "userCount": 16257,
+            "gender": "M",
+            "sofascoreId": "barisalperyilmaz",
+            "id": 904096,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 959040000,
+            "proposedMarketValueRaw": {
+              "value": 32000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "باريس ألبر يلماز",
+                "bn": "বারিস আলপার উইল্মাজ",
+                "hi": "बारिश अलपर यिलमाज़",
+                "ru": "Барыш Алпер Йылмаз"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. أ.يلماز",
+                "bn": "বি. এ. উইল্মাজ",
+                "hi": "बी.ए. यिलमाज़",
+                "ru": "Б. Йылмаз"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "right-foot",
+          "time": 31,
+          "playerCoordinates": {
+            "x": 96.5,
+            "y": 48.1
+          },
+          "gkCoordinates": {
+            "x": 98.9,
+            "y": 54.2
+          },
+          "goalShotCoordinates": {
+            "x": 100,
+            "y": 45.6
+          },
+          "goalMouthCoordinates": {
+            "x": 73.66,
+            "y": 71.5
+          },
+          "goalkeeper": {
+            "name": "Matt Turner",
+            "slug": "matt-turner",
+            "shortName": "M. Turner",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 190,
+            "userCount": 2076,
+            "gender": "M",
+            "sofascoreId": "x3xmyt",
+            "id": 833943,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 772416000,
+            "proposedMarketValueRaw": {
+              "value": 2600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مات تيرنر",
+                "bn": "ম্যাট টার্নার",
+                "hi": "मैट टर्नर",
+                "ru": "Мэтт Тёрнер"
+              },
+              "shortNameTranslation": {
+                "ar": "م. تيرنر",
+                "bn": "এম. টার্নার",
+                "hi": "एम. टर्नर",
+                "ru": "М. Тёрнер"
+              }
+            }
+          },
+          "isHome": true,
+          "goalType": "regular"
+        }
+      ],
+      "id": 352740963,
+      "time": 31,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 15,
+      "incidentType": "goal"
+    },
+    {
+      "player": {
+        "name": "Sebastian Berhalter",
+        "slug": "sebastian-berhalter",
+        "shortName": "S. Berhalter",
+        "position": "M",
+        "jerseyNumber": "14",
+        "height": 175,
+        "userCount": 1469,
+        "gender": "M",
+        "sofascoreId": "kmsvrw",
+        "id": 1014845,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 989452800,
+        "proposedMarketValueRaw": {
+          "value": 7400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان بيرهالتر",
+            "ru": "Себастьян Берхальтер"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بيرهالتر",
+            "ru": "С. Берхальтер"
+          }
+        }
+      },
+      "playerName": "Sebastian Berhalter",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 125310697,
+      "time": 19,
+      "isHome": false,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 27,
+      "incidentType": "card"
+    },
+    {
+      "homeScore": 1,
+      "awayScore": 1,
+      "player": {
+        "name": "Arda Güler",
+        "firstName": "Arda Guler",
+        "slug": "arda-guler",
+        "shortName": "A. Güler",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 176,
+        "userCount": 457855,
+        "gender": "M",
+        "sofascoreId": "AGüler",
+        "id": 1091116,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1109289600,
+        "proposedMarketValueRaw": {
+          "value": 87000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أردا غولر",
+            "bn": "আরদা গুলার",
+            "hi": "अर्डा गुलेर",
+            "ru": "Арда Гюлер"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. غولر",
+            "bn": "এ.গুলার",
+            "hi": "ए. गुलेर",
+            "ru": "А. Гюлер"
+          }
+        }
+      },
+      "assist1": {
+        "name": "Barış Alper Yılmaz",
+        "firstName": "Baris",
+        "lastName": "Yilmaz",
+        "slug": "baris-alper-yilmaz",
+        "shortName": "B. A. Yılmaz",
+        "position": "M",
+        "jerseyNumber": "21",
+        "height": 186,
+        "userCount": 16257,
+        "gender": "M",
+        "sofascoreId": "barisalperyilmaz",
+        "id": 904096,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 959040000,
+        "proposedMarketValueRaw": {
+          "value": 32000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باريس ألبر يلماز",
+            "bn": "বারিস আলপার উইল্মাজ",
+            "hi": "बारिश अलपर यिलमाज़",
+            "ru": "Барыш Алпер Йылмаз"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. أ.يلماز",
+            "bn": "বি. এ. উইল্মাজ",
+            "hi": "बी.ए. यिलमाज़",
+            "ru": "Б. Йылмаз"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Oğuz Aydın",
+            "firstName": "Oguz",
+            "lastName": "Aydin",
+            "slug": "oguz-aydin",
+            "shortName": "O. Aydın",
+            "position": "M",
+            "jerseyNumber": "24",
+            "height": 183,
+            "userCount": 3768,
+            "gender": "M",
+            "sofascoreId": "q49rbv",
+            "id": 999396,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 972604800,
+            "proposedMarketValueRaw": {
+              "value": 6500000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوغوز أيدين",
+                "bn": "ওগুজ আইদিন",
+                "hi": "ओगुज़ अयदीन",
+                "ru": "Огуз Айдын"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. أيدين",
+                "bn": "ও. আয়দিন",
+                "hi": "ओ. अयदीन",
+                "ru": "О. Айдын"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 10,
+          "playerCoordinates": {
+            "x": 58.1,
+            "y": 5.9
+          },
+          "passEndCoordinates": {
+            "x": 54.1,
+            "y": 22.7
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Zeki Çelik",
+            "firstName": "Zeki",
+            "lastName": "Celik",
+            "slug": "zeki-celik",
+            "shortName": "Z. Çelik",
+            "position": "D",
+            "jerseyNumber": "2",
+            "height": 180,
+            "userCount": 3592,
+            "gender": "M",
+            "sofascoreId": "svsfe3",
+            "id": 893008,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 856137600,
+            "proposedMarketValueRaw": {
+              "value": 14500000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "زكي شيليك",
+                "bn": "জেকি সেলিক",
+                "hi": "ज़ेकी सेलिक",
+                "ru": "Зеки Челик"
+              },
+              "shortNameTranslation": {
+                "ar": "ز. شيليك",
+                "bn": "জেড. সেলিক",
+                "hi": "ज़ेड. सेलिक",
+                "ru": "З. Челик"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 10,
+          "playerCoordinates": {
+            "x": 53.7,
+            "y": 29.4
+          },
+          "passEndCoordinates": {
+            "x": 54.6,
+            "y": 16.5
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Arda Güler",
+            "firstName": "Arda Guler",
+            "slug": "arda-guler",
+            "shortName": "A. Güler",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 176,
+            "userCount": 457855,
+            "gender": "M",
+            "sofascoreId": "AGüler",
+            "id": 1091116,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1109289600,
+            "proposedMarketValueRaw": {
+              "value": 87000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أردا غولر",
+                "bn": "আরদা গুলার",
+                "hi": "अर्डा गुलेर",
+                "ru": "Арда Гюлер"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. غولر",
+                "bn": "এ.গুলার",
+                "hi": "ए. गुलेर",
+                "ru": "А. Гюлер"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 10,
+          "playerCoordinates": {
+            "x": 54.7,
+            "y": 16
+          },
+          "passEndCoordinates": {
+            "x": 65.5,
+            "y": 5.7
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Oğuz Aydın",
+            "firstName": "Oguz",
+            "lastName": "Aydin",
+            "slug": "oguz-aydin",
+            "shortName": "O. Aydın",
+            "position": "M",
+            "jerseyNumber": "24",
+            "height": 183,
+            "userCount": 3768,
+            "gender": "M",
+            "sofascoreId": "q49rbv",
+            "id": 999396,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 972604800,
+            "proposedMarketValueRaw": {
+              "value": 6500000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوغوز أيدين",
+                "bn": "ওগুজ আইদিন",
+                "hi": "ओगुज़ अयदीन",
+                "ru": "Огуз Айдын"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. أيدين",
+                "bn": "ও. আয়দিন",
+                "hi": "ओ. अयदीन",
+                "ru": "О. Айдын"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 10,
+          "playerCoordinates": {
+            "x": 61.2,
+            "y": 15.3
+          },
+          "passEndCoordinates": {
+            "x": 73.6,
+            "y": 25.9
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Barış Alper Yılmaz",
+            "firstName": "Baris",
+            "lastName": "Yilmaz",
+            "slug": "baris-alper-yilmaz",
+            "shortName": "B. A. Yılmaz",
+            "position": "M",
+            "jerseyNumber": "21",
+            "height": 186,
+            "userCount": 16257,
+            "gender": "M",
+            "sofascoreId": "barisalperyilmaz",
+            "id": 904096,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 959040000,
+            "proposedMarketValueRaw": {
+              "value": 32000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "باريس ألبر يلماز",
+                "bn": "বারিস আলপার উইল্মাজ",
+                "hi": "बारिश अलपर यिलमाज़",
+                "ru": "Барыш Алпер Йылмаз"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. أ.يلماز",
+                "bn": "বি. এ. উইল্মাজ",
+                "hi": "बी.ए. यिलमाज़",
+                "ru": "Б. Йылмаз"
+              }
+            }
+          },
+          "eventType": "pass",
+          "isAssist": true,
+          "time": 10,
+          "playerCoordinates": {
+            "x": 85.2,
+            "y": 28.5
+          },
+          "passEndCoordinates": {
+            "x": 85.2,
+            "y": 41.4
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Arda Güler",
+            "firstName": "Arda Guler",
+            "slug": "arda-guler",
+            "shortName": "A. Güler",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 176,
+            "userCount": 457855,
+            "gender": "M",
+            "sofascoreId": "AGüler",
+            "id": 1091116,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1109289600,
+            "proposedMarketValueRaw": {
+              "value": 87000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أردا غولر",
+                "bn": "আরদা গুলার",
+                "hi": "अर्डा गुलेर",
+                "ru": "Арда Гюлер"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. غولر",
+                "bn": "এ.গুলার",
+                "hi": "ए. गुलेर",
+                "ru": "А. Гюлер"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "left-foot",
+          "time": 10,
+          "playerCoordinates": {
+            "x": 92.4,
+            "y": 48.8
+          },
+          "gkCoordinates": {
+            "x": 96.6,
+            "y": 49.3
+          },
+          "goalShotCoordinates": {
+            "x": 100,
+            "y": 48.6
+          },
+          "goalMouthCoordinates": {
+            "x": 57.53,
+            "y": 73.67
+          },
+          "goalkeeper": {
+            "name": "Matt Turner",
+            "slug": "matt-turner",
+            "shortName": "M. Turner",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 190,
+            "userCount": 2076,
+            "gender": "M",
+            "sofascoreId": "x3xmyt",
+            "id": 833943,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 772416000,
+            "proposedMarketValueRaw": {
+              "value": 2600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مات تيرنر",
+                "bn": "ম্যাট টার্নার",
+                "hi": "मैट टर्नर",
+                "ru": "Мэтт Тёрнер"
+              },
+              "shortNameTranslation": {
+                "ar": "م. تيرنر",
+                "bn": "এম. টার্নার",
+                "hi": "एम. टर्नर",
+                "ru": "М. Тёрнер"
+              }
+            }
+          },
+          "isHome": true,
+          "goalType": "regular"
+        }
+      ],
+      "id": 352740962,
+      "time": 10,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 36,
+      "incidentType": "goal"
+    },
+    {
+      "homeScore": 0,
+      "awayScore": 1,
+      "player": {
+        "name": "Auston Trusty",
+        "firstName": "Auston",
+        "lastName": "Trusty",
+        "slug": "auston-trusty",
+        "shortName": "A. Trusty",
+        "position": "D",
+        "jerseyNumber": "6",
+        "height": 188,
+        "userCount": 1098,
+        "gender": "M",
+        "sofascoreId": "ihqyge",
+        "id": 822459,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 902880000,
+        "proposedMarketValueRaw": {
+          "value": 6300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوستون تراستي",
+            "bn": "অস্টন ট্রাস্টি",
+            "hi": "ऑस्टन ट्रस्टी",
+            "ru": "Остон Трасти"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. تراستي",
+            "bn": "এ. ট্রাস্টি",
+            "hi": "ए. ट्रस्टी",
+            "ru": "О. Трасти"
+          }
+        }
+      },
+      "assist1": {
+        "name": "Sebastian Berhalter",
+        "slug": "sebastian-berhalter",
+        "shortName": "S. Berhalter",
+        "position": "M",
+        "jerseyNumber": "14",
+        "height": 175,
+        "userCount": 1469,
+        "gender": "M",
+        "sofascoreId": "kmsvrw",
+        "id": 1014845,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 989452800,
+        "proposedMarketValueRaw": {
+          "value": 7400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيباستيان بيرهالتر",
+            "ru": "Себастьян Берхальтер"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بيرهالتر",
+            "ru": "С. Берхальтер"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Sebastian Berhalter",
+            "slug": "sebastian-berhalter",
+            "shortName": "S. Berhalter",
+            "position": "M",
+            "jerseyNumber": "14",
+            "height": 175,
+            "userCount": 1469,
+            "gender": "M",
+            "sofascoreId": "kmsvrw",
+            "id": 1014845,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 989452800,
+            "proposedMarketValueRaw": {
+              "value": 7400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيباستيان بيرهالتر",
+                "ru": "Себастьян Берхальтер"
+              },
+              "shortNameTranslation": {
+                "ar": "س. بيرهالتر",
+                "ru": "С. Берхальтер"
+              }
+            }
+          },
+          "eventType": "cross",
+          "isAssist": true,
+          "time": 3,
+          "playerCoordinates": {
+            "x": 0.6,
+            "y": 0.7
+          },
+          "passEndCoordinates": {
+            "x": 3.3,
+            "y": 65.4
+          },
+          "isHome": false
+        },
+        {
+          "player": {
+            "name": "Auston Trusty",
+            "firstName": "Auston",
+            "lastName": "Trusty",
+            "slug": "auston-trusty",
+            "shortName": "A. Trusty",
+            "position": "D",
+            "jerseyNumber": "6",
+            "height": 188,
+            "userCount": 1098,
+            "gender": "M",
+            "sofascoreId": "ihqyge",
+            "id": 822459,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 902880000,
+            "proposedMarketValueRaw": {
+              "value": 6300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوستون تراستي",
+                "bn": "অস্টন ট্রাস্টি",
+                "hi": "ऑस्टन ट्रस्टी",
+                "ru": "Остон Трасти"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. تراستي",
+                "bn": "এ. ট্রাস্টি",
+                "hi": "ए. ट्रस्टी",
+                "ru": "О. Трасти"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "left-foot",
+          "time": 3,
+          "playerCoordinates": {
+            "x": 3.9,
+            "y": 64.4
+          },
+          "gkCoordinates": {
+            "x": 1.2,
+            "y": 54.9
+          },
+          "goalShotCoordinates": {
+            "x": 0,
+            "y": 53.8
+          },
+          "goalMouthCoordinates": {
+            "x": 70.43,
+            "y": 87.33
+          },
+          "goalkeeper": {
+            "name": "Uğurcan Çakır",
+            "firstName": "Ugurcan",
+            "lastName": "Cakir",
+            "slug": "ugurcan-cakir",
+            "shortName": "U. Çakır",
+            "position": "G",
+            "jerseyNumber": "23",
+            "height": 192,
+            "userCount": 8295,
+            "gender": "M",
+            "sofascoreId": "tsax45",
+            "id": 754330,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 828662400,
+            "proposedMarketValueRaw": {
+              "value": 14500000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوغورجان تشاكير",
+                "bn": "উগুরকান কাকির",
+                "hi": "उगुरकन चाकिर",
+                "ru": "Угурджан Чакыр"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. تشاكير",
+                "bn": "ইউ. কাকির",
+                "hi": "यू. चाकिर",
+                "ru": "У. Чакыр"
+              }
+            }
+          },
+          "isHome": false,
+          "goalType": "regular"
+        }
+      ],
+      "id": 352740965,
+      "time": 3,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 43,
+      "incidentType": "goal"
+    }
+  ],
+  "home": {
+    "goalkeeperColor": {
+      "primary": "648dd5",
+      "number": "ffffff",
+      "outline": "648dd5",
+      "fancyNumber": "222226"
+    },
+    "playerColor": {
+      "primary": "ffffff",
+      "number": "fa0000",
+      "outline": "ffffff",
+      "fancyNumber": "222226"
+    }
+  },
+  "away": {
+    "goalkeeperColor": {
+      "primary": "58c090",
+      "number": "ffffff",
+      "outline": "58c090",
+      "fancyNumber": "222226"
+    },
+    "playerColor": {
+      "primary": "171b2b",
+      "number": "ffffff",
+      "outline": "171b2b",
+      "fancyNumber": "ffffff"
+    }
+  }
+}
