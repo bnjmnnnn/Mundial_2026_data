@@ -7,76 +7,167 @@ on:
       # Solo ejecutar si cambian datos crudos o código de transformación
       - "data/raw/**"
       - "src/transform/**"
+      - "src/validate/**"
       - "src/utils/**"
+      - "requirements.txt"
+  schedule:
+    # Corre automáticamente cada día a las 06:00 UTC (02:00 AM ET)
+    - cron: "0 6 * * *"
   workflow_dispatch:
     # Ejecución manual desde la UI de GitHub
 
 jobs:
-  transform:
+  # ===========================================================================
+  # JOB 1: Validar datos raw (verificar que existan y sean completos)
+  # ===========================================================================
+  validate_raw:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
+    outputs:
+      raw_count: ${{ steps.check.outputs.raw_count }}
+      status: ${{ steps.check.outputs.status }}
 
     steps:
-      # 1. Checkout del código (incluye datos raw si fueron pusheados)
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Setup Python
+      - name: Check raw data exists
+        id: check
+        run: |
+          RAW_DIR="data/raw/events"
+          if [ ! -d "$RAW_DIR" ] || [ -z "$(ls -A $RAW_DIR)" ]; then
+            echo "❌ No se encontraron datos raw"
+            echo "status=missing" >> $GITHUB_OUTPUT
+            echo "raw_count=0" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+          COUNT=$(ls $RAW_DIR | wc -l)
+          echo "✅ Datos raw encontrados: $COUNT eventos"
+          echo "status=ok" >> $GITHUB_OUTPUT
+          echo "raw_count=$COUNT" >> $GITHUB_OUTPUT
+
+      - name: Summary — Raw Validation
+        if: always()
+        run: |
+          echo "## 📥 Validación de Datos Raw" >> $GITHUB_STEP_SUMMARY
+          echo "- Eventos encontrados: ${{ steps.check.outputs.raw_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Status: ${{ steps.check.outputs.status }}" >> $GITHUB_STEP_SUMMARY
+
+  # ===========================================================================
+  # JOB 2: Transformar (silver + gold)
+  # ===========================================================================
+  transform:
+    runs-on: ubuntu-latest
+    needs: validate_raw
+    if: needs.validate_raw.outputs.status == 'ok'
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # 3. Instalar dependencias
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 4. Verificar que existan datos raw
-      - name: Check raw data exists
-        run: |
-          if [ ! -d "data/raw/events" ] || [ -z "$(ls -A data/raw/events)" ]; then
-            echo "❌ No se encontraron datos raw en data/raw/events"
-            echo "Por favor ejecuta 'python -m src.extract.extract' localmente y haz push de los JSONs."
-            exit 1
-          fi
-          echo "✅ Datos raw encontrados: $(ls data/raw/events | wc -l) eventos"
+      - name: Create output directories
+        run: mkdir -p data/silver data/gold data
 
-      # 5. Ejecutar transformación (silver)
-      - name: Transform data (silver)
+      - name: Transform to Silver
         run: python -m src.transform.transform
 
-      # 6. Ejecutar capa Gold (ML)
-      - name: Generate Gold layer (ML datasets)
+      - name: Generate Gold (ML datasets)
         run: python -m src.transform.gold
 
-      # 7. Subir capas silver + gold como artifact descargable
-      - name: Upload datasets
-        if: always()
+      - name: Upload Silver artifact
         uses: actions/upload-artifact@v4
         with:
-          name: mundial2026-datasets-${{ github.run_number }}
+          name: silver-layer-${{ github.run_number }}
           path: |
             data/silver/*.csv
             data/silver/*.parquet
+          retention-days: 30
+
+      - name: Upload Gold artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gold-layer-${{ github.run_number }}
+          path: |
             data/gold/*.csv
             data/gold/*.parquet
           retention-days: 30
 
-      # 8. Resumen de ejecución
-      - name: Summary
+      - name: Summary — Transform
         if: always()
         run: |
-          echo "## Mundial 2026 Pipeline" >> $GITHUB_STEP_SUMMARY
-          echo "- Commit: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Trigger: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## 🔄 Transformación" >> $GITHUB_STEP_SUMMARY
           if [ -d "data/silver" ]; then
-            echo "### ✅ Silver layer" >> $GITHUB_STEP_SUMMARY
+            echo "### Silver layer" >> $GITHUB_STEP_SUMMARY
             echo "- Archivos: $(ls data/silver | wc -l)" >> $GITHUB_STEP_SUMMARY
           fi
           if [ -d "data/gold" ]; then
-            echo "### ✅ Gold layer (ML & Betting)" >> $GITHUB_STEP_SUMMARY
+            echo "### Gold layer (ML & Betting)" >> $GITHUB_STEP_SUMMARY
             echo "- Archivos: $(ls data/gold | wc -l)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+  # ===========================================================================
+  # JOB 3: Validar calidad y generar reporte
+  # ===========================================================================
+  validate_load:
+    runs-on: ubuntu-latest
+    needs: transform
+    if: always() && needs.transform.result == 'success'
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download Silver artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: silver-layer-${{ github.run_number }}
+          path: data/silver/
+
+      - name: Download Gold artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: gold-layer-${{ github.run_number }}
+          path: data/gold/
+
+      - name: Run Data Quality Checks
+        run: python -m src.validate.quality_checks
+
+      - name: Upload Quality Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quality-report-${{ github.run_number }}
+          path: |
+            data/quality_report.json
+            data/quality_report.md
+          retention-days: 30
+
+      - name: Summary — Quality Report
+        if: always()
+        run: |
+          echo "## ✅ Validación de Calidad" >> $GITHUB_STEP_SUMMARY
+          if [ -f "data/quality_report.md" ]; then
+            cat data/quality_report.md >> $GITHUB_STEP_SUMMARY
           fi

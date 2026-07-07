@@ -9,14 +9,22 @@ Transforma JSONs anidados de partidos, estadísticas e incidentes en tablas plan
 ## Arquitectura
 
 ```
-Sofascore API
-      │
-      ▼
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│   Extract   │ ──▶ │  Transform  │ ──▶ │   Silver    │
-│  (bronze)   │     │   (silver)  │     │  artifacts  │
-│  raw JSONs  │     │ CSV/Parquet │     │  (GitHub)   │
-└─────────────┘     └─────────────┘     └─────────────┘
+┌─────────────┐     ┌─────────────────────────────────────────────┐
+│   EXTRACT   │     │              CI/CD (GitHub Actions)          │
+│  (bronze)   │     │                                             │
+│  Tu PC      │ ──▶ │  ┌──────────┐  ┌──────────┐  ┌──────────┐  │
+│  Docker     │     │  │validate │  │ transform│  │validate  │  │
+│             │     │  │   raw    │──▶│ silver   │──▶│ quality  │  │
+└─────────────┘     │  └──────────┘  └──────────┘  └──────────┘  │
+                    └─────────────────────────────────────────────┘
+                              │
+                              ▼
+                    ┌─────────────────┐
+                    │  Artifacts ZIP  │
+                    │  - silver/      │
+                    │  - gold/        │
+                    │  - quality/     │
+                    └─────────────────┘
 ```
 
 | Capa | Formato | Contenido |
@@ -29,14 +37,14 @@ Sofascore API
 
 ## Flujo de trabajo híbrido (local + CI/CD)
 
-Dado que Sofascore bloquea IPs de datacenter, la **extracción** corre en tu PC local (IP residencial) y la **transformación** corre en GitHub Actions:
-
-| Paso | Dónde | Comando |
-|---|---|---|
-| **1. Extraer** | **Tu PC** | `python -m src.extract.extract` o `docker-compose up --build` |
-| **2. Subir raw** | **Git** | `git add data/raw/ && git push origin main` |
-| **3. Transformar** | **GitHub Actions** | Automático al detectar `data/raw/**` |
-| **4. Descargar silver** | **GitHub Actions** | Artifact `silver-data-XX.zip` |
+| Paso | Quién | Qué hace | Resultado |
+|---|---|---|---|
+| **1. Extraer** | **Tu PC** | `docker-compose up --build` | `data/raw/*.json` |
+| **2. Subir** | **Tú** | `git add data/raw/ && git push` | Dispara CI/CD |
+| **3. Validar raw** | **GitHub Actions** | Verifica que existan JSONs | ✅ o ❌ |
+| **4. Transformar** | **GitHub Actions** | Genera silver + gold | CSV/Parquet |
+| **5. Validar calidad** | **GitHub Actions** | Checks de calidad de datos | Reporte MD |
+| **6. Descargar** | **Tú** | Artifact `mundial2026-datasets-XX.zip` | Todo listo |
 
 ---
 
@@ -61,6 +69,8 @@ Dado que Sofascore bloquea IPs de datacenter, la **extracción** corre en tu PC 
 │   ├── transform/
 │   │   ├── transform.py            # Normalización a tablas planas (silver)
 │   │   └── gold.py                 # Datasets ML por selección (gold)
+│   ├── validate/
+│   │   └── quality_checks.py       # Validación de calidad de datos
 │   └── utils/
 │       └── config.py               # URLs, IDs y rutas
 │
@@ -158,19 +168,46 @@ El ZIP incluye **ambas capas**:
 
 ## CI/CD con GitHub Actions
 
-El workflow se ejecuta automáticamente:
+Arquitectura de **3 jobs encadenados** con paso de artifacts entre ellos:
 
-- **En cada push** que modifique `data/raw/` o `src/transform/`
-- **Manualmente** desde la UI de GitHub (`workflow_dispatch`)
+```
+validate_raw  ──▶  transform  ──▶  validate_load
+    │                  │                │
+    ▼                  ▼                ▼
+  ✅/❌          silver+gold      quality_report
+```
 
-Pasos del workflow:
-1. Checkout del código (incluye `data/raw/`)
-2. Setup Python 3.11
-3. Instalar dependencias
-4. Verificar que existan datos raw
-5. Ejecutar `python -m src.transform.transform` (capa **silver**)
-6. Ejecutar `python -m src.transform.gold` (capa **gold** — ML & apuestas)
-7. Subir `data/silver/` + `data/gold/` como artifact ZIP
+### Triggers (cuándo corre)
+
+| Trigger | Descripción |
+|---|---|
+| `push` | Cuando modificas `data/raw/` o código de transformación |
+| `schedule` | **Cada día a las 06:00 UTC** (`cron: 0 6 * * *`) |
+| `workflow_dispatch` | Manualmente desde la UI de GitHub (botón verde) |
+
+### Jobs
+
+| Job | Propósito | Output |
+|---|---|---|
+| **`validate_raw`** | Verifica que `data/raw/events/` tenga archivos | ✅ o ❌ |
+| **`transform`** | Genera silver + gold | Artifacts: `silver-layer-XX`, `gold-layer-XX` |
+| **`validate_load`** | Chequea calidad de datos + genera reporte | Artifact: `quality-report-XX` |
+
+### Artifacts generados
+
+| Artifact | Contenido | Retención |
+|---|---|---|
+| `silver-layer-XX` | `matches`, `team_stats`, `events_incidents`, etc. | 30 días |
+| `gold-layer-XX` | `team_features`, `match_ml_dataset`, `team_tournament_agg` | 30 días |
+| `quality-report-XX` | `quality_report.json` + `quality_report.md` | 30 días |
+
+### Validaciones de calidad (job 3)
+
+- ✅ Existencia de archivos silver/gold
+- ✅ Columnas obligatorias sin nulos
+- ✅ Rangos razonables (posesión 0-100, goles >= 0)
+- ✅ Cardinalidad esperada (filas por tabla)
+- ✅ Consistencia entre tablas (2 filas por match en team_stats)
 
 > **Nota:** Tú solo subes `data/raw/`. El CI/CD hace el resto automáticamente.
 
