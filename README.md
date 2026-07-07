@@ -22,7 +22,8 @@ Sofascore API
 | Capa | Formato | Contenido |
 |---|---|---|
 | **Bronze** | `data/raw/*.json` | Respuestas crudas de la API |
-| **Silver** | `data/silver/*.csv` + `*.parquet` | Tablas normalizadas con pandas |
+| **Silver** | `data/silver/*.csv` + `*.parquet` | Tablas normalizadas (matches, stats, incidents) |
+| **Gold** | `data/gold/*.csv` + `*.parquet` | Datasets ML por equipo, comparativas y agregados |
 
 ---
 
@@ -48,15 +49,18 @@ Dado que Sofascore bloquea IPs de datacenter, la **extracción** corre en tu PC 
 │   │   ├── events/
 │   │   ├── stats/
 │   │   ├── incidents/
-│   │   └── details/
-│   └── silver/                     # Generado por CI/CD (no se versiona)
+│   │   ├── details/
+│   │   └── rounds/
+│   ├── silver/                     # Generado por CI/CD (no se versiona)
+│   └── gold/                       # Generado localmente (no se versiona)
 │
 ├── src/
 │   ├── extract/
 │   │   ├── extract.py              # Pipeline de extracción masiva
 │   │   └── sofascore_client.py     # Cliente HTTP con curl_cffi + backoff
 │   ├── transform/
-│   │   └── transform.py            # Normalización a tablas planas
+│   │   ├── transform.py            # Normalización a tablas planas (silver)
+│   │   └── gold.py                 # Datasets ML por selección (gold)
 │   └── utils/
 │       └── config.py               # URLs, IDs y rutas
 │
@@ -82,6 +86,36 @@ Dado que Sofascore bloquea IPs de datacenter, la **extracción** corre en tu PC 
 | `match_substitutions` | 688 | Subconjunto: cambios de jugadores |
 
 > **Nota:** El Mundial 2026 tiene **104 partidos** totales. Hoy hay **72 partidos finalizados** disponibles. El pipeline se ejecuta automáticamente para capturar los nuevos.
+
+---
+
+## Capa Gold — ML & Apuestas Deportivas
+
+Datasets optimizados para **modelos de Machine Learning** y análisis de apuestas. Cada fila representa una selección o un partido con features derivadas.
+
+| Tabla | Filas | Descripción | Uso |
+|---|---|---|---|
+| `team_features` | 144 | Cada fila = una selección en un partido. Stats + contexto + targets | ML por equipo (regresión, clasificación) |
+| `match_ml_dataset` | 72 | Cada fila = un partido. Comparativa Home vs Away con diferenciales | Predecir resultado 1X2, over/under, BTTS |
+| `team_tournament_agg` | 48 | Stats agregadas por selección en todo el torneo | Dashboards, análisis comparativo, power rankings |
+
+### Targets de apuestas incluidos
+
+- `result` — W / D / L (clasificación)
+- `goals_scored`, `goals_conceded` — regresión
+- `over_2_5` — True/False (más de 2.5 goles en el partido)
+- `btts` — Both Teams To Score (True/False)
+- `clean_sheet` — Portería a cero (True/False)
+
+### Features diferenciales (match_ml_dataset)
+
+Columnas tipo `diff_*` que miden la **ventaja numérica** del local sobre el visitante:
+- `diff_ballPossession` — diferencia de posesión
+- `diff_expectedGoals` — diferencia de xG
+- `diff_totalShotsOnGoal` — diferencia de tiros totales
+- `diff_bigChanceCreated` — diferencia de ocasiones claras
+
+Ideal para modelos que predicen resultados directos (1X2) o mercados de goles.
 
 ---
 
@@ -116,6 +150,20 @@ El push automáticamente dispara el workflow de GitHub Actions. Ve a tu reposito
 2. Espera a que termine (sección verde ✅)
 3. Al final de la página verás **Artifacts** → descarga `silver-data-XX.zip`
 
+### 4. Generar capa Gold (ML) — local
+
+La capa Gold se genera **localmente** a partir de la silver. No está en CI/CD porque es una transformación pura que no requiere IP específica.
+
+```bash
+# Con los datos silver ya generados (locales o descargados del artifact)
+python -m src.transform.gold
+```
+
+Esto genera en `data/gold/`:
+- `team_features.csv` — Dataset ML por selección
+- `match_ml_dataset.csv` — Dataset ML por partido (comparativa)
+- `team_tournament_agg.csv` — Agregados por selección
+
 ---
 
 ## CI/CD con GitHub Actions
@@ -130,8 +178,10 @@ Pasos del workflow:
 2. Setup Python 3.11
 3. Instalar dependencias
 4. Verificar que existan datos raw
-5. Ejecutar `python -m src.transform.transform`
+5. Ejecutar `python -m src.transform.transform` (capa silver)
 6. Subir `data/silver/*.csv` y `*.parquet` como artifact ZIP
+
+> **Nota:** La capa Gold se genera localmente con `python -m src.transform.gold` porque no requiere acceso a la API.
 
 ---
 
