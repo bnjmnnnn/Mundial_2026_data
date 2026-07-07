@@ -1,0 +1,48 @@
+name: Mundial 2026 Pipeline
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Ejecutar una vez al día a las 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    # Permite ejecución manual desde la UI de GitHub
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # 1. Checkout del código
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Build y ejecución del pipeline Docker
+      - name: Build and run pipeline
+        run: docker compose up --build
+
+      # 3. Subir capa silver como artifact descargable
+      - name: Upload silver layer
+        uses: actions/upload-artifact@v4
+        with:
+          name: silver-data-${{ github.run_number }}
+          path: |
+            data/silver/*.csv
+            data/silver/*.parquet
+          retention-days: 30
+
+      # 4. (Opcional) Resumen de ejecución
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Mundial 2026 Pipeline" >> $GITHUB_STEP_SUMMARY
+          echo "- Commit: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Trigger: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          if [ -d "data/silver" ]; then
+            echo "- ✅ Silver layer generada" >> $GITHUB_STEP_SUMMARY
+            echo "- Archivos: $(ls data/silver | wc -l)" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- ❌ Silver layer no encontrada" >> $GITHUB_STEP_SUMMARY
+          fi
