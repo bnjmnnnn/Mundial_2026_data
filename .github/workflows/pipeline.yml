@@ -23,8 +23,9 @@ jobs:
       - name: Build and run pipeline
         run: docker compose up --build
 
-      # 3. Subir capa silver como artifact descargable
+      # 3. Subir capa silver como artifact descargable (siempre, incluso si hay fallo parcial)
       - name: Upload silver layer
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: silver-data-${{ github.run_number }}
@@ -33,7 +34,7 @@ jobs:
             data/silver/*.parquet
           retention-days: 30
 
-      # 4. (Opcional) Resumen de ejecución
+      # 4. Resumen de ejecución
       - name: Summary
         if: always()
         run: |
