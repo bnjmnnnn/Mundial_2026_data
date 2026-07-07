@@ -1,0 +1,28 @@
+# Datos
+/data/
+
+# Notebooks temporales y muestras
+notebooks/*.json
+notebooks/*.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entorno virtual
+venv/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
