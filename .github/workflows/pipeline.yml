@@ -19,11 +19,31 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Build y ejecución del pipeline Docker
-      - name: Build and run pipeline
-        run: docker compose up --build
+      # 2. Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      # 3. Subir capa silver como artifact descargable (siempre, incluso si hay fallo parcial)
+      # 3. Instalar dependencias
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. Crear directorios de salida
+      - name: Prepare directories
+        run: mkdir -p data/raw data/silver
+
+      # 5. Ejecutar extracción
+      - name: Extract data (bronze)
+        run: python -m src.extract.extract
+
+      # 6. Ejecutar transformación
+      - name: Transform data (silver)
+        run: python -m src.transform.transform
+
+      # 7. Subir capa silver como artifact descargable (siempre, incluso si hay fallo parcial)
       - name: Upload silver layer
         if: always()
         uses: actions/upload-artifact@v4
@@ -34,7 +54,7 @@ jobs:
             data/silver/*.parquet
           retention-days: 30
 
-      # 4. Resumen de ejecución
+      # 8. Resumen de ejecución
       - name: Summary
         if: always()
         run: |
