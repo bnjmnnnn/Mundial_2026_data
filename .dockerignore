@@ -1,0 +1,32 @@
+# Ignorar todo lo que no es código fuente
+
+# Datos (se generan dentro del contenedor)
+data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entorno local
+.env
+venv/
+.venv/
+
+# IDEs y OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Notebooks y muestras locales
+notebooks/*.json
+notebooks/.ipynb_checkpoints/
+
+# Logs
+*.log

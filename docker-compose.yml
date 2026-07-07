@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mundial2026_pipeline
+    volumes:
+      # Montar volumen para persistir data entre ejecuciones
+      - mundial_data:/app/data
+    environment:
+      - RAW_DATA_PATH=/app/data/raw
+      - SILVER_DATA_PATH=/app/data/silver
+    # Puedes anular el CMD para pruebas:
+    # command: ["python", "-m", "src.extract.extract"]
+
+volumes:
+  mundial_data:
