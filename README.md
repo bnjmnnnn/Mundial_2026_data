@@ -66,7 +66,7 @@ Dado que Sofascore bloquea IPs de datacenter, la **extracción** corre en tu PC 
 │
 ├── .github/workflows/
 │   └── pipeline.yml                # CI/CD: transformación + artifacts
-├── Dockerfile                      # Imagen del pipeline completo (local)
+├── Dockerfile                      # Imagen de EXTRACCIÓN LOCAL (bronze)
 ├── docker-compose.yml              # Orquestación local
 ├── requirements.txt                # Dependencias Python
 └── README.md                       # Este archivo
@@ -124,7 +124,7 @@ Ideal para modelos que predicen resultados directos (1X2) o mercados de goles.
 ### 1. Extracción local (Bronze)
 
 ```bash
-# Opción A: Con Docker (recomendada)
+# Opción A: Con Docker (recomendada) — solo extracción
 docker-compose up --build
 
 # Opción B: Sin Docker
@@ -132,7 +132,7 @@ pip install -r requirements.txt
 python -m src.extract.extract
 ```
 
-Esto genera archivos JSON en `data/raw/`.
+Esto genera archivos JSON en `data/raw/` (capa bronze).
 
 ### 2. Subir datos al repositorio
 

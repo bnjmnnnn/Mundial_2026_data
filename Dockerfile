@@ -1,12 +1,11 @@
 # Mundial 2026 - Pipeline de Datos Sofascore
-# Dockerfile para ejecutar extract + transform en un contenedor
+# Dockerfile para EXTRACCIÓN LOCAL (bronze)
+# La transformación (silver + gold) corre en CI/CD de GitHub Actions
 
 FROM python:3.11-slim
 
-# Ejecutar como usuario no root por seguridad
 # Dependencias del sistema necesarias para curl_cffi y compilación
-RUN useradd --create-home --shell /bin/bash appuser && \
-    apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     libcurl4 \
     libssl-dev \
     libffi-dev \
@@ -29,21 +28,17 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY src/ ./src/
 
 # ---------------------------------------------------------------------------
-# Crear directorios de salida
+# Crear directorio de salida
 # ---------------------------------------------------------------------------
-RUN mkdir -p /app/data/raw /app/data/silver
-RUN chown -R appuser:appuser /app
+RUN mkdir -p /app/data/raw
 
 # ---------------------------------------------------------------------------
 # Variables de entorno por defecto
 # ---------------------------------------------------------------------------
 ENV PYTHONUNBUFFERED=1
 ENV RAW_DATA_PATH=/app/data/raw
-ENV SILVER_DATA_PATH=/app/data/silver
-
-USER appuser
 
 # ---------------------------------------------------------------------------
-# Ejecución del pipeline completo
+# Ejecución: solo extracción (bronze)
 # ---------------------------------------------------------------------------
-CMD ["sh", "-c", "python -m src.extract.extract && python -m src.transform.transform"]
+CMD ["python", "-m", "src.extract.extract"]
