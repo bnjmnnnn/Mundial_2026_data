@@ -3,19 +3,21 @@ name: Mundial 2026 Pipeline
 on:
   push:
     branches: [main]
-  schedule:
-    # Ejecutar una vez al día a las 06:00 UTC
-    - cron: "0 6 * * *"
+    paths:
+      # Solo ejecutar si cambian datos crudos o código de transformación
+      - "data/raw/**"
+      - "src/transform/**"
+      - "src/utils/**"
   workflow_dispatch:
-    # Permite ejecución manual desde la UI de GitHub
+    # Ejecución manual desde la UI de GitHub
 
 jobs:
-  run-pipeline:
+  transform:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
-      # 1. Checkout del código
+      # 1. Checkout del código (incluye datos raw si fueron pusheados)
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -31,19 +33,21 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 4. Crear directorios de salida
-      - name: Prepare directories
-        run: mkdir -p data/raw data/silver
+      # 4. Verificar que existan datos raw
+      - name: Check raw data exists
+        run: |
+          if [ ! -d "data/raw/events" ] || [ -z "$(ls -A data/raw/events)" ]; then
+            echo "❌ No se encontraron datos raw en data/raw/events"
+            echo "Por favor ejecuta 'python -m src.extract.extract' localmente y haz push de los JSONs."
+            exit 1
+          fi
+          echo "✅ Datos raw encontrados: $(ls data/raw/events | wc -l) eventos"
 
-      # 5. Ejecutar extracción
-      - name: Extract data (bronze)
-        run: python -m src.extract.extract
-
-      # 6. Ejecutar transformación
+      # 5. Ejecutar transformación (silver)
       - name: Transform data (silver)
         run: python -m src.transform.transform
 
-      # 7. Subir capa silver como artifact descargable (siempre, incluso si hay fallo parcial)
+      # 6. Subir capa silver como artifact descargable
       - name: Upload silver layer
         if: always()
         uses: actions/upload-artifact@v4
@@ -54,7 +58,7 @@ jobs:
             data/silver/*.parquet
           retention-days: 30
 
-      # 8. Resumen de ejecución
+      # 7. Resumen de ejecución
       - name: Summary
         if: always()
         run: |

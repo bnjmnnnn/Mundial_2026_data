@@ -26,10 +26,31 @@ Sofascore API
 
 ---
 
+## Flujo de trabajo híbrido (local + CI/CD)
+
+Dado que Sofascore bloquea IPs de datacenter, la **extracción** corre en tu PC local (IP residencial) y la **transformación** corre en GitHub Actions:
+
+| Paso | Dónde | Comando |
+|---|---|---|
+| **1. Extraer** | **Tu PC** | `python -m src.extract.extract` o `docker-compose up --build` |
+| **2. Subir raw** | **Git** | `git add data/raw/ && git push origin main` |
+| **3. Transformar** | **GitHub Actions** | Automático al detectar `data/raw/**` |
+| **4. Descargar silver** | **GitHub Actions** | Artifact `silver-data-XX.zip` |
+
+---
+
 ## Estructura del repositorio
 
 ```
 .
+├── data/
+│   ├── raw/                        # JSONs crudos (se suben al repo)
+│   │   ├── events/
+│   │   ├── stats/
+│   │   ├── incidents/
+│   │   └── details/
+│   └── silver/                     # Generado por CI/CD (no se versiona)
+│
 ├── src/
 │   ├── extract/
 │   │   ├── extract.py              # Pipeline de extracción masiva
@@ -38,12 +59,13 @@ Sofascore API
 │   │   └── transform.py            # Normalización a tablas planas
 │   └── utils/
 │       └── config.py               # URLs, IDs y rutas
+│
 ├── .github/workflows/
-│   └── pipeline.yml                # CI/CD: Docker + artifacts
-├── Dockerfile                      # Imagen del pipeline completo
+│   └── pipeline.yml                # CI/CD: transformación + artifacts
+├── Dockerfile                      # Imagen del pipeline completo (local)
 ├── docker-compose.yml              # Orquestación local
 ├── requirements.txt                # Dependencias Python
-└── plan_hitos_sofascore_mundial2026.md  # Plan original del proyecto
+└── README.md                       # Este archivo
 ```
 
 ---
@@ -65,50 +87,61 @@ Sofascore API
 
 ## Cómo usar
 
-### Local (con Docker)
+### 1. Extracción local (Bronze)
 
 ```bash
-# Extraer datos + transformar en un solo comando
-docker compose up --build
-```
+# Opción A: Con Docker (recomendada)
+docker-compose up --build
 
-Los archivos se guardan en el volumen Docker `mundial_data`.
-
-### Local (sin Docker)
-
-```bash
+# Opción B: Sin Docker
 pip install -r requirements.txt
-
-# 1. Extraer datos crudos (bronze)
 python -m src.extract.extract
-
-# 2. Transformar a tablas planas (silver)
-python -m src.transform.transform
 ```
 
-Output en `data/raw/` y `data/silver/`.
+Esto genera archivos JSON en `data/raw/`.
+
+### 2. Subir datos al repositorio
+
+```bash
+git add data/raw/
+git commit -m "data: add raw match data"
+git push origin main
+```
+
+### 3. Transformación en CI/CD (Silver)
+
+El push automáticamente dispara el workflow de GitHub Actions. Ve a tu repositorio:
+
+1. **Actions** → **Mundial 2026 Pipeline**
+2. Espera a que termine (sección verde ✅)
+3. Al final de la página verás **Artifacts** → descarga `silver-data-XX.zip`
 
 ---
 
 ## CI/CD con GitHub Actions
 
-El workflow ejecuta el pipeline automáticamente:
+El workflow se ejecuta automáticamente:
 
-- **Cada día a las 06:00 UTC** (`cron`)
-- **En cada push a `main`**
+- **En cada push** que modifique `data/raw/` o `src/transform/`
 - **Manualmente** desde la UI de GitHub (`workflow_dispatch`)
 
-Los artifacts de la capa Silver (CSV + Parquet) se guardan como ZIP descargable en cada ejecución.
+Pasos del workflow:
+1. Checkout del código (incluye `data/raw/`)
+2. Setup Python 3.11
+3. Instalar dependencias
+4. Verificar que existan datos raw
+5. Ejecutar `python -m src.transform.transform`
+6. Subir `data/silver/*.csv` y `*.parquet` como artifact ZIP
 
 ---
 
 ## Tecnologías
 
 - **Python 3.11**
-- **curl_cffi** — impersonación de navegador para evitar bloqueos 403
+- **curl_cffi** — impersonación de navegador para evitar bloqueos 403 (solo local)
 - **pandas + pyarrow** — transformación y exportación a CSV/Parquet
-- **Docker + Docker Compose** — contenerización del pipeline
-- **GitHub Actions** — orquestación programada
+- **Docker + Docker Compose** — contenerización para desarrollo local
+- **GitHub Actions** — transformación programada en la nube
 
 ---
 
@@ -136,7 +169,13 @@ https://api.sofascore.com/api/v1
 | 2. Script de extracción (bronze) | ✅ |
 | 3. Transformación y modelo de datos (silver) | ✅ |
 | 5. Dockerización | ✅ |
-| 6. CI/CD con GitHub Actions | ✅ |
+| 6. CI/CD con GitHub Actions (flujo híbrido) | ✅ |
+
+---
+
+## Nota sobre CI/CD
+
+Sofascore bloquea con **HTTP 403** las peticiones provenientes de IPs de datacenter (incluyendo los runners públicos de GitHub). Por esta razón, la **extracción** se ejecuta localmente con `curl_cffi`, que imita un navegador real. La **transformación** sí puede correr en GitHub Actions porque opera sobre los archivos locales ya descargados.
 
 ---
 
