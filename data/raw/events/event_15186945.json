@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 3,
+  "venue": {
+    "city": {
+      "name": "Arlington",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 21018
+    },
+    "venueCoordinates": {
+      "latitude": 32.74785,
+      "longitude": -97.092834
+    },
+    "hidden": false,
+    "slug": "at-t-stadium",
+    "name": "AT&T Stadium",
+    "capacity": 80000,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 6650,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "ملعب إيه تي آند تي",
+        "hi": "एटीएंडटी स्टेडियम",
+        "bn": "এটিএন্ড টি স্টেডিয়াম",
+        "ru": "Стадион AT&T"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "AT&T Stadium",
+      "capacity": 80000
+    }
+  },
   "homeTeam": {
     "name": "Netherlands",
     "slug": "netherlands",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 625385,
+    "userCount": 625780,
     "nameCode": "NED",
     "ranking": 8,
     "disabled": false,
@@ -198,7 +238,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 257494,
+    "userCount": 257438,
     "nameCode": "JPN",
     "ranking": 18,
     "disabled": false,

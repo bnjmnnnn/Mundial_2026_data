@@ -1,0 +1,460 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Knockout",
+      "slug": "world-cup-knockout-stage",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1936369,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 805,
+      "isGroup": false,
+      "competitionType": 2,
+      "isLive": false,
+      "id": 3948,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بطولة العالم - مرحلة الإقصاء",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
+          "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज",
+          "hr": "FIFA Svjetsko prvenstvo, Eliminacije",
+          "az": "FİFA Dünya Kuboku, Pley-off",
+          "nl": "Wereldkampioenschap, Knock-outfase",
+          "fr": "Coupe du monde, Élimination directe",
+          "de": "Weltmeisterschaft, K.-o.-Phase",
+          "el": "Παγκόσμιο Κύπελλο, Νοκ άουτ φάση",
+          "hu": "Világbajnokság, Egyenes kieséses szakasz",
+          "pt-pt": "Mundial, A eliminar",
+          "tr": "FIFA Dünya Kupası, Eleme aşaması",
+          "vi": "Giải Vô Địch Thế Giới, Vòng loại trực tiếp",
+          "id": "Piala Dunia FIFA, Fase gugur",
+          "it": "Coppa del Mondo, Eliminazione diretta",
+          "ja": "FIFAワールドカップ, 決勝トーナメント",
+          "ko": "FIFA 월드컵, 토너먼트",
+          "no": "Verdensmesterskapet, Sluttspill",
+          "pl": "Mistrzostwa Świata, Faza pucharowa",
+          "pt": "Copa do Mundo FIFA, Fase eliminatória",
+          "ro": "Campionatul Mondial, Faza eliminatorie",
+          "es": "Copa Mundial, Eliminatorias",
+          "es-la": "Copa Mundial, Eliminatorias",
+          "sv": "Världsmästerskapet, Slutspel",
+          "th": "ฟุตบอลโลก, รอบแพ้คัดออก",
+          "ru": "Чемпионат мира, Плей-офф",
+          "sr": "Светско првенство, Елиминациона фаза"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 6,
+      "name": "Round of 32",
+      "slug": "round-of-32",
+      "cupRoundType": 16
+    },
+    "customId": "EObszUb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 68827,
+    "venue": {
+      "city": {
+        "name": "Santa Clara",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 20692
+      },
+      "venueCoordinates": {
+        "latitude": 37.403158,
+        "longitude": -121.969831
+      },
+      "hidden": false,
+      "slug": "levi-s-stadium",
+      "name": "Levi's Stadium",
+      "capacity": 68500,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 15872,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "लेवी स्टेडियम",
+          "bn": "লেভিস স্টেডিয়াম",
+          "ar": "ملعب ليفاي",
+          "ru": "Стадион Levi's"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Levi's Stadium",
+        "capacity": 68500
+      }
+    },
+    "referee": {
+      "name": "Raphael Claus",
+      "slug": "claus-raphael",
+      "yellowCards": 1671,
+      "redCards": 57,
+      "yellowRedCards": 30,
+      "games": 386,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "BR",
+        "alpha3": "BRA",
+        "name": "Brazil",
+        "slug": "brazil"
+      },
+      "id": 243495,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "رافائيل كلاوس",
+          "ru": "Рафаэль Клаус"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "USA",
+      "slug": "usa",
+      "shortName": "USA",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 259707,
+      "manager": {
+        "name": "Mauricio Pochettino",
+        "slug": "mauricio-pochettino",
+        "shortName": "M. Pochettino",
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
+        "id": 3377,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماوريسيو بوتشيتينو",
+            "bn": "মরিসিও পোচেত্তিনো",
+            "hi": "मौरिसियो पोचेतीनो",
+            "ru": "Маурисио Почеттино"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بوتشيتينو",
+            "bn": "এম. পোচেত্তিনো",
+            "hi": "एम. पोचेतीनो",
+            "ru": "М. Почеттино"
+          }
+        }
+      },
+      "nameCode": "USA",
+      "ranking": 17,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 4724,
+      "fullName": "USA",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -1790640000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الولايات المتحدة",
+          "bn": "ইউএসএ",
+          "hi": "यूएसए",
+          "ru": "США"
+        },
+        "shortNameTranslation": {
+          "ar": "الولايات المتحدة"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Bosnia & Herzegovina",
+      "slug": "bosnia-and-herzegovina",
+      "shortName": "Bosnia & Herzegovina",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 216418,
+      "manager": {
+        "name": "Sergej Barbarez",
+        "slug": "sergej-barbarez",
+        "shortName": "S. Barbarez",
+        "country": {
+          "alpha2": "BA",
+          "alpha3": "BIH",
+          "name": "Bosnia & Herzegovina",
+          "slug": "bosnia-and-herzegovina"
+        },
+        "id": 804862,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجي بارباراز",
+            "ru": "Сергеј Барбарез"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بارباراز",
+            "ru": "С. Барбарез"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Zenica",
+          "country": {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia & Herzegovina",
+            "slug": "bosnia-and-herzegovina"
+          },
+          "id": 26953
+        },
+        "venueCoordinates": {
+          "latitude": 44.205799,
+          "longitude": 17.907161
+        },
+        "hidden": true,
+        "slug": "bilino-polje",
+        "name": "Bilino Polje",
+        "capacity": 15600,
+        "country": {
+          "alpha2": "BA",
+          "alpha3": "BIH",
+          "name": "Bosnia & Herzegovina",
+          "slug": "bosnia-and-herzegovina"
+        },
+        "id": 1207,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب بيليونو بولجي",
+            "hi": "बिलिनो पोल्जे",
+            "bn": "বিলিনো পোলজে",
+            "ru": "Стадион Bilino Polje"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Bilino Polje",
+          "capacity": 15600
+        }
+      },
+      "nameCode": "BIH",
+      "ranking": 64,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "BA",
+        "alpha3": "BIH",
+        "name": "Bosnia & Herzegovina",
+        "slug": "bosnia-and-herzegovina"
+      },
+      "id": 4479,
+      "fullName": "Bosnia & Herzegovina",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#2d4a99",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": 706060800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "البوسنة والهرسك",
+          "bn": "বসনিয়া ও হার্জেগোভিনা",
+          "hi": "बोस्निया और हर्जेगोविना",
+          "ru": "Босния и Герцеговина"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 5,
+      "injuryTime2": 10,
+      "currentPeriodStartTimestamp": 1782954672
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1782957983
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "id": 12812992,
+    "homeRedCards": 1,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "usa-bosnia-and-herzegovina",
+    "currentPeriodStartTimestamp": 1782954672,
+    "startTimestamp": 1782950400,
+    "finalResultOnly": false,
+    "feedLocked": true,
+    "cupMatchesInRound": 1,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

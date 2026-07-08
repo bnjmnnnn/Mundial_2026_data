@@ -1,7 +1,7 @@
 {
   "eventState": {},
   "tournament": {
-    "name": "World Championship, Group C",
+    "name": "FIFA World Cup, Group C",
     "slug": "world-championship-gr-c",
     "category": {
       "name": "World",
@@ -26,7 +26,7 @@
       }
     },
     "uniqueTournament": {
-      "name": "World Championship",
+      "name": "FIFA World Cup",
       "slug": "world-championship",
       "primaryColorHex": "#d20a11",
       "secondaryColorHex": "#e8bb57",
@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1954140,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 3,
+  "venue": {
+    "city": {
+      "name": "East Rutherford",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 22040
+    },
+    "venueCoordinates": {
+      "latitude": 40.813524,
+      "longitude": -74.073401
+    },
+    "hidden": false,
+    "slug": "metlife-stadium",
+    "name": "MetLife Stadium",
+    "capacity": 82500,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 1981,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "ملعب ميتلايف",
+        "hi": "मेटलाइफ स्टेडियम",
+        "bn": "মেটলাইফ স্টেডিয়াম",
+        "ru": "Стадион MetLife"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "MetLife Stadium",
+      "capacity": 82500
+    }
+  },
   "homeTeam": {
     "name": "Brazil",
     "slug": "brazil",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 3301872,
+    "userCount": 3317926,
     "nameCode": "BRA",
     "ranking": 6,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 1173608,
+    "userCount": 1195697,
     "nameCode": "MAR",
     "ranking": 7,
     "disabled": false,

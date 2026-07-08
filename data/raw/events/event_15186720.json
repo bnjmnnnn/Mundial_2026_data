@@ -1,7 +1,7 @@
 {
   "eventState": {},
   "tournament": {
-    "name": "World Championship, Group A",
+    "name": "FIFA World Cup, Group A",
     "slug": "world-championship-gr-a",
     "category": {
       "name": "World",
@@ -26,7 +26,7 @@
       }
     },
     "uniqueTournament": {
-      "name": "World Championship",
+      "name": "FIFA World Cup",
       "slug": "world-championship",
       "primaryColorHex": "#d20a11",
       "secondaryColorHex": "#e8bb57",
@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1954140,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 1,
+  "venue": {
+    "city": {
+      "name": "Guadalajara",
+      "country": {
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "name": "Mexico",
+        "slug": "mexico"
+      },
+      "id": 19118
+    },
+    "venueCoordinates": {
+      "latitude": 20.681926942282,
+      "longitude": -103.4624309271
+    },
+    "hidden": false,
+    "slug": "estadio-akron",
+    "name": "Estadio Akron",
+    "capacity": 46355,
+    "country": {
+      "alpha2": "MX",
+      "alpha3": "MEX",
+      "name": "Mexico",
+      "slug": "mexico"
+    },
+    "id": 2401,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "एस्टेडियो अक्रोन",
+        "bn": "এস্টাডিও আকরন",
+        "ar": "ملعب أكرون",
+        "ru": "Стадион Akron"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Estadio Akron",
+      "capacity": 46355
+    }
+  },
   "homeTeam": {
     "name": "South Korea",
     "slug": "south-korea",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 158098,
+    "userCount": 158043,
     "nameCode": "KOR",
     "ranking": 25,
     "disabled": false,
@@ -198,7 +238,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 120676,
+    "userCount": 120604,
     "nameCode": "CZE",
     "ranking": 40,
     "disabled": false,

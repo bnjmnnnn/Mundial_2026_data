@@ -1,7 +1,7 @@
 {
   "eventState": {},
   "tournament": {
-    "name": "World Championship, Group B",
+    "name": "FIFA World Cup, Group B",
     "slug": "world-championship-gr-b",
     "category": {
       "name": "World",
@@ -26,7 +26,7 @@
       }
     },
     "uniqueTournament": {
-      "name": "World Championship",
+      "name": "FIFA World Cup",
       "slug": "world-championship",
       "primaryColorHex": "#d20a11",
       "secondaryColorHex": "#e8bb57",
@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1954140,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 3,
+  "venue": {
+    "city": {
+      "name": "Santa Clara",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 20692
+    },
+    "venueCoordinates": {
+      "latitude": 37.403158,
+      "longitude": -121.969831
+    },
+    "hidden": false,
+    "slug": "levi-s-stadium",
+    "name": "Levi's Stadium",
+    "capacity": 68500,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 15872,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "लेवी स्टेडियम",
+        "bn": "লেভিস স্টেডিয়াম",
+        "ar": "ملعب ليفاي",
+        "ru": "Стадион Levi's"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Levi's Stadium",
+      "capacity": 68500
+    }
+  },
   "homeTeam": {
     "name": "Qatar",
     "slug": "qatar",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 87334,
+    "userCount": 87295,
     "nameCode": "QAT",
     "ranking": 56,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 237118,
+    "userCount": 258615,
     "nameCode": "SUI",
     "ranking": 19,
     "disabled": false,

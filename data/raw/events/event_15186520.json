@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -146,6 +146,46 @@
     "type": "finished"
   },
   "winnerCode": 2,
+  "venue": {
+    "city": {
+      "name": "Toronto",
+      "country": {
+        "alpha2": "CA",
+        "alpha3": "CAN",
+        "name": "Canada",
+        "slug": "canada"
+      },
+      "id": 19314
+    },
+    "venueCoordinates": {
+      "latitude": 43.633341,
+      "longitude": -79.418561
+    },
+    "hidden": false,
+    "slug": "bmo-field",
+    "name": "BMO Field",
+    "capacity": 45700,
+    "country": {
+      "alpha2": "CA",
+      "alpha3": "CAN",
+      "name": "Canada",
+      "slug": "canada"
+    },
+    "id": 2294,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "بي إم أو فيلد",
+        "hi": "बीएमओ फील्ड",
+        "bn": "বিএমও ফিল্ড",
+        "ru": "Стадион BMO"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "BMO Field",
+      "capacity": 45700
+    }
+  },
   "homeTeam": {
     "name": "Panama",
     "slug": "panama",
@@ -156,7 +196,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 79254,
+    "userCount": 79243,
     "nameCode": "PAN",
     "ranking": 34,
     "disabled": false,
@@ -195,7 +235,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 553411,
+    "userCount": 554060,
     "nameCode": "CRO",
     "ranking": 11,
     "disabled": false,

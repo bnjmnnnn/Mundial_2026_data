@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 2,
+  "venue": {
+    "city": {
+      "name": "Monterrey",
+      "country": {
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "name": "Mexico",
+        "slug": "mexico"
+      },
+      "id": 18869
+    },
+    "venueCoordinates": {
+      "latitude": 25.669295827495,
+      "longitude": -100.24398156379
+    },
+    "hidden": false,
+    "slug": "estadio-bbva-",
+    "name": "Estadio BBVA",
+    "capacity": 53500,
+    "country": {
+      "alpha2": "MX",
+      "alpha3": "MEX",
+      "name": "Mexico",
+      "slug": "mexico"
+    },
+    "id": 15891,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "एस्टेडियो बीबीवीए",
+        "bn": "এস্টাডিও বিবিভিএ",
+        "ar": "ملعب بي بي في إيه",
+        "ru": "Спортивный комплекс BBVA"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Estadio BBVA",
+      "capacity": 53500
+    }
+  },
   "homeTeam": {
     "name": "Tunisia",
     "slug": "tunisia",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 236275,
+    "userCount": 236427,
     "nameCode": "TUN",
     "ranking": 45,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 257494,
+    "userCount": 257438,
     "nameCode": "JPN",
     "ranking": 18,
     "disabled": false,

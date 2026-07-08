@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 1,
+  "venue": {
+    "city": {
+      "name": "Inglewood",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 23988
+    },
+    "venueCoordinates": {
+      "latitude": 33.953407,
+      "longitude": -118.33901
+    },
+    "hidden": false,
+    "slug": "sofi-stadium",
+    "name": "SoFi Stadium",
+    "capacity": 70242,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 29715,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "सोफी स्टेडियम",
+        "bn": "সোফি স্টেডিয়াম",
+        "ar": "ملعب صوفي",
+        "ru": "Стадион SoFi"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "SoFi Stadium",
+      "capacity": 70242
+    }
+  },
   "homeTeam": {
     "name": "Türkiye",
     "slug": "turkey",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 509463,
+    "userCount": 509799,
     "nameCode": "TUR",
     "ranking": 22,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 248609,
+    "userCount": 259707,
     "nameCode": "USA",
     "ranking": 17,
     "disabled": false,

@@ -1,0 +1,728 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Knockout",
+      "slug": "world-cup-knockout-stage",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1936369,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 805,
+      "isGroup": false,
+      "competitionType": 2,
+      "isLive": false,
+      "id": 3948,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بطولة العالم - مرحلة الإقصاء",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
+          "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज",
+          "hr": "FIFA Svjetsko prvenstvo, Eliminacije",
+          "az": "FİFA Dünya Kuboku, Pley-off",
+          "nl": "Wereldkampioenschap, Knock-outfase",
+          "fr": "Coupe du monde, Élimination directe",
+          "de": "Weltmeisterschaft, K.-o.-Phase",
+          "el": "Παγκόσμιο Κύπελλο, Νοκ άουτ φάση",
+          "hu": "Világbajnokság, Egyenes kieséses szakasz",
+          "pt-pt": "Mundial, A eliminar",
+          "tr": "FIFA Dünya Kupası, Eleme aşaması",
+          "vi": "Giải Vô Địch Thế Giới, Vòng loại trực tiếp",
+          "id": "Piala Dunia FIFA, Fase gugur",
+          "it": "Coppa del Mondo, Eliminazione diretta",
+          "ja": "FIFAワールドカップ, 決勝トーナメント",
+          "ko": "FIFA 월드컵, 토너먼트",
+          "no": "Verdensmesterskapet, Sluttspill",
+          "pl": "Mistrzostwa Świata, Faza pucharowa",
+          "pt": "Copa do Mundo FIFA, Fase eliminatória",
+          "ro": "Campionatul Mondial, Faza eliminatorie",
+          "es": "Copa Mundial, Eliminatorias",
+          "es-la": "Copa Mundial, Eliminatorias",
+          "sv": "Världsmästerskapet, Slutspel",
+          "th": "ฟุตบอลโลก, รอบแพ้คัดออก",
+          "ru": "Чемпионат мира, Плей-офф",
+          "sr": "Светско првенство, Елиминациона фаза"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 6,
+      "name": "Round of 32",
+      "slug": "round-of-32",
+      "cupRoundType": 16
+    },
+    "customId": "QTbsZTb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 52497,
+    "venue": {
+      "city": {
+        "name": "Vancouver",
+        "country": {
+          "alpha2": "CA",
+          "alpha3": "CAN",
+          "name": "Canada",
+          "slug": "canada"
+        },
+        "id": 19103
+      },
+      "venueCoordinates": {
+        "latitude": 49.276691,
+        "longitude": -123.112006
+      },
+      "hidden": false,
+      "slug": "bc-place",
+      "name": "BC Place",
+      "capacity": 54500,
+      "country": {
+        "alpha2": "CA",
+        "alpha3": "CAN",
+        "name": "Canada",
+        "slug": "canada"
+      },
+      "id": 2293,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "बीसी प्लेस",
+          "bn": "বিসি প্লেস",
+          "ar": "ملعب بي سي بليس",
+          "ru": "Спортивный комплекс BC Place"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "BC Place",
+        "capacity": 54500
+      }
+    },
+    "referee": {
+      "name": "Yael Falcon Perez",
+      "slug": "falcon-perez-yael",
+      "yellowCards": 1156,
+      "redCards": 31,
+      "yellowRedCards": 24,
+      "games": 213,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "AR",
+        "alpha3": "ARG",
+        "name": "Argentina",
+        "slug": "argentina"
+      },
+      "id": 787023,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "يائيل فالكون بيريز",
+          "bn": "ইয়ায়েল ফ্যালকন পেরেজ",
+          "hi": "याएल फाल्कन पेरेज़",
+          "ru": "Яэль Фалькон Перес"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "shortName": "Switzerland",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 239531,
+      "manager": {
+        "name": "Murat Yakin",
+        "slug": "murat-yakin",
+        "shortName": "M. Yakin",
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 67424,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مراد ياكين",
+            "bn": "মুরাত ইয়াকিন",
+            "hi": "मूरत याकिन",
+            "ru": "Мурад Якин"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ياكين",
+            "bn": "এম. ইয়াকিন",
+            "hi": "एम. याकिन",
+            "ru": "М. Якин"
+          }
+        }
+      },
+      "nameCode": "SUI",
+      "ranking": 19,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "CH",
+        "alpha3": "CHE",
+        "name": "Switzerland",
+        "slug": "switzerland"
+      },
+      "id": 4699,
+      "fullName": "Switzerland",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2358460800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "سويسرا",
+          "bn": "সুইজারল্যান্ড",
+          "hi": "स्विट्ज़रलैंड",
+          "ru": "Швейцария"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Algeria",
+      "slug": "algeria",
+      "shortName": "Algeria",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 455503,
+      "manager": {
+        "name": "Vladimir Petković",
+        "slug": "vladimir-petkovic",
+        "shortName": "V. Petković",
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "id": 52898,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلاديمير بيتكوفيتش",
+            "ru": "Владимир Петкович"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. بيتكوفيتش",
+            "ru": "В. Петкович"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Algiers",
+          "country": {
+            "alpha2": "DZ",
+            "alpha3": "DZA",
+            "name": "Algeria",
+            "slug": "algeria"
+          },
+          "id": 18870
+        },
+        "venueCoordinates": {
+          "latitude": 36.759514,
+          "longitude": 2.995272
+        },
+        "hidden": true,
+        "slug": "stade-5-juillet-1962",
+        "name": "Stade 5 Juillet 1962",
+        "capacity": 85000,
+        "country": {
+          "alpha2": "DZ",
+          "alpha3": "DZA",
+          "name": "Algeria",
+          "slug": "algeria"
+        },
+        "id": 1687,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب 5 يوليو 1962",
+            "hi": "स्टेड 5 जुइलियट 1962",
+            "bn": "স্টেড 5 জুলিয়েট1962",
+            "ru": "Спортивный комплекс Stade 5 Juillet 1962"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade 5 Juillet 1962",
+          "capacity": 85000
+        }
+      },
+      "nameCode": "DZA",
+      "ranking": 28,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "DZ",
+        "alpha3": "DZA",
+        "name": "Algeria",
+        "slug": "algeria"
+      },
+      "id": 4691,
+      "fullName": "Algeria",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#23bc55",
+        "text": "#23bc55"
+      },
+      "foundationDateTimestamp": -228873600,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الجزائر",
+          "bn": "আলজেরিয়া",
+          "hi": "अल्जीरिया",
+          "ru": "Алжир"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 1,
+      "period2": 1,
+      "normaltime": 2
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1783051503
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1783054579
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": false,
+    "id": 12813019,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "switzerland-algeria",
+    "currentPeriodStartTimestamp": 1783051503,
+    "startTimestamp": 1783047600,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "C1",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "cupMatchesInRound": 1,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

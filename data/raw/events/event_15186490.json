@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 1,
+  "venue": {
+    "city": {
+      "name": "Guadalajara",
+      "country": {
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "name": "Mexico",
+        "slug": "mexico"
+      },
+      "id": 19118
+    },
+    "venueCoordinates": {
+      "latitude": 20.681926942282,
+      "longitude": -103.4624309271
+    },
+    "hidden": false,
+    "slug": "estadio-akron",
+    "name": "Estadio Akron",
+    "capacity": 46355,
+    "country": {
+      "alpha2": "MX",
+      "alpha3": "MEX",
+      "name": "Mexico",
+      "slug": "mexico"
+    },
+    "id": 2401,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "एस्टेडियो अक्रोन",
+        "bn": "এস্টাডিও আকরন",
+        "ar": "ملعب أكرون",
+        "ru": "Стадион Akron"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Estadio Akron",
+      "capacity": 46355
+    }
+  },
   "homeTeam": {
     "name": "Mexico",
     "slug": "mexico",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 507072,
+    "userCount": 511262,
     "nameCode": "MEX",
     "ranking": 14,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 158098,
+    "userCount": 158088,
     "nameCode": "KOR",
     "ranking": 25,
     "disabled": false,

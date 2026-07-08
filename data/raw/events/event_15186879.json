@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 2,
+  "venue": {
+    "city": {
+      "name": "Santa Clara",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 20692
+    },
+    "venueCoordinates": {
+      "latitude": 37.403158,
+      "longitude": -121.969831
+    },
+    "hidden": false,
+    "slug": "levi-s-stadium",
+    "name": "Levi's Stadium",
+    "capacity": 68500,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 15872,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "लेवी स्टेडियम",
+        "bn": "লেভিস স্টেডিয়াম",
+        "ar": "ملعب ليفاي",
+        "ru": "Стадион Levi's"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Levi's Stadium",
+      "capacity": 68500
+    }
+  },
   "homeTeam": {
     "name": "Türkiye",
     "slug": "turkey",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 509463,
+    "userCount": 509799,
     "nameCode": "TUR",
     "ranking": 22,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 191643,
+    "userCount": 193481,
     "nameCode": "PAR",
     "ranking": 41,
     "disabled": false,

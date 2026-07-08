@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 2,
+  "venue": {
+    "city": {
+      "name": "Vancouver",
+      "country": {
+        "alpha2": "CA",
+        "alpha3": "CAN",
+        "name": "Canada",
+        "slug": "canada"
+      },
+      "id": 19103
+    },
+    "venueCoordinates": {
+      "latitude": 49.276691,
+      "longitude": -123.112006
+    },
+    "hidden": false,
+    "slug": "bc-place",
+    "name": "BC Place",
+    "capacity": 54500,
+    "country": {
+      "alpha2": "CA",
+      "alpha3": "CAN",
+      "name": "Canada",
+      "slug": "canada"
+    },
+    "id": 2293,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "बीसी प्लेस",
+        "bn": "বিসি প্লেস",
+        "ar": "ملعب بي سي بليس",
+        "ru": "Спортивный комплекс BC Place"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "BC Place",
+      "capacity": 54500
+    }
+  },
   "homeTeam": {
     "name": "New Zealand",
     "slug": "new-zealand",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 52052,
+    "userCount": 52049,
     "nameCode": "NZL",
     "ranking": 85,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 784329,
+    "userCount": 792355,
     "nameCode": "EGY",
     "ranking": 29,
     "disabled": false,

@@ -1,0 +1,729 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Knockout",
+      "slug": "world-cup-knockout-stage",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1936369,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 805,
+      "isGroup": false,
+      "competitionType": 2,
+      "isLive": false,
+      "id": 3948,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بطولة العالم - مرحلة الإقصاء",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
+          "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज",
+          "hr": "FIFA Svjetsko prvenstvo, Eliminacije",
+          "az": "FİFA Dünya Kuboku, Pley-off",
+          "nl": "Wereldkampioenschap, Knock-outfase",
+          "fr": "Coupe du monde, Élimination directe",
+          "de": "Weltmeisterschaft, K.-o.-Phase",
+          "el": "Παγκόσμιο Κύπελλο, Νοκ άουτ φάση",
+          "hu": "Világbajnokság, Egyenes kieséses szakasz",
+          "pt-pt": "Mundial, A eliminar",
+          "tr": "FIFA Dünya Kupası, Eleme aşaması",
+          "vi": "Giải Vô Địch Thế Giới, Vòng loại trực tiếp",
+          "id": "Piala Dunia FIFA, Fase gugur",
+          "it": "Coppa del Mondo, Eliminazione diretta",
+          "ja": "FIFAワールドカップ, 決勝トーナメント",
+          "ko": "FIFA 월드컵, 토너먼트",
+          "no": "Verdensmesterskapet, Sluttspill",
+          "pl": "Mistrzostwa Świata, Faza pucharowa",
+          "pt": "Copa do Mundo FIFA, Fase eliminatória",
+          "ro": "Campionatul Mondial, Faza eliminatorie",
+          "es": "Copa Mundial, Eliminatorias",
+          "es-la": "Copa Mundial, Eliminatorias",
+          "sv": "Världsmästerskapet, Slutspel",
+          "th": "ฟุตบอลโลก, รอบแพ้คัดออก",
+          "ru": "Чемпионат мира, Плей-офф",
+          "sr": "Светско првенство, Елиминациона фаза"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 5,
+      "name": "Round of 16",
+      "slug": "round-of-16",
+      "cupRoundType": 8
+    },
+    "customId": "rUbszUb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "venue": {
+      "city": {
+        "name": "Seattle",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 19419
+      },
+      "venueCoordinates": {
+        "latitude": 47.595346,
+        "longitude": -122.331644
+      },
+      "hidden": false,
+      "slug": "lumen-field",
+      "name": "Lumen Field",
+      "capacity": 68740,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 2291,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "लुमेन फील्ड",
+          "bn": "লুমেন ফিল্ড",
+          "ar": "لومن فيلد",
+          "ru": "Стадион Lumen Field"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "Lumen Field",
+        "capacity": 68740
+      }
+    },
+    "referee": {
+      "name": "Adham Mohammad",
+      "slug": "adham-mohammad",
+      "yellowCards": 368,
+      "redCards": 7,
+      "yellowRedCards": 6,
+      "games": 102,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "JO",
+        "alpha3": "JOR",
+        "name": "Jordan",
+        "slug": "jordan"
+      },
+      "id": 785206,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أدهم مخادمة",
+          "bn": "আদম মোহাম্মদ",
+          "hi": "अधम मोहम्मद",
+          "ru": "Адхам Махадмех"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "USA",
+      "slug": "usa",
+      "shortName": "USA",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 259707,
+      "manager": {
+        "name": "Mauricio Pochettino",
+        "slug": "mauricio-pochettino",
+        "shortName": "M. Pochettino",
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
+        "id": 3377,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماوريسيو بوتشيتينو",
+            "bn": "মরিসিও পোচেত্তিনো",
+            "hi": "मौरिसियो पोचेतीनो",
+            "ru": "Маурисио Почеттино"
+          },
+          "shortNameTranslation": {
+            "ar": "م. بوتشيتينو",
+            "bn": "এম. পোচেত্তিনো",
+            "hi": "एम. पोचेतीनो",
+            "ru": "М. Почеттино"
+          }
+        }
+      },
+      "nameCode": "USA",
+      "ranking": 17,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 4724,
+      "fullName": "USA",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ffffff",
+        "secondary": "#ff0000",
+        "text": "#ff0000"
+      },
+      "foundationDateTimestamp": -1790640000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "الولايات المتحدة",
+          "bn": "ইউএসএ",
+          "hi": "यूएसए",
+          "ru": "США"
+        },
+        "shortNameTranslation": {
+          "ar": "الولايات المتحدة"
+        }
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Belgium",
+      "slug": "belgium",
+      "shortName": "Belgium",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 575975,
+      "manager": {
+        "name": "Rudi Garcia",
+        "slug": "rudi-garcia",
+        "shortName": "R. Garcia",
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 53059,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودي غارسيا",
+            "ru": "Руди Гарсия"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. غارسيا",
+            "ru": "Р. Гарсия"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Brussels",
+          "country": {
+            "alpha2": "BE",
+            "alpha3": "BEL",
+            "name": "Belgium",
+            "slug": "belgium"
+          },
+          "id": 17987
+        },
+        "venueCoordinates": {
+          "latitude": 50.895722,
+          "longitude": 4.334128
+        },
+        "hidden": true,
+        "slug": "stade-roi-baudouin",
+        "name": "Stade Roi Baudouin",
+        "capacity": 50000,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 25091,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب روي بودوان",
+            "hi": "स्टेड रोई बौडौइन",
+            "bn": "স্টেড রোই বাউদৌইন",
+            "ru": "Стадион Roi Baudouin"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stade Roi Baudouin",
+          "capacity": 50000
+        }
+      },
+      "nameCode": "BEL",
+      "ranking": 9,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "BE",
+        "alpha3": "BEL",
+        "name": "Belgium",
+        "slug": "belgium"
+      },
+      "id": 4717,
+      "fullName": "Belgium",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0033",
+        "secondary": "#000000",
+        "text": "#000000"
+      },
+      "foundationDateTimestamp": -2345760000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بلجيكا",
+          "bn": "বেলজিয়াম",
+          "hi": "बेल्जियम",
+          "ru": "Бельгия"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 1,
+      "period2": 0,
+      "normaltime": 1
+    },
+    "awayScore": {
+      "current": 4,
+      "display": 4,
+      "period1": 2,
+      "period2": 2,
+      "normaltime": 4
+    },
+    "time": {
+      "injuryTime1": 6,
+      "injuryTime2": 4,
+      "currentPeriodStartTimestamp": 1783386540
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1783389563
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": false,
+    "correctHalftimeAiInsight": true,
+    "id": 12813002,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "usa-belgium",
+    "currentPeriodStartTimestamp": 1783386540,
+    "startTimestamp": 1783382400,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "C1",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "cupMatchesInRound": 1,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

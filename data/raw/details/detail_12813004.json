@@ -1,0 +1,728 @@
+{
+  "event": {
+    "eventState": {},
+    "tournament": {
+      "name": "World Championship, Knockout",
+      "slug": "world-cup-knockout-stage",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "uniqueTournament": {
+        "name": "World Championship",
+        "slug": "world-championship",
+        "primaryColorHex": "#d20a11",
+        "secondaryColorHex": "#e8bb57",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "country": {},
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "userCount": 1936369,
+        "hasRounds": true,
+        "hasPerformanceGraphFeature": false,
+        "country": {},
+        "id": 16,
+        "hasEventPlayerStatistics": true,
+        "displayInverseHomeAwayTeams": false,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "pt-pt": "Mundial",
+            "ar": "كأس العالم",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+            "hi": "वर्ल्ड चैंपियनशिप",
+            "hr": "FIFA Svjetsko prvenstvo",
+            "az": "FİFA Dünya Kuboku",
+            "nl": "Wereldkampioenschap",
+            "fr": "Coupe du monde",
+            "de": "Weltmeisterschaft",
+            "el": "Παγκόσμιο Κύπελλο",
+            "hu": "FIFA Világbajnokság",
+            "id": "Piala Dunia FIFA",
+            "it": "Coppa del Mondo FIFA",
+            "ja": "FIFAワールドカップ",
+            "ko": "FIFA 월드컵",
+            "no": "Verdensmesterskapet",
+            "pl": "Mistrzostwa Świata",
+            "pt": "Copa do Mundo FIFA",
+            "ro": "Campionatul Mondial",
+            "es": "Copa Mundial",
+            "es-la": "Copa Mundial",
+            "sv": "Världsmästerskapet",
+            "th": "ฟุตบอลโลก",
+            "tr": "FIFA Dünya Kupası",
+            "vi": "Giải Vô Địch Thế Giới",
+            "ru": "Чемпионат мира",
+            "sr": "Светско првенство"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "priority": 805,
+      "isGroup": false,
+      "competitionType": 2,
+      "isLive": false,
+      "id": 3948,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بطولة العالم - مرحلة الإقصاء",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
+          "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज",
+          "hr": "FIFA Svjetsko prvenstvo, Eliminacije",
+          "az": "FİFA Dünya Kuboku, Pley-off",
+          "nl": "Wereldkampioenschap, Knock-outfase",
+          "fr": "Coupe du monde, Élimination directe",
+          "de": "Weltmeisterschaft, K.-o.-Phase",
+          "el": "Παγκόσμιο Κύπελλο, Νοκ άουτ φάση",
+          "hu": "Világbajnokság, Egyenes kieséses szakasz",
+          "pt-pt": "Mundial, A eliminar",
+          "tr": "FIFA Dünya Kupası, Eleme aşaması",
+          "vi": "Giải Vô Địch Thế Giới, Vòng loại trực tiếp",
+          "id": "Piala Dunia FIFA, Fase gugur",
+          "it": "Coppa del Mondo, Eliminazione diretta",
+          "ja": "FIFAワールドカップ, 決勝トーナメント",
+          "ko": "FIFA 월드컵, 토너먼트",
+          "no": "Verdensmesterskapet, Sluttspill",
+          "pl": "Mistrzostwa Świata, Faza pucharowa",
+          "pt": "Copa do Mundo FIFA, Fase eliminatória",
+          "ro": "Campionatul Mondial, Faza eliminatorie",
+          "es": "Copa Mundial, Eliminatorias",
+          "es-la": "Copa Mundial, Eliminatorias",
+          "sv": "Världsmästerskapet, Slutspel",
+          "th": "ฟุตบอลโลก, รอบแพ้คัดออก",
+          "ru": "Чемпионат мира, Плей-офф",
+          "sr": "Светско првенство, Елиминациона фаза"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "season": {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    "roundInfo": {
+      "round": 6,
+      "name": "Round of 32",
+      "slug": "round-of-32",
+      "cupRoundType": 16
+    },
+    "customId": "YTbstUb",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 1,
+    "attendance": 70492,
+    "venue": {
+      "city": {
+        "name": "Inglewood",
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 23988
+      },
+      "venueCoordinates": {
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "hidden": false,
+      "slug": "sofi-stadium",
+      "name": "SoFi Stadium",
+      "capacity": 70242,
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 29715,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "hi": "सोफी स्टेडियम",
+          "bn": "সোফি স্টেডিয়াম",
+          "ar": "ملعب صوفي",
+          "ru": "Стадион SoFi"
+        },
+        "shortNameTranslation": {}
+      },
+      "stadium": {
+        "name": "SoFi Stadium",
+        "capacity": 70242
+      }
+    },
+    "referee": {
+      "name": "Glenn Nyberg",
+      "slug": "nyberg-glenn",
+      "yellowCards": 1236,
+      "redCards": 20,
+      "yellowRedCards": 23,
+      "games": 376,
+      "sport": {
+        "id": 1,
+        "slug": "football",
+        "name": "Football"
+      },
+      "country": {
+        "alpha2": "SE",
+        "alpha3": "SWE",
+        "name": "Sweden",
+        "slug": "sweden"
+      },
+      "id": 96648,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "غلين نيبرج",
+          "bn": "গ্লেন নাইবার্গ",
+          "hi": "ग्लेन न्यबर्ग",
+          "ru": "Гленн Нюберг"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "homeTeam": {
+      "name": "Spain",
+      "slug": "spain",
+      "shortName": "Spain",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 2275585,
+      "manager": {
+        "name": "Luis De La Fuente",
+        "slug": "jose-luis-de-la-fuente",
+        "shortName": "L. D. L. Fuente",
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 331371,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس دي لا فوانتي",
+            "ru": "Луис де ла Фуэнте"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. د. ل. فوانتي",
+            "ru": "Л. де ла Фуэнте"
+          }
+        }
+      },
+      "nameCode": "ESP",
+      "ranking": 2,
+      "class": 4,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "name": "Spain",
+        "slug": "spain"
+      },
+      "id": 4698,
+      "fullName": "Spain",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#cc0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -1775347200,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "إسبانيا",
+          "bn": "স্পেন",
+          "hi": "स्पेन",
+          "ru": "Испания"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "awayTeam": {
+      "name": "Austria",
+      "slug": "austria",
+      "shortName": "Austria",
+      "gender": "M",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "userCount": 183286,
+      "manager": {
+        "name": "Ralf Rangnick",
+        "slug": "ralf-rangnick",
+        "shortName": "R. Rangnick",
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 785379,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رالف رانغنيك",
+            "bn": "রালফ রাংনিক",
+            "hi": "राल्फ रैंगनिक",
+            "ru": "Ральф Рангник"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. رانغنيك",
+            "bn": "আর. রাংনিক",
+            "hi": "आर. रैंगनिक",
+            "ru": "Р. Рангник"
+          }
+        }
+      },
+      "venue": {
+        "city": {
+          "name": "Vienna",
+          "country": {
+            "alpha2": "AT",
+            "alpha3": "AUT",
+            "name": "Austria",
+            "slug": "austria"
+          },
+          "id": 19089
+        },
+        "venueCoordinates": {
+          "latitude": 48.207189,
+          "longitude": 16.420917
+        },
+        "hidden": true,
+        "slug": "ernst-happel-stadion",
+        "name": "Ernst Happel Stadion",
+        "capacity": 50865,
+        "country": {
+          "alpha2": "AT",
+          "alpha3": "AUT",
+          "name": "Austria",
+          "slug": "austria"
+        },
+        "id": 977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب إرنست هابل",
+            "hi": "अर्न्स्ट हैपेल स्टेडियन",
+            "bn": "আর্নস্ট হ্যাপেল স্টেডিয়াম",
+            "ru": "Стадион Эрнст Хаппель"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Ernst Happel Stadion",
+          "capacity": 50865
+        }
+      },
+      "nameCode": "AUT",
+      "ranking": 24,
+      "class": 1,
+      "disabled": false,
+      "national": true,
+      "type": 0,
+      "country": {
+        "alpha2": "AT",
+        "alpha3": "AUT",
+        "name": "Austria",
+        "slug": "austria"
+      },
+      "id": 4718,
+      "fullName": "Austria",
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#ff0000",
+        "secondary": "#ffffff",
+        "text": "#ffffff"
+      },
+      "foundationDateTimestamp": -2076192000,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "النمسا",
+          "bn": "অস্ট্রিয়া",
+          "hi": "ऑस्ट्रिया",
+          "ru": "Австрия"
+        },
+        "shortNameTranslation": {}
+      },
+      "timeActive": []
+    },
+    "homeScore": {
+      "current": 3,
+      "display": 3,
+      "period1": 1,
+      "period2": 2,
+      "normaltime": 3
+    },
+    "awayScore": {
+      "current": 0,
+      "display": 0,
+      "period1": 0,
+      "period2": 0,
+      "normaltime": 0
+    },
+    "time": {
+      "injuryTime1": 4,
+      "injuryTime2": 6,
+      "currentPeriodStartTimestamp": 1783022826
+    },
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type"
+      ],
+      "changeTimestamp": 1783025898
+    },
+    "hasGlobalHighlights": true,
+    "hasXg": true,
+    "hasEventPlayerStatistics": true,
+    "hasEventPlayerHeatMap": true,
+    "detailId": 1,
+    "crowdsourcingDataDisplayEnabled": false,
+    "correctAiInsight": true,
+    "correctHalftimeAiInsight": true,
+    "id": 12813004,
+    "defaultPeriodCount": 2,
+    "defaultPeriodLength": 45,
+    "defaultOvertimeLength": 15,
+    "slug": "austria-spain",
+    "currentPeriodStartTimestamp": 1783022826,
+    "startTimestamp": 1783018800,
+    "finalResultOnly": false,
+    "hasBet365LiveStream": true,
+    "bet365ExcludedCountryCodes": [
+      "09",
+      "28",
+      "29",
+      "31",
+      "33",
+      "36",
+      "39",
+      "43",
+      "49",
+      "56",
+      "61",
+      "A1",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AI",
+      "AL",
+      "AM",
+      "AO",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AW",
+      "AX",
+      "AZ",
+      "BA",
+      "BB",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BH",
+      "BI",
+      "BJ",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BV",
+      "BW",
+      "BY",
+      "BZ",
+      "C1",
+      "CA",
+      "CC",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "CI",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CU",
+      "CV",
+      "CW",
+      "CX",
+      "CY",
+      "CZ",
+      "DE",
+      "DJ",
+      "DK",
+      "DM",
+      "DO",
+      "DZ",
+      "EC",
+      "EE",
+      "EG",
+      "EH",
+      "ER",
+      "ES",
+      "ET",
+      "FI",
+      "FJ",
+      "FK",
+      "FM",
+      "FO",
+      "FR",
+      "GA",
+      "GD",
+      "GE",
+      "GF",
+      "GG",
+      "GH",
+      "GI",
+      "GL",
+      "GM",
+      "GN",
+      "GP",
+      "GQ",
+      "GS",
+      "GT",
+      "GU",
+      "GW",
+      "GY",
+      "HK",
+      "HM",
+      "HN",
+      "HR",
+      "HT",
+      "HU",
+      "IA",
+      "ID",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "JE",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KG",
+      "KH",
+      "KI",
+      "KM",
+      "KN",
+      "KP",
+      "KR",
+      "KW",
+      "KY",
+      "KZ",
+      "LA",
+      "LB",
+      "LC",
+      "LI",
+      "LK",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LY",
+      "MA",
+      "MC",
+      "MD",
+      "ME",
+      "MF",
+      "MG",
+      "MH",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "MO",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MX",
+      "MY",
+      "MZ",
+      "NA",
+      "NC",
+      "NE",
+      "NF",
+      "NG",
+      "NI",
+      "NO",
+      "NP",
+      "NR",
+      "NU",
+      "NZ",
+      "OH",
+      "OM",
+      "ON",
+      "PA",
+      "PE",
+      "PF",
+      "PG",
+      "PH",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "PR",
+      "PS",
+      "PT",
+      "PW",
+      "PY",
+      "QA",
+      "RE",
+      "RO",
+      "RS",
+      "RU",
+      "RW",
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SR",
+      "ST",
+      "SV",
+      "SX",
+      "SY",
+      "SZ",
+      "TC",
+      "TD",
+      "TF",
+      "TG",
+      "TH",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "TO",
+      "TR",
+      "TT",
+      "TV",
+      "TW",
+      "TZ",
+      "UA",
+      "UG",
+      "UM",
+      "UY",
+      "UZ",
+      "VA",
+      "VC",
+      "VE",
+      "VG",
+      "VI",
+      "VN",
+      "VR",
+      "VU",
+      "WF",
+      "WS",
+      "XA",
+      "XB",
+      "XK",
+      "YE",
+      "YT",
+      "ZA",
+      "ZM",
+      "ZW",
+      "GR"
+    ],
+    "feedLocked": true,
+    "cupMatchesInRound": 1,
+    "seasonStatisticsType": "overall",
+    "showTotoPromo": true,
+    "isEditor": false,
+    "eventFilters": {
+      "category": [
+        "national"
+      ],
+      "level": [
+        "top-competitions",
+        "pro"
+      ],
+      "gender": [
+        "M"
+      ]
+    }
+  }
+}

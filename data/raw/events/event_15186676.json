@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -146,6 +146,46 @@
     "type": "finished"
   },
   "winnerCode": 2,
+  "venue": {
+    "city": {
+      "name": "East Rutherford",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 22040
+    },
+    "venueCoordinates": {
+      "latitude": 40.813524,
+      "longitude": -74.073401
+    },
+    "hidden": false,
+    "slug": "metlife-stadium",
+    "name": "MetLife Stadium",
+    "capacity": 82500,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 1981,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "ملعب ميتلايف",
+        "hi": "मेटलाइफ स्टेडियम",
+        "bn": "মেটলাইফ স্টেডিয়াম",
+        "ru": "Стадион MetLife"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "MetLife Stadium",
+      "capacity": 82500
+    }
+  },
   "homeTeam": {
     "name": "Panama",
     "slug": "panama",
@@ -156,7 +196,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 79254,
+    "userCount": 79243,
     "nameCode": "PAN",
     "ranking": 34,
     "disabled": false,
@@ -195,7 +235,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 1350515,
+    "userCount": 1359339,
     "nameCode": "ENG",
     "ranking": 4,
     "disabled": false,

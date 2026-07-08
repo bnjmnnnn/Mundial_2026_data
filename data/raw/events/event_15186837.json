@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 3,
+  "venue": {
+    "city": {
+      "name": "Seattle",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 19419
+    },
+    "venueCoordinates": {
+      "latitude": 47.595346,
+      "longitude": -122.331644
+    },
+    "hidden": false,
+    "slug": "lumen-field",
+    "name": "Lumen Field",
+    "capacity": 68740,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 2291,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "लुमेन फील्ड",
+        "bn": "লুমেন ফিল্ড",
+        "ar": "لومن فيلد",
+        "ru": "Стадион Lumen Field"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Lumen Field",
+      "capacity": 68740
+    }
+  },
   "homeTeam": {
     "name": "Belgium",
     "slug": "belgium",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 562761,
+    "userCount": 575975,
     "nameCode": "BEL",
     "ranking": 9,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 784329,
+    "userCount": 792355,
     "nameCode": "EGY",
     "ranking": 29,
     "disabled": false,

@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 2,
+  "venue": {
+    "city": {
+      "name": "Mexico City",
+      "country": {
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "name": "Mexico",
+        "slug": "mexico"
+      },
+      "id": 18178
+    },
+    "venueCoordinates": {
+      "latitude": 19.303042944598,
+      "longitude": -99.150484788014
+    },
+    "hidden": false,
+    "slug": "estadio-azteca",
+    "name": "Estadio Azteca",
+    "capacity": 87523,
+    "country": {
+      "alpha2": "MX",
+      "alpha3": "MEX",
+      "name": "Mexico",
+      "slug": "mexico"
+    },
+    "id": 1004,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "ملعب آزتيكا",
+        "hi": "एस्टेडियो एज़्टेका",
+        "bn": "এস্তাদিও আজটেকা",
+        "ru": "Стадион Estadio Azteca"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Estadio Azteca",
+      "capacity": 87523
+    }
+  },
   "homeTeam": {
     "name": "Czechia",
     "slug": "czech-republic",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 120676,
+    "userCount": 120642,
     "nameCode": "CZE",
     "ranking": 40,
     "disabled": false,
@@ -198,7 +238,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 507072,
+    "userCount": 511262,
     "nameCode": "MEX",
     "ranking": 14,
     "disabled": false,

@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 3,
+  "venue": {
+    "city": {
+      "name": "Houston",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 19641
+    },
+    "venueCoordinates": {
+      "latitude": 29.684858,
+      "longitude": -95.410802
+    },
+    "hidden": false,
+    "slug": "nrg-stadium",
+    "name": "NRG Stadium",
+    "capacity": 72220,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 2402,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "एनआरजी स्टेडियम",
+        "bn": "এনআরজি স্টেডিয়াম",
+        "ar": "ملعب إن آر جي",
+        "ru": "Стадион NRG"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "NRG Stadium",
+      "capacity": 72220
+    }
+  },
   "homeTeam": {
     "name": "Cabo Verde",
     "slug": "cape-verde",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 184780,
+    "userCount": 187522,
     "nameCode": "CPV",
     "ranking": 67,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 210287,
+    "userCount": 210461,
     "nameCode": "KSA",
     "ranking": 61,
     "disabled": false,

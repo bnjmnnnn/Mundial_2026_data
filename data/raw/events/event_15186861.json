@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 2,
+  "venue": {
+    "city": {
+      "name": "Miami Gardens",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 28595
+    },
+    "venueCoordinates": {
+      "latitude": 25.958036613568,
+      "longitude": -80.237924235533
+    },
+    "hidden": false,
+    "slug": "hard-rock-stadium",
+    "name": "Hard Rock Stadium",
+    "capacity": 65326,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 17423,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "हार्ड रॉक स्टेडियम",
+        "bn": "হার্ড রক স্টেডিয়াম",
+        "ar": "ملعب هارد روك",
+        "ru": "Стадион Hard Rock"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Hard Rock Stadium",
+      "capacity": 65326
+    }
+  },
   "homeTeam": {
     "name": "Scotland",
     "slug": "scotland",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 171098,
+    "userCount": 171015,
     "nameCode": "SCO",
     "ranking": 42,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 3301872,
+    "userCount": 3309624,
     "nameCode": "BRA",
     "ranking": 6,
     "disabled": false,

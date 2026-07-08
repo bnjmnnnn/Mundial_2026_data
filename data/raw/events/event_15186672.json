@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -146,6 +146,46 @@
     "type": "finished"
   },
   "winnerCode": 3,
+  "venue": {
+    "city": {
+      "name": "Foxborough",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 28594
+    },
+    "venueCoordinates": {
+      "latitude": 42.091253,
+      "longitude": -71.264465
+    },
+    "hidden": false,
+    "slug": "gillette-stadium",
+    "name": "Gillette Stadium",
+    "capacity": 66829,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 2379,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "जिलेट स्टेडियम",
+        "bn": "জিলেট স্টেডিয়াম",
+        "ar": "ملعب جيليت",
+        "ru": "Стадион Gillette"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Gillette Stadium",
+      "capacity": 66829
+    }
+  },
   "homeTeam": {
     "name": "England",
     "slug": "england",
@@ -156,7 +196,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 1350515,
+    "userCount": 1359339,
     "nameCode": "ENG",
     "ranking": 4,
     "disabled": false,
@@ -195,7 +235,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 330457,
+    "userCount": 330726,
     "nameCode": "GHA",
     "ranking": 73,
     "disabled": false,

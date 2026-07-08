@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 2,
+  "venue": {
+    "city": {
+      "name": "Foxborough",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 28594
+    },
+    "venueCoordinates": {
+      "latitude": 42.091253,
+      "longitude": -71.264465
+    },
+    "hidden": false,
+    "slug": "gillette-stadium",
+    "name": "Gillette Stadium",
+    "capacity": 66829,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 2379,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "जिलेट स्टेडियम",
+        "bn": "জিলেট স্টেডিয়াম",
+        "ar": "ملعب جيليت",
+        "ru": "Стадион Gillette"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Gillette Stadium",
+      "capacity": 66829
+    }
+  },
   "homeTeam": {
     "name": "Haiti",
     "slug": "haiti",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 354305,
+    "userCount": 354731,
     "nameCode": "HAI",
     "ranking": 83,
     "disabled": false,
@@ -198,7 +238,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 171098,
+    "userCount": 171015,
     "nameCode": "SCO",
     "ranking": 42,
     "disabled": false,

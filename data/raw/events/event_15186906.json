@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 3,
+  "venue": {
+    "city": {
+      "name": "Kansas City",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 20923
+    },
+    "venueCoordinates": {
+      "latitude": 39.048941,
+      "longitude": -94.484994
+    },
+    "hidden": false,
+    "slug": "arrowhead-stadium",
+    "name": "Arrowhead Stadium",
+    "capacity": 76416,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 8189,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "एरोहेड स्टेडियम",
+        "bn": "অ্যারোহেড স্টেডিয়াম",
+        "ar": "ملعب أروهيد",
+        "ru": "Стадион Arrowhead"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Arrowhead Stadium",
+      "capacity": 76416
+    }
+  },
   "homeTeam": {
     "name": "Ecuador",
     "slug": "ecuador",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 254995,
+    "userCount": 255360,
     "nameCode": "ECU",
     "ranking": 23,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 59217,
+    "userCount": 59173,
     "nameCode": "CUR",
     "ranking": 82,
     "disabled": false,

@@ -1,0 +1,323 @@
+{
+  "eventState": {},
+  "tournament": {
+    "name": "World Championship, Knockout",
+    "slug": "world-cup-knockout-stage",
+    "category": {
+      "name": "World",
+      "slug": "world",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "priority": 20,
+      "country": {},
+      "id": 1468,
+      "flag": "international",
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "العالم",
+          "hi": "विश्व",
+          "bn": "বিশ্ব",
+          "ru": "Мир"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "uniqueTournament": {
+      "name": "World Championship",
+      "slug": "world-championship",
+      "primaryColorHex": "#d20a11",
+      "secondaryColorHex": "#e8bb57",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "userCount": 1936369,
+      "hasPerformanceGraphFeature": false,
+      "country": {},
+      "id": 16,
+      "hasEventPlayerStatistics": true,
+      "displayInverseHomeAwayTeams": false,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "pt-pt": "Mundial",
+          "ar": "كأس العالم",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+          "hi": "वर्ल्ड चैंपियनशिप",
+          "hr": "FIFA Svjetsko prvenstvo",
+          "az": "FİFA Dünya Kuboku",
+          "nl": "Wereldkampioenschap",
+          "fr": "Coupe du monde",
+          "de": "Weltmeisterschaft",
+          "el": "Παγκόσμιο Κύπελλο",
+          "hu": "FIFA Világbajnokság",
+          "id": "Piala Dunia FIFA",
+          "it": "Coppa del Mondo FIFA",
+          "ja": "FIFAワールドカップ",
+          "ko": "FIFA 월드컵",
+          "no": "Verdensmesterskapet",
+          "pl": "Mistrzostwa Świata",
+          "pt": "Copa do Mundo FIFA",
+          "ro": "Campionatul Mondial",
+          "es": "Copa Mundial",
+          "es-la": "Copa Mundial",
+          "sv": "Världsmästerskapet",
+          "th": "ฟุตบอลโลก",
+          "tr": "FIFA Dünya Kupası",
+          "vi": "Giải Vô Địch Thế Giới",
+          "ru": "Чемпионат мира",
+          "sr": "Светско првенство"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "priority": 805,
+    "isGroup": false,
+    "isLive": false,
+    "id": 3948,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "بطولة العالم - مرحلة الإقصاء",
+        "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
+        "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज",
+        "hr": "FIFA Svjetsko prvenstvo, Eliminacije",
+        "az": "FİFA Dünya Kuboku, Pley-off",
+        "nl": "Wereldkampioenschap, Knock-outfase",
+        "fr": "Coupe du monde, Élimination directe",
+        "de": "Weltmeisterschaft, K.-o.-Phase",
+        "el": "Παγκόσμιο Κύπελλο, Νοκ άουτ φάση",
+        "hu": "Világbajnokság, Egyenes kieséses szakasz",
+        "pt-pt": "Mundial, A eliminar",
+        "tr": "FIFA Dünya Kupası, Eleme aşaması",
+        "vi": "Giải Vô Địch Thế Giới, Vòng loại trực tiếp",
+        "id": "Piala Dunia FIFA, Fase gugur",
+        "it": "Coppa del Mondo, Eliminazione diretta",
+        "ja": "FIFAワールドカップ, 決勝トーナメント",
+        "ko": "FIFA 월드컵, 토너먼트",
+        "no": "Verdensmesterskapet, Sluttspill",
+        "pl": "Mistrzostwa Świata, Faza pucharowa",
+        "pt": "Copa do Mundo FIFA, Fase eliminatória",
+        "ro": "Campionatul Mondial, Faza eliminatorie",
+        "es": "Copa Mundial, Eliminatorias",
+        "es-la": "Copa Mundial, Eliminatorias",
+        "sv": "Världsmästerskapet, Slutspel",
+        "th": "ฟุตบอลโลก, รอบแพ้คัดออก",
+        "ru": "Чемпионат мира, Плей-офф",
+        "sr": "Светско првенство, Елиминациона фаза"
+      },
+      "shortNameTranslation": {}
+    }
+  },
+  "season": {
+    "name": "World Cup 2026",
+    "year": "2026",
+    "editor": false,
+    "seasonCoverageInfo": {},
+    "id": 58210
+  },
+  "roundInfo": {
+    "round": 6,
+    "name": "Round of 32",
+    "slug": "round-of-32",
+    "cupRoundType": 16
+  },
+  "customId": "GObsNTb",
+  "status": {
+    "code": 100,
+    "description": "Ended",
+    "type": "finished"
+  },
+  "winnerCode": 1,
+  "venue": {
+    "city": {
+      "name": "East Rutherford",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 22040
+    },
+    "venueCoordinates": {
+      "latitude": 40.813524,
+      "longitude": -74.073401
+    },
+    "hidden": false,
+    "slug": "metlife-stadium",
+    "name": "MetLife Stadium",
+    "capacity": 82500,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 1981,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "ملعب ميتلايف",
+        "hi": "मेटलाइफ स्टेडियम",
+        "bn": "মেটলাইফ স্টেডিয়াম",
+        "ru": "Стадион MetLife"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "MetLife Stadium",
+      "capacity": 82500
+    }
+  },
+  "homeTeam": {
+    "name": "France",
+    "slug": "france",
+    "shortName": "France",
+    "gender": "M",
+    "sport": {
+      "name": "Football",
+      "slug": "football",
+      "id": 1
+    },
+    "userCount": 1778336,
+    "nameCode": "FRA",
+    "ranking": 3,
+    "disabled": false,
+    "national": true,
+    "type": 0,
+    "country": {
+      "alpha2": "FR",
+      "alpha3": "FRA",
+      "name": "France",
+      "slug": "france"
+    },
+    "id": 4481,
+    "subTeams": [],
+    "teamColors": {
+      "primary": "#01509e",
+      "secondary": "#e30613",
+      "text": "#e30613"
+    },
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "فرنسا",
+        "bn": "ফ্রান্স",
+        "hi": "फ्रांस",
+        "ru": "Франция"
+      },
+      "shortNameTranslation": {}
+    }
+  },
+  "awayTeam": {
+    "name": "Sweden",
+    "slug": "sweden",
+    "shortName": "Sweden",
+    "gender": "M",
+    "sport": {
+      "name": "Football",
+      "slug": "football",
+      "id": 1
+    },
+    "userCount": 187846,
+    "nameCode": "SWE",
+    "ranking": 38,
+    "disabled": false,
+    "national": true,
+    "type": 0,
+    "country": {
+      "alpha2": "SE",
+      "alpha3": "SWE",
+      "name": "Sweden",
+      "slug": "sweden"
+    },
+    "id": 4688,
+    "subTeams": [],
+    "teamColors": {
+      "primary": "#ffcc00",
+      "secondary": "#0000ff",
+      "text": "#0000ff"
+    },
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "السويد",
+        "bn": "সুইডেন",
+        "hi": "स्वीडन",
+        "ru": "Швеция"
+      },
+      "shortNameTranslation": {}
+    }
+  },
+  "homeScore": {
+    "current": 3,
+    "display": 3,
+    "period1": 1,
+    "period2": 2,
+    "normaltime": 3
+  },
+  "awayScore": {
+    "current": 0,
+    "display": 0,
+    "period1": 0,
+    "period2": 0,
+    "normaltime": 0
+  },
+  "time": {
+    "injuryTime1": 3,
+    "injuryTime2": 4,
+    "currentPeriodStartTimestamp": 1782857053
+  },
+  "changes": {
+    "changes": [
+      "status.code",
+      "status.description",
+      "status.type"
+    ],
+    "changeTimestamp": 1782860016
+  },
+  "hasGlobalHighlights": true,
+  "hasXg": true,
+  "hasEventPlayerStatistics": true,
+  "hasEventPlayerHeatMap": true,
+  "detailId": 1,
+  "crowdsourcingDataDisplayEnabled": false,
+  "correctAiInsight": true,
+  "correctHalftimeAiInsight": true,
+  "id": 12812995,
+  "slug": "sweden-france",
+  "startTimestamp": 1782853200,
+  "finalResultOnly": false,
+  "feedLocked": true,
+  "cupMatchesInRound": 1,
+  "isEditor": false,
+  "eventFilters": {
+    "category": [
+      "national"
+    ],
+    "level": [
+      "top-competitions",
+      "pro"
+    ],
+    "gender": [
+      "M"
+    ]
+  }
+}

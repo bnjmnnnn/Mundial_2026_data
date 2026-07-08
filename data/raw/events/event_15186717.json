@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -146,6 +146,46 @@
     "type": "finished"
   },
   "winnerCode": 1,
+  "venue": {
+    "city": {
+      "name": "Atlanta",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 20550
+    },
+    "venueCoordinates": {
+      "latitude": 33.755412,
+      "longitude": -84.400849
+    },
+    "hidden": false,
+    "slug": "mercedes-benz-stadium",
+    "name": "Mercedes-Benz Stadium",
+    "capacity": 71000,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 18344,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "ملعب مرسيدس بنز",
+        "hi": "मर्सिडीज-बेंज स्टेडियम",
+        "bn": "মার্সিডিজ-বেঞ্জ স্টেডিয়াম",
+        "ru": "Стадион Mercedes-Benz"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Mercedes-Benz Stadium",
+      "capacity": 71000
+    }
+  },
   "homeTeam": {
     "name": "DR Congo",
     "slug": "dr-congo",
@@ -156,7 +196,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 432482,
+    "userCount": 433480,
     "nameCode": "DCO",
     "ranking": 46,
     "disabled": false,
@@ -198,7 +238,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 193491,
+    "userCount": 193895,
     "nameCode": "UZB",
     "ranking": 50,
     "disabled": false,

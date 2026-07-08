@@ -1,0 +1,335 @@
+{
+  "eventState": {},
+  "tournament": {
+    "name": "World Championship, Knockout",
+    "slug": "world-cup-knockout-stage",
+    "category": {
+      "name": "World",
+      "slug": "world",
+      "sport": {
+        "name": "Football",
+        "slug": "football",
+        "id": 1
+      },
+      "priority": 20,
+      "country": {},
+      "id": 1468,
+      "flag": "international",
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "العالم",
+          "hi": "विश्व",
+          "bn": "বিশ্ব",
+          "ru": "Мир"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "uniqueTournament": {
+      "name": "World Championship",
+      "slug": "world-championship",
+      "primaryColorHex": "#d20a11",
+      "secondaryColorHex": "#e8bb57",
+      "category": {
+        "name": "World",
+        "slug": "world",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "priority": 20,
+        "country": {},
+        "id": 1468,
+        "flag": "international",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "العالم",
+            "hi": "विश्व",
+            "bn": "বিশ্ব",
+            "ru": "Мир"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "userCount": 1936369,
+      "hasPerformanceGraphFeature": false,
+      "country": {},
+      "id": 16,
+      "hasEventPlayerStatistics": true,
+      "displayInverseHomeAwayTeams": false,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "pt-pt": "Mundial",
+          "ar": "كأس العالم",
+          "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+          "hi": "वर्ल्ड चैंपियनशिप",
+          "hr": "FIFA Svjetsko prvenstvo",
+          "az": "FİFA Dünya Kuboku",
+          "nl": "Wereldkampioenschap",
+          "fr": "Coupe du monde",
+          "de": "Weltmeisterschaft",
+          "el": "Παγκόσμιο Κύπελλο",
+          "hu": "FIFA Világbajnokság",
+          "id": "Piala Dunia FIFA",
+          "it": "Coppa del Mondo FIFA",
+          "ja": "FIFAワールドカップ",
+          "ko": "FIFA 월드컵",
+          "no": "Verdensmesterskapet",
+          "pl": "Mistrzostwa Świata",
+          "pt": "Copa do Mundo FIFA",
+          "ro": "Campionatul Mondial",
+          "es": "Copa Mundial",
+          "es-la": "Copa Mundial",
+          "sv": "Världsmästerskapet",
+          "th": "ฟุตบอลโลก",
+          "tr": "FIFA Dünya Kupası",
+          "vi": "Giải Vô Địch Thế Giới",
+          "ru": "Чемпионат мира",
+          "sr": "Светско првенство"
+        },
+        "shortNameTranslation": {}
+      }
+    },
+    "priority": 805,
+    "isGroup": false,
+    "isLive": false,
+    "id": 3948,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "بطولة العالم - مرحلة الإقصاء",
+        "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
+        "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज",
+        "hr": "FIFA Svjetsko prvenstvo, Eliminacije",
+        "az": "FİFA Dünya Kuboku, Pley-off",
+        "nl": "Wereldkampioenschap, Knock-outfase",
+        "fr": "Coupe du monde, Élimination directe",
+        "de": "Weltmeisterschaft, K.-o.-Phase",
+        "el": "Παγκόσμιο Κύπελλο, Νοκ άουτ φάση",
+        "hu": "Világbajnokság, Egyenes kieséses szakasz",
+        "pt-pt": "Mundial, A eliminar",
+        "tr": "FIFA Dünya Kupası, Eleme aşaması",
+        "vi": "Giải Vô Địch Thế Giới, Vòng loại trực tiếp",
+        "id": "Piala Dunia FIFA, Fase gugur",
+        "it": "Coppa del Mondo, Eliminazione diretta",
+        "ja": "FIFAワールドカップ, 決勝トーナメント",
+        "ko": "FIFA 월드컵, 토너먼트",
+        "no": "Verdensmesterskapet, Sluttspill",
+        "pl": "Mistrzostwa Świata, Faza pucharowa",
+        "pt": "Copa do Mundo FIFA, Fase eliminatória",
+        "ro": "Campionatul Mondial, Faza eliminatorie",
+        "es": "Copa Mundial, Eliminatorias",
+        "es-la": "Copa Mundial, Eliminatorias",
+        "sv": "Världsmästerskapet, Slutspel",
+        "th": "ฟุตบอลโลก, รอบแพ้คัดออก",
+        "ru": "Чемпионат мира, Плей-офф",
+        "sr": "Светско првенство, Елиминациона фаза"
+      },
+      "shortNameTranslation": {}
+    }
+  },
+  "season": {
+    "name": "World Cup 2026",
+    "year": "2026",
+    "editor": false,
+    "seasonCoverageInfo": {},
+    "id": 58210
+  },
+  "roundInfo": {
+    "round": 6,
+    "name": "Round of 32",
+    "slug": "round-of-32",
+    "cupRoundType": 16
+  },
+  "customId": "lUbsOVb",
+  "status": {
+    "code": 120,
+    "description": "AP",
+    "type": "finished"
+  },
+  "winnerCode": 2,
+  "venue": {
+    "city": {
+      "name": "Foxborough",
+      "country": {
+        "alpha2": "US",
+        "alpha3": "USA",
+        "name": "USA",
+        "slug": "usa"
+      },
+      "id": 28594
+    },
+    "venueCoordinates": {
+      "latitude": 42.091253,
+      "longitude": -71.264465
+    },
+    "hidden": false,
+    "slug": "gillette-stadium",
+    "name": "Gillette Stadium",
+    "capacity": 66829,
+    "country": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "name": "USA",
+      "slug": "usa"
+    },
+    "id": 2379,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "जिलेट स्टेडियम",
+        "bn": "জিলেট স্টেডিয়াম",
+        "ar": "ملعب جيليت",
+        "ru": "Стадион Gillette"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Gillette Stadium",
+      "capacity": 66829
+    }
+  },
+  "homeTeam": {
+    "name": "Germany",
+    "slug": "germany",
+    "shortName": "Germany",
+    "gender": "M",
+    "sport": {
+      "name": "Football",
+      "slug": "football",
+      "id": 1
+    },
+    "userCount": 1090575,
+    "nameCode": "GER",
+    "ranking": 10,
+    "disabled": false,
+    "national": true,
+    "type": 0,
+    "country": {
+      "alpha2": "DE",
+      "alpha3": "DEU",
+      "name": "Germany",
+      "slug": "germany"
+    },
+    "id": 4711,
+    "subTeams": [],
+    "teamColors": {
+      "primary": "#ffffff",
+      "secondary": "#000000",
+      "text": "#000000"
+    },
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "ألمانيا",
+        "bn": "জার্মানি",
+        "hi": "जर्मनी",
+        "ru": "Германия"
+      },
+      "shortNameTranslation": {}
+    }
+  },
+  "awayTeam": {
+    "name": "Paraguay",
+    "slug": "paraguay",
+    "shortName": "Paraguay",
+    "gender": "M",
+    "sport": {
+      "name": "Football",
+      "slug": "football",
+      "id": 1
+    },
+    "userCount": 193481,
+    "nameCode": "PAR",
+    "ranking": 41,
+    "disabled": false,
+    "national": true,
+    "type": 0,
+    "country": {
+      "alpha2": "PY",
+      "alpha3": "PRY",
+      "name": "Paraguay",
+      "slug": "paraguay"
+    },
+    "id": 4789,
+    "subTeams": [],
+    "teamColors": {
+      "primary": "#ff0000",
+      "secondary": "#045ca3",
+      "text": "#045ca3"
+    },
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "باراغواي",
+        "bn": "প্যারাগুয়ে",
+        "hi": "पराग्वे",
+        "ru": "Парагвай"
+      },
+      "shortNameTranslation": {
+        "ar": "باراغواي"
+      }
+    }
+  },
+  "homeScore": {
+    "current": 4,
+    "display": 1,
+    "period1": 0,
+    "period2": 1,
+    "normaltime": 1,
+    "extra1": 0,
+    "extra2": 0,
+    "overtime": 0,
+    "penalties": 3
+  },
+  "awayScore": {
+    "current": 5,
+    "display": 1,
+    "period1": 1,
+    "period2": 0,
+    "normaltime": 1,
+    "extra1": 0,
+    "extra2": 0,
+    "overtime": 0,
+    "penalties": 4
+  },
+  "time": {
+    "injuryTime1": 5,
+    "injuryTime2": 5,
+    "injuryTime3": 4,
+    "injuryTime4": 2,
+    "currentPeriodStartTimestamp": 1782773720
+  },
+  "changes": {
+    "changes": [
+      "status.code",
+      "status.description",
+      "status.type"
+    ],
+    "changeTimestamp": 1782775741
+  },
+  "hasGlobalHighlights": true,
+  "hasXg": true,
+  "hasEventPlayerStatistics": true,
+  "hasEventPlayerHeatMap": true,
+  "detailId": 1,
+  "crowdsourcingDataDisplayEnabled": false,
+  "correctAiInsight": false,
+  "correctHalftimeAiInsight": true,
+  "id": 12813014,
+  "slug": "paraguay-germany",
+  "startTimestamp": 1782765000,
+  "finalResultOnly": false,
+  "feedLocked": true,
+  "cupMatchesInRound": 1,
+  "isEditor": false,
+  "eventFilters": {
+    "category": [
+      "national"
+    ],
+    "level": [
+      "top-competitions",
+      "pro"
+    ],
+    "gender": [
+      "M"
+    ]
+  }
+}

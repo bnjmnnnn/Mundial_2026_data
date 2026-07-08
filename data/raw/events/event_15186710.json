@@ -1,7 +1,7 @@
 {
   "eventState": {},
   "tournament": {
-    "name": "World Championship, Group A",
+    "name": "FIFA World Cup, Group A",
     "slug": "world-championship-gr-a",
     "category": {
       "name": "World",
@@ -26,7 +26,7 @@
       }
     },
     "uniqueTournament": {
-      "name": "World Championship",
+      "name": "FIFA World Cup",
       "slug": "world-championship",
       "primaryColorHex": "#d20a11",
       "secondaryColorHex": "#e8bb57",
@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1954140,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 1,
+  "venue": {
+    "city": {
+      "name": "Mexico City",
+      "country": {
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "name": "Mexico",
+        "slug": "mexico"
+      },
+      "id": 18178
+    },
+    "venueCoordinates": {
+      "latitude": 19.303042944598,
+      "longitude": -99.150484788014
+    },
+    "hidden": false,
+    "slug": "estadio-azteca",
+    "name": "Estadio Azteca",
+    "capacity": 87523,
+    "country": {
+      "alpha2": "MX",
+      "alpha3": "MEX",
+      "name": "Mexico",
+      "slug": "mexico"
+    },
+    "id": 1004,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "ar": "ملعب آزتيكا",
+        "hi": "एस्टेडियो एज़्टेका",
+        "bn": "এস্তাদিও আজটেকা",
+        "ru": "Стадион Estadio Azteca"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Estadio Azteca",
+      "capacity": 87523
+    }
+  },
   "homeTeam": {
     "name": "Mexico",
     "slug": "mexico",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 507072,
+    "userCount": 514923,
     "nameCode": "MEX",
     "ranking": 14,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 238875,
+    "userCount": 239345,
     "nameCode": "RSA",
     "ranking": 60,
     "disabled": false,

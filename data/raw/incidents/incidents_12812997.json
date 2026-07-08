@@ -1,0 +1,1622 @@
+{
+  "incidents": [
+    {
+      "text": "FT",
+      "homeScore": 2,
+      "awayScore": 1,
+      "isLive": false,
+      "time": 90,
+      "addedTime": 999,
+      "timeSeconds": 5400,
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 0,
+      "periodTimeSeconds": 2700,
+      "incidentType": "period"
+    },
+    {
+      "confirmed": false,
+      "player": {
+        "name": "Joško Gvardiol",
+        "firstName": "Josko",
+        "lastName": "Gvardiol",
+        "slug": "josko-gvardiol",
+        "shortName": "J. Gvardiol",
+        "position": "D",
+        "jerseyNumber": "24",
+        "height": 186,
+        "userCount": 56599,
+        "gender": "M",
+        "sofascoreId": "JGvardiol",
+        "id": 964994,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1011744000,
+        "proposedMarketValueRaw": {
+          "value": 64000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوشكو غفارديول",
+            "bn": "জোসকো গোওয়ারদিওল",
+            "hi": "जोस्को ग्वार्डिओल",
+            "ru": "Йошко Гвардиол"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. غفارديول",
+            "bn": "জে. গোওয়ারদিওল",
+            "hi": "जे. ग्वार्डिओल",
+            "ru": "Й. Гвардиол"
+          }
+        }
+      },
+      "isHome": false,
+      "id": 100521,
+      "time": 90,
+      "addedTime": 15,
+      "incidentClass": "goalAwarded",
+      "reversedPeriodTime": 1,
+      "incidentType": "varDecision"
+    },
+    {
+      "player": {
+        "name": "Ivan Perišić",
+        "slug": "ivan-perisic",
+        "shortName": "I. Perišić",
+        "position": "M",
+        "jerseyNumber": "14",
+        "height": 187,
+        "userCount": 19815,
+        "gender": "M",
+        "sofascoreId": "ivanperisic444",
+        "id": 38710,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 602380800,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان بيريشيتش",
+            "bn": "ইভান পেরিসিচ",
+            "hi": "इवान पेरिसिच",
+            "ru": "Иван Перишич"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بيريشيتش",
+            "bn": "আই. পেরিসিচ",
+            "hi": "आई. पेरिसिच",
+            "ru": "И. Перишич"
+          }
+        }
+      },
+      "playerName": "Ivan Perišić",
+      "reason": "Argument",
+      "rescinded": false,
+      "id": 125324931,
+      "time": 90,
+      "addedTime": 8,
+      "isHome": false,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 1,
+      "incidentType": "card"
+    },
+    {
+      "playerIn": {
+        "name": "Andrej Kramarić",
+        "slug": "andrej-kramaric",
+        "shortName": "A. Kramarić",
+        "position": "F",
+        "jerseyNumber": "27",
+        "height": 177,
+        "userCount": 8611,
+        "gender": "M",
+        "sofascoreId": "andrejkramaric",
+        "id": 67647,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 677289600,
+        "proposedMarketValueRaw": {
+          "value": 2700000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أندري كراماريتش",
+            "bn": "আন্দ্রেজ ক্রামরিক",
+            "hi": "आंद्रेज क्रामारिक",
+            "ru": "Андрей Крамарич"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كراماريتش",
+            "bn": "এ. ক্রামারিচ",
+            "hi": "ए. क्रामारिक",
+            "ru": "А. Крамарич"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Mateo Kovačić",
+        "slug": "mateo-kovacic",
+        "shortName": "M. Kovačić",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 178,
+        "userCount": 37113,
+        "gender": "M",
+        "sofascoreId": "Kova8",
+        "id": 136710,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 768182400,
+        "proposedMarketValueRaw": {
+          "value": 9700000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيو كوفاتشيتش",
+            "bn": "মাতেও কোভাসিক",
+            "hi": "माटेओ कोवासिक",
+            "ru": "Матео Ковачич"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفاتشيتش",
+            "bn": "এম. কোভাসিচ",
+            "hi": "एम. कोवासिक",
+            "ru": "М. Ковачич"
+          }
+        }
+      },
+      "id": 126439956,
+      "time": 90,
+      "addedTime": 6,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 1,
+      "incidentType": "substitution"
+    },
+    {
+      "homeScore": 2,
+      "awayScore": 1,
+      "player": {
+        "name": "Gonçalo Ramos",
+        "firstName": "Goncalo",
+        "lastName": "Ramos",
+        "slug": "goncalo-ramos",
+        "shortName": "G. Ramos",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 185,
+        "userCount": 31380,
+        "gender": "M",
+        "sofascoreId": "goncaloramos88",
+        "id": 934510,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 992995200,
+        "proposedMarketValueRaw": {
+          "value": 28000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غونسالو راموس",
+            "bn": "গনসালো রামোস",
+            "hi": "गोंसालो रामोस",
+            "ru": "Гонсало Рамош"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. راموس",
+            "bn": "জি. রামোস",
+            "hi": "जी. रामोस",
+            "ru": "Г. Рамош"
+          }
+        }
+      },
+      "assist1": {
+        "name": "Rafael Leão",
+        "firstName": "Rafael",
+        "lastName": "Leao",
+        "slug": "rafael-leao",
+        "shortName": "R. Leão",
+        "position": "F",
+        "jerseyNumber": "17",
+        "height": 188,
+        "userCount": 82579,
+        "gender": "M",
+        "sofascoreId": "RLeão",
+        "id": 851284,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 928972800,
+        "proposedMarketValueRaw": {
+          "value": 48000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رافائيل لياو",
+            "bn": "রাফায়েল লিয়াও",
+            "hi": "राफेल लिओ",
+            "ru": "Рафаэль Леао"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. لياو",
+            "bn": "আর. লিয়াও",
+            "hi": "आर. लिओ",
+            "ru": "Р. Леао"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Rafael Leão",
+            "firstName": "Rafael",
+            "lastName": "Leao",
+            "slug": "rafael-leao",
+            "shortName": "R. Leão",
+            "position": "F",
+            "jerseyNumber": "17",
+            "height": 188,
+            "userCount": 82579,
+            "gender": "M",
+            "sofascoreId": "RLeão",
+            "id": 851284,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 928972800,
+            "proposedMarketValueRaw": {
+              "value": 48000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "رافائيل لياو",
+                "bn": "রাফায়েল লিয়াও",
+                "hi": "राफेल लिओ",
+                "ru": "Рафаэль Леао"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. لياو",
+                "bn": "আর. লিয়াও",
+                "hi": "आर. लिओ",
+                "ru": "Р. Леао"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 70.9,
+            "y": 97.3
+          },
+          "passEndCoordinates": {
+            "x": 60.5,
+            "y": 73.9
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Renato Veiga",
+            "slug": "renato-veiga",
+            "shortName": "R. Veiga",
+            "position": "D",
+            "jerseyNumber": "13",
+            "height": 190,
+            "userCount": 13767,
+            "gender": "M",
+            "sofascoreId": "renatoveiga95",
+            "id": 1087359,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1059436800,
+            "proposedMarketValueRaw": {
+              "value": 24000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريناتو فيغا",
+                "bn": "রেনাতো ভিগা",
+                "hi": "रेनाटो वेइगा",
+                "ru": "Ренато Вейга"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. فيغا",
+                "bn": "আর. ভেইগা",
+                "hi": "आर. वेइगा",
+                "ru": "Р. Вейга"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 60.5,
+            "y": 73.9
+          },
+          "passEndCoordinates": {
+            "x": 60.8,
+            "y": 38.2
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Rúben Dias",
+            "slug": "ruben-dias",
+            "shortName": "R. Dias",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 188,
+            "userCount": 45813,
+            "gender": "M",
+            "sofascoreId": "RúbenD",
+            "id": 318941,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 863568000,
+            "proposedMarketValueRaw": {
+              "value": 60000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "روبن دياز",
+                "bn": "রুবেন ডায়াস",
+                "hi": "रुबेन डियास",
+                "ru": "Рубен Диаш"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. دياز",
+                "bn": "আর. ডায়াস",
+                "hi": "आर. डियास",
+                "ru": "Р. Диаш"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 61.4,
+            "y": 34.2
+          },
+          "passEndCoordinates": {
+            "x": 54.9,
+            "y": 68.5
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Renato Veiga",
+            "slug": "renato-veiga",
+            "shortName": "R. Veiga",
+            "position": "D",
+            "jerseyNumber": "13",
+            "height": 190,
+            "userCount": 13767,
+            "gender": "M",
+            "sofascoreId": "renatoveiga95",
+            "id": 1087359,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1059436800,
+            "proposedMarketValueRaw": {
+              "value": 24000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريناتو فيغا",
+                "bn": "রেনাতো ভিগা",
+                "hi": "रेनाटो वेइगा",
+                "ru": "Ренато Вейга"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. فيغا",
+                "bn": "আর. ভেইগা",
+                "hi": "आर. वेइगा",
+                "ru": "Р. Вейга"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 54.9,
+            "y": 68.5
+          },
+          "passEndCoordinates": {
+            "x": 76.7,
+            "y": 96.4
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Rafael Leão",
+            "firstName": "Rafael",
+            "lastName": "Leao",
+            "slug": "rafael-leao",
+            "shortName": "R. Leão",
+            "position": "F",
+            "jerseyNumber": "17",
+            "height": 188,
+            "userCount": 82579,
+            "gender": "M",
+            "sofascoreId": "RLeão",
+            "id": 851284,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 928972800,
+            "proposedMarketValueRaw": {
+              "value": 48000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "رافائيل لياو",
+                "bn": "রাফায়েল লিয়াও",
+                "hi": "राफेल लिओ",
+                "ru": "Рафаэль Леао"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. لياو",
+                "bn": "আর. লিয়াও",
+                "hi": "आर. लिओ",
+                "ru": "Р. Леао"
+              }
+            }
+          },
+          "eventType": "cross",
+          "isAssist": true,
+          "time": 90,
+          "playerCoordinates": {
+            "x": 76.6,
+            "y": 89.3
+          },
+          "passEndCoordinates": {
+            "x": 90.9,
+            "y": 49.1
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Gonçalo Ramos",
+            "firstName": "Goncalo",
+            "lastName": "Ramos",
+            "slug": "goncalo-ramos",
+            "shortName": "G. Ramos",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 185,
+            "userCount": 31380,
+            "gender": "M",
+            "sofascoreId": "goncaloramos88",
+            "id": 934510,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 992995200,
+            "proposedMarketValueRaw": {
+              "value": 28000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غونسالو راموس",
+                "bn": "গনসালো রামোস",
+                "hi": "गोंसालो रामोस",
+                "ru": "Гонсало Рамош"
+              },
+              "shortNameTranslation": {
+                "ar": "غ. راموس",
+                "bn": "জি. রামোস",
+                "hi": "जी. रामोस",
+                "ru": "Г. Рамош"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "head",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 90.9,
+            "y": 49.1
+          },
+          "gkCoordinates": {
+            "x": 98.4,
+            "y": 50.2
+          },
+          "goalShotCoordinates": {
+            "x": 100,
+            "y": 46.6
+          },
+          "goalMouthCoordinates": {
+            "x": 68.28,
+            "y": 70.5
+          },
+          "goalkeeper": {
+            "name": "Dominik Livaković",
+            "slug": "dominik-livakovic",
+            "shortName": "D. Livaković",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 186,
+            "userCount": 14770,
+            "gender": "M",
+            "sofascoreId": "Livakovic40",
+            "id": 190419,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 789609600,
+            "proposedMarketValueRaw": {
+              "value": 4099999,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دومينيك ليفاكوفيتش",
+                "bn": "ডমিনিক লিভাকোভিচ",
+                "hi": "डोमिनिक लिवाकोविच",
+                "ru": "Доминик Ливакович"
+              },
+              "shortNameTranslation": {
+                "ar": "د. ليفاكوفيتش",
+                "bn": "ডি. লিভাকোভিচ",
+                "hi": "डी. लिवाकोविच",
+                "ru": "Д. Ливакович"
+              }
+            }
+          },
+          "isHome": true,
+          "goalType": "regular"
+        }
+      ],
+      "id": 353396954,
+      "time": 90,
+      "addedTime": 4,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 1,
+      "incidentType": "goal"
+    },
+    {
+      "playerIn": {
+        "name": "Joško Gvardiol",
+        "firstName": "Josko",
+        "lastName": "Gvardiol",
+        "slug": "josko-gvardiol",
+        "shortName": "J. Gvardiol",
+        "position": "D",
+        "jerseyNumber": "24",
+        "height": 186,
+        "userCount": 56599,
+        "gender": "M",
+        "sofascoreId": "JGvardiol",
+        "id": 964994,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1011744000,
+        "proposedMarketValueRaw": {
+          "value": 64000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوشكو غفارديول",
+            "bn": "জোসকো গোওয়ারদিওল",
+            "hi": "जोस्को ग्वार्डिओल",
+            "ru": "Йошко Гвардиол"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. غفارديول",
+            "bn": "জে. গোওয়ারদিওল",
+            "hi": "जे. ग्वार्डिओल",
+            "ru": "Й. Гвардиол"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Nikola Vlašić",
+        "slug": "nikola-vlasic",
+        "shortName": "N. Vlašić",
+        "position": "M",
+        "jerseyNumber": "10",
+        "height": 178,
+        "userCount": 6176,
+        "gender": "M",
+        "sofascoreId": "niksivlasic_",
+        "id": 357596,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 875923200,
+        "proposedMarketValueRaw": {
+          "value": 10300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولا فلاشيتش",
+            "bn": "নিকোলা ভ্লাসিচ",
+            "hi": "निकोला व्लासिक",
+            "ru": "Никола Влашич"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. فلاشيتش",
+            "bn": "এন. ভ্লাসিচ",
+            "hi": "एन. व्लासिक",
+            "ru": "Н. Влашич"
+          }
+        }
+      },
+      "id": 126439955,
+      "time": 90,
+      "addedTime": 2,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 1,
+      "incidentType": "substitution"
+    },
+    {
+      "length": 10,
+      "time": 90,
+      "addedTime": 0,
+      "reversedPeriodTime": 1,
+      "incidentType": "injuryTime"
+    },
+    {
+      "playerIn": {
+        "name": "Rúben Neves",
+        "slug": "ruben-neves",
+        "shortName": "R. Neves",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 181,
+        "userCount": 18618,
+        "gender": "M",
+        "sofascoreId": "rubenneves",
+        "id": 280955,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 858211200,
+        "proposedMarketValueRaw": {
+          "value": 24000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن نيفيز",
+            "bn": "রুবেন নেভেস",
+            "hi": "रुबेन नेवेस",
+            "ru": "Рубен Невеш"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. نيفيز",
+            "bn": "আর. নেভেস",
+            "hi": "आर. नेवेस",
+            "ru": "Р. Невеш"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Cristiano Ronaldo",
+        "slug": "cristiano-ronaldo",
+        "shortName": "C. Ronaldo",
+        "position": "F",
+        "jerseyNumber": "7",
+        "height": 187,
+        "userCount": 3022692,
+        "gender": "M",
+        "sofascoreId": "CR7",
+        "id": 750,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 476409600,
+        "proposedMarketValueRaw": {
+          "value": 10400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيانو رونالدو",
+            "bn": "ক্রিশ্চিয়ানো রোনালদো",
+            "hi": "क्रिस्टियानो रोनाल्डो",
+            "ru": "Криштиану Роналду"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رونالدو",
+            "bn": "সি. রোনালদো",
+            "hi": "सी. रोनाल्डो",
+            "ru": "К. Роналду"
+          }
+        }
+      },
+      "id": 126439952,
+      "time": 81,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 10,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Mario Pašalić",
+        "slug": "mario-pasalic",
+        "shortName": "M. Pašalić",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 189,
+        "userCount": 8084,
+        "gender": "M",
+        "sofascoreId": "pasalicmario",
+        "id": 190437,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 792288000,
+        "proposedMarketValueRaw": {
+          "value": 6200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماريو باشاليتش",
+            "bn": "মারিও পাশালিচ",
+            "hi": "मारियो पासालिक",
+            "ru": "Марио Пашалич"
+          },
+          "shortNameTranslation": {
+            "ar": "م. باشاليتش",
+            "bn": "এম. পাশালিচ",
+            "hi": "एम. पासालिक",
+            "ru": "М. Пашалич"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Martin Baturina",
+        "slug": "martin-baturina",
+        "shortName": "M. Baturina",
+        "position": "M",
+        "jerseyNumber": "20",
+        "height": 178,
+        "userCount": 13378,
+        "gender": "M",
+        "sofascoreId": "martinbaturina",
+        "id": 1090019,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1045353600,
+        "proposedMarketValueRaw": {
+          "value": 28000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن باتورينا",
+            "bn": "মার্টিন বাতুরিনা",
+            "hi": "मार्टिन बतुरिना",
+            "ru": "Мартин Батурина"
+          },
+          "shortNameTranslation": {
+            "ar": "م. باتورينا",
+            "bn": "এম. বাতুরিনা",
+            "hi": "एम. बतुरिना",
+            "ru": "М. Батурина"
+          }
+        }
+      },
+      "id": 126439954,
+      "time": 68,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 23,
+      "incidentType": "substitution"
+    },
+    {
+      "from": "penalty",
+      "homeScore": 1,
+      "awayScore": 1,
+      "player": {
+        "name": "Cristiano Ronaldo",
+        "slug": "cristiano-ronaldo",
+        "shortName": "C. Ronaldo",
+        "position": "F",
+        "jerseyNumber": "7",
+        "height": 187,
+        "userCount": 3022692,
+        "gender": "M",
+        "sofascoreId": "CR7",
+        "id": 750,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 476409600,
+        "proposedMarketValueRaw": {
+          "value": 10400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستيانو رونالدو",
+            "bn": "ক্রিশ্চিয়ানো রোনালদো",
+            "hi": "क्रिस्टियानो रोनाल्डो",
+            "ru": "Криштиану Роналду"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رونالدو",
+            "bn": "সি. রোনালদো",
+            "hi": "सी. रोनाल्डो",
+            "ru": "К. Роналду"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Cristiano Ronaldo",
+            "slug": "cristiano-ronaldo",
+            "shortName": "C. Ronaldo",
+            "position": "F",
+            "jerseyNumber": "7",
+            "height": 187,
+            "userCount": 3022692,
+            "gender": "M",
+            "sofascoreId": "CR7",
+            "id": 750,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 476409600,
+            "proposedMarketValueRaw": {
+              "value": 10400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كريستيانو رونالدو",
+                "bn": "ক্রিশ্চিয়ানো রোনালদো",
+                "hi": "क्रिस्टियानो रोनाल्डो",
+                "ru": "Криштиану Роналду"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. رونالدو",
+                "bn": "সি. রোনালদো",
+                "hi": "सी. रोनाल्डो",
+                "ru": "К. Роналду"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "right-foot",
+          "time": 68,
+          "playerCoordinates": {
+            "x": 88.5,
+            "y": 50
+          },
+          "gkCoordinates": {
+            "x": 99.1,
+            "y": 50
+          },
+          "goalShotCoordinates": {
+            "x": 100,
+            "y": 50.6
+          },
+          "goalMouthCoordinates": {
+            "x": 46.77,
+            "y": 69.33
+          },
+          "goalkeeper": {
+            "name": "Dominik Livaković",
+            "slug": "dominik-livakovic",
+            "shortName": "D. Livaković",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 186,
+            "userCount": 14770,
+            "gender": "M",
+            "sofascoreId": "Livakovic40",
+            "id": 190419,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 789609600,
+            "proposedMarketValueRaw": {
+              "value": 4099999,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دومينيك ليفاكوفيتش",
+                "bn": "ডমিনিক লিভাকোভিচ",
+                "hi": "डोमिनिक लिवाकोविच",
+                "ru": "Доминик Ливакович"
+              },
+              "shortNameTranslation": {
+                "ar": "د. ليفاكوفيتش",
+                "bn": "ডি. লিভাকোভিচ",
+                "hi": "डी. लिवाकोविच",
+                "ru": "Д. Ливакович"
+              }
+            }
+          },
+          "isHome": true,
+          "goalType": "penalty"
+        }
+      ],
+      "id": 353396953,
+      "time": 68,
+      "isHome": true,
+      "incidentClass": "penalty",
+      "reversedPeriodTime": 23,
+      "incidentType": "goal"
+    },
+    {
+      "confirmed": false,
+      "player": {
+        "name": "Renato Veiga",
+        "slug": "renato-veiga",
+        "shortName": "R. Veiga",
+        "position": "D",
+        "jerseyNumber": "13",
+        "height": 190,
+        "userCount": 13767,
+        "gender": "M",
+        "sofascoreId": "renatoveiga95",
+        "id": 1087359,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1059436800,
+        "proposedMarketValueRaw": {
+          "value": 24000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريناتو فيغا",
+            "bn": "রেনাতো ভিগা",
+            "hi": "रेनाटो वेइगा",
+            "ru": "Ренато Вейга"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. فيغا",
+            "bn": "আর. ভেইগা",
+            "hi": "आर. वेइगा",
+            "ru": "Р. Вейга"
+          }
+        }
+      },
+      "isHome": true,
+      "id": 100520,
+      "time": 65,
+      "incidentClass": "penaltyNotAwarded",
+      "reversedPeriodTime": 26,
+      "incidentType": "varDecision"
+    },
+    {
+      "playerIn": {
+        "name": "Gonçalo Ramos",
+        "firstName": "Goncalo",
+        "lastName": "Ramos",
+        "slug": "goncalo-ramos",
+        "shortName": "G. Ramos",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 185,
+        "userCount": 31380,
+        "gender": "M",
+        "sofascoreId": "goncaloramos88",
+        "id": 934510,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 992995200,
+        "proposedMarketValueRaw": {
+          "value": 28000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غونسالو راموس",
+            "bn": "গনসালো রামোস",
+            "hi": "गोंसालो रामोस",
+            "ru": "Гонсало Рамош"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. راموس",
+            "bn": "জি. রামোস",
+            "hi": "जी. रामोस",
+            "ru": "Г. Рамош"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "João Cancelo",
+        "slug": "joao-cancelo",
+        "shortName": "J. Cancelo",
+        "position": "D",
+        "jerseyNumber": "2",
+        "height": 182,
+        "userCount": 107594,
+        "gender": "M",
+        "sofascoreId": "JCancelo",
+        "id": 138892,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 769996800,
+        "proposedMarketValueRaw": {
+          "value": 8600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جواو كانسيلو",
+            "bn": "জোয়াও ক্যানসেলো",
+            "hi": "जोआओ केन्सेलो",
+            "ru": "Жоау Канселу"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كانسيلو",
+            "bn": "জে. ক্যানসেলো",
+            "hi": "जे. केन्सेलो",
+            "ru": "Ж. Канселу"
+          }
+        }
+      },
+      "id": 126439951,
+      "time": 63,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 28,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Nélson Semedo",
+        "slug": "nelson-semedo",
+        "shortName": "N. Semedo",
+        "position": "D",
+        "jerseyNumber": "27",
+        "height": 177,
+        "userCount": 9543,
+        "gender": "M",
+        "sofascoreId": "nelsonsemedo50",
+        "id": 252821,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 753408000,
+        "proposedMarketValueRaw": {
+          "value": 5500000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيلسون سيميدو",
+            "bn": "নেলসন সেমেডো",
+            "hi": "नेल्सन सेमेदो",
+            "ru": "Нелсон Семедо"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. سيميدو",
+            "bn": "এন. সেমিডো",
+            "hi": "एन. सेमेदो",
+            "ru": "Н. Семедо"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Bruno Fernandes",
+        "firstName": "Bruno",
+        "lastName": "Fernandes",
+        "slug": "bruno-fernandes",
+        "shortName": "B. Fernandes",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 179,
+        "userCount": 340108,
+        "gender": "M",
+        "sofascoreId": "BrunoFernandes",
+        "id": 288205,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 778982400,
+        "proposedMarketValueRaw": {
+          "value": 32000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برونو فيرنانديز",
+            "bn": "ব্রুনো ফার্নান্দেস",
+            "hi": "ब्रूनो फर्नांडीस",
+            "ru": "Бруну Фернандеш"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فرنانديز",
+            "bn": "বি. ফার্নান্দেস",
+            "hi": "बी. फर्नांडीस",
+            "ru": "Б. Фернандеш"
+          }
+        }
+      },
+      "id": 126439950,
+      "time": 63,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 28,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Francisco Conceição",
+        "slug": "francisco-conceicao",
+        "shortName": "F. Conceição",
+        "position": "F",
+        "jerseyNumber": "7",
+        "height": 166,
+        "userCount": 24303,
+        "gender": "M",
+        "sofascoreId": "FConceicao_7",
+        "id": 979222,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1039737600,
+        "proposedMarketValueRaw": {
+          "value": 28000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانشيسكو كونسيساو",
+            "bn": "ফ্রান্সিসকো কনসিকাও",
+            "hi": "फ्रांसिस्को कॉन्सेइसाओ",
+            "ru": "Франсишку Консейсау"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. كونسيساو",
+            "bn": "এফ. কনসিকাও",
+            "hi": "एफ. कॉन्सेइसाओ",
+            "ru": "Ф. Консейсау"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Pedro Neto",
+        "firstName": "Pedro",
+        "lastName": "Neto",
+        "slug": "pedro-neto",
+        "shortName": "P. Neto",
+        "position": "M",
+        "jerseyNumber": "7",
+        "height": 172,
+        "userCount": 46219,
+        "gender": "M",
+        "sofascoreId": "pedroneto_30",
+        "id": 879349,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 952560000,
+        "proposedMarketValueRaw": {
+          "value": 58000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيدرو نيتو",
+            "bn": "পেড্রো নেটো",
+            "hi": "पेड्रो नेटो",
+            "ru": "Педро Нето"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. نيتو",
+            "bn": "পি. নেটো",
+            "hi": "पी. नेटो",
+            "ru": "П. Нето"
+          }
+        }
+      },
+      "id": 126439949,
+      "time": 63,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 28,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Bernardo Silva",
+        "firstName": "Bernardo",
+        "lastName": "Silva",
+        "slug": "bernardo-silva",
+        "shortName": "B. Silva",
+        "position": "M",
+        "jerseyNumber": "20",
+        "height": 173,
+        "userCount": 98647,
+        "gender": "M",
+        "sofascoreId": "BSilva",
+        "id": 331209,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 776476800,
+        "proposedMarketValueRaw": {
+          "value": 21000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيرناردو سيلفا",
+            "bn": "বার্নার্ডো সিলভা",
+            "hi": "बर्नार्डो सिल्वा",
+            "ru": "Бернардо Силва"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيلفا",
+            "bn": "বি. সিলভা",
+            "hi": "बी. सिल्वा",
+            "ru": "Б. Силва"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Vitinha",
+        "firstName": "Vitor",
+        "lastName": "Vitinha",
+        "slug": "vitinha",
+        "shortName": "Vitinha",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 172,
+        "userCount": 80496,
+        "gender": "M",
+        "sofascoreId": "vitinha",
+        "id": 902029,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 950400000,
+        "proposedMarketValueRaw": {
+          "value": 130000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيتينيا",
+            "bn": "বিতিনহা",
+            "hi": "वितिन्हा",
+            "ru": "Витинья"
+          },
+          "shortNameTranslation": {
+            "ar": "فيتينيا",
+            "bn": "বিতিনহা",
+            "hi": "वितिन्हा",
+            "ru": "Витинья"
+          }
+        }
+      },
+      "id": 126439948,
+      "time": 62,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 29,
+      "incidentType": "substitution"
+    },
+    {
+      "player": {
+        "name": "Luka Modrić",
+        "slug": "luka-modric",
+        "shortName": "L. Modrić",
+        "position": "M",
+        "height": 173,
+        "userCount": 365821,
+        "gender": "M",
+        "sofascoreId": "LModric10",
+        "id": 15466,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 495072000,
+        "proposedMarketValueRaw": {
+          "value": 3800000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا مودريتش",
+            "bn": "লুকা মডরিচ",
+            "hi": "लुका मोड्रिक",
+            "ru": "Лука Модрич"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. مودريتش",
+            "bn": "এল. মডরিচ",
+            "hi": "एल. मोड्रिक",
+            "ru": "Л. Модрич"
+          }
+        }
+      },
+      "playerName": "Luka Modrić",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 125324930,
+      "time": 59,
+      "isHome": false,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 32,
+      "incidentType": "card"
+    },
+    {
+      "homeScore": 0,
+      "awayScore": 1,
+      "player": {
+        "name": "Ivan Perišić",
+        "slug": "ivan-perisic",
+        "shortName": "I. Perišić",
+        "position": "M",
+        "jerseyNumber": "14",
+        "height": 187,
+        "userCount": 19815,
+        "gender": "M",
+        "sofascoreId": "ivanperisic444",
+        "id": 38710,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 602380800,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفان بيريشيتش",
+            "bn": "ইভান পেরিসিচ",
+            "hi": "इवान पेरिसिच",
+            "ru": "Иван Перишич"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بيريشيتش",
+            "bn": "আই. পেরিসিচ",
+            "hi": "आई. पेरिसिच",
+            "ru": "И. Перишич"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Ivan Perišić",
+            "slug": "ivan-perisic",
+            "shortName": "I. Perišić",
+            "position": "M",
+            "jerseyNumber": "14",
+            "height": 187,
+            "userCount": 19815,
+            "gender": "M",
+            "sofascoreId": "ivanperisic444",
+            "id": 38710,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 602380800,
+            "proposedMarketValueRaw": {
+              "value": 1200000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيفان بيريشيتش",
+                "bn": "ইভান পেরিসিচ",
+                "hi": "इवान पेरिसिच",
+                "ru": "Иван Перишич"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. بيريشيتش",
+                "bn": "আই. পেরিসিচ",
+                "hi": "आई. पेरिसिच",
+                "ru": "И. Перишич"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "left-foot",
+          "time": 53,
+          "playerCoordinates": {
+            "x": 8.2,
+            "y": 36.4
+          },
+          "gkCoordinates": {
+            "x": 4,
+            "y": 42.6
+          },
+          "goalShotCoordinates": {
+            "x": 0,
+            "y": 50.7
+          },
+          "goalMouthCoordinates": {
+            "x": 53.76,
+            "y": 86.33
+          },
+          "goalkeeper": {
+            "name": "Diogo Costa",
+            "firstName": "Diogo",
+            "lastName": "Costa",
+            "slug": "diogo-costa",
+            "shortName": "D. Costa",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 186,
+            "userCount": 16615,
+            "gender": "M",
+            "sofascoreId": "diogomcosta99",
+            "id": 843115,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 937699200,
+            "proposedMarketValueRaw": {
+              "value": 42000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديوغو كوستا",
+                "bn": "ডিয়োগো কোস্টা",
+                "hi": "डिओगो कोस्टा",
+                "ru": "Диогу Коста"
+              },
+              "shortNameTranslation": {
+                "ar": "د. كوستا",
+                "bn": "ডি. কোস্টা",
+                "hi": "डी. कोस्टा",
+                "ru": "Д. Коста"
+              }
+            }
+          },
+          "isHome": false,
+          "goalType": "regular"
+        }
+      ],
+      "id": 353396955,
+      "time": 53,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 38,
+      "incidentType": "goal"
+    },
+    {
+      "playerIn": {
+        "name": "Igor Matanović",
+        "slug": "igor-matanovic",
+        "shortName": "I. Matanović",
+        "position": "F",
+        "jerseyNumber": "31",
+        "height": 197,
+        "userCount": 4607,
+        "gender": "M",
+        "sofascoreId": "b79y3g",
+        "id": 1019321,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1049068800,
+        "proposedMarketValueRaw": {
+          "value": 21000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيغور ماتانوفيتش",
+            "bn": "ইগর মাতানোভিচ",
+            "hi": "इगोर मतानोविक",
+            "ru": "Игорь Матанович"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ماتانوفيتش",
+            "bn": "আই. মাতানোভিচ",
+            "hi": "आई. मतानोविक",
+            "ru": "И. Матанович"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Ante Budimir",
+        "slug": "ante-budimir",
+        "shortName": "A. Budimir",
+        "position": "F",
+        "jerseyNumber": "17",
+        "height": 190,
+        "userCount": 11013,
+        "gender": "M",
+        "sofascoreId": "budimir_ante",
+        "id": 37318,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 680140800,
+        "proposedMarketValueRaw": {
+          "value": 2600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتي بوديمير",
+            "bn": "আন্তে বুদিমির",
+            "hi": "अन्ते बुदिमीर",
+            "ru": "Анте Будимир"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بوديمير",
+            "bn": "এ. বুদিমির",
+            "hi": "ए. बुदिमीर",
+            "ru": "А. Будимир"
+          }
+        }
+      },
+      "id": 126439953,
+      "time": 46,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 45,
+      "incidentType": "substitution"
+    },
+    {
+      "text": "HT",
+      "homeScore": 0,
+      "awayScore": 0,
+      "isLive": false,
+      "time": 45,
+      "addedTime": 999,
+      "timeSeconds": 2700,
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 0,
+      "periodTimeSeconds": 2700,
+      "incidentType": "period"
+    },
+    {
+      "length": 4,
+      "time": 45,
+      "addedTime": 0,
+      "reversedPeriodTime": 1,
+      "incidentType": "injuryTime"
+    },
+    {
+      "player": {
+        "name": "Rúben Dias",
+        "slug": "ruben-dias",
+        "shortName": "R. Dias",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 188,
+        "userCount": 45813,
+        "gender": "M",
+        "sofascoreId": "RúbenD",
+        "id": 318941,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 863568000,
+        "proposedMarketValueRaw": {
+          "value": 60000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "روبن دياز",
+            "bn": "রুবেন ডায়াস",
+            "hi": "रुबेन डियास",
+            "ru": "Рубен Диаш"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. دياز",
+            "bn": "আর. ডায়াস",
+            "hi": "आर. डियास",
+            "ru": "Р. Диаш"
+          }
+        }
+      },
+      "playerName": "Rúben Dias",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 125324929,
+      "time": 17,
+      "isHome": true,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 29,
+      "incidentType": "card"
+    }
+  ],
+  "home": {
+    "goalkeeperColor": {
+      "primary": "a2e6d0",
+      "number": "151212",
+      "outline": "a2e6d0",
+      "fancyNumber": "222226"
+    },
+    "playerColor": {
+      "primary": "a81d30",
+      "number": "bfeae2",
+      "outline": "a81d30",
+      "fancyNumber": "ffffff"
+    }
+  },
+  "away": {
+    "goalkeeperColor": {
+      "primary": "409172",
+      "number": "f1efef",
+      "outline": "409172",
+      "fancyNumber": "ffffff"
+    },
+    "playerColor": {
+      "primary": "274ebb",
+      "number": "ffffff",
+      "outline": "274ebb",
+      "fancyNumber": "ffffff"
+    }
+  }
+}

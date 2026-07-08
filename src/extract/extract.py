@@ -43,65 +43,87 @@ TOURNAMENT_ID = config.UNIQUE_TOURNAMENT_ID
 RAW_DIR = config.RAW_DATA_PATH
 
 
-def fetch_all_rounds() -> List[Dict[str, Any]]:
-    """
-    Itera rondas desde 1 hasta que no haya eventos o se alcance MAX_ROUNDS.
-    Retorna lista plana de todos los eventos finalizados.
-    """
-    all_events = []
+def _is_finished(ev: Dict[str, Any]) -> bool:
+    """Determina si un evento está finalizado (incluye penales y tiempo extra)."""
+    status = ev.get("status", {})
+    return status.get("type") == "finished"
 
-    for round_num in range(1, MAX_ROUNDS + 1):
-        logger.info("=== RONDA %d ===", round_num)
+
+def _load_existing_json(path: Path) -> Dict[str, Any] | None:
+    """Carga un JSON existente o retorna None si no existe."""
+    if path.exists():
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, OSError):
+            return None
+    return None
+
+
+def fetch_all_events() -> List[Dict[str, Any]]:
+    """
+    Itera páginas /events/last/{page} hasta que hasNextPage sea False.
+    Retorna lista plana de todos los eventos finalizados (sin duplicados).
+    """
+    all_events: List[Dict[str, Any]] = []
+    seen_ids = set()
+    page = 0
+    max_pages = 50
+
+    while page < max_pages:
+        logger.info("=== PÁGINA %d ===", page)
 
         try:
-            data = client.get_events_by_round(
-                round_number=round_num,
+            data = client.get_events_last_page(
+                page=page,
                 season_id=SEASON_ID,
                 tournament_id=TOURNAMENT_ID,
             )
         except client.SofascoreAPIError as exc:
-            logger.error("Error al obtener ronda %d: %s", round_num, exc)
+            logger.error("Error al obtener página %d: %s", page, exc)
             break
 
         events = data.get("events", [])
         if not events:
-            logger.info("Ronda %d sin eventos. Fin del torneo.", round_num)
+            logger.info("Página %d sin eventos. Fin del torneo.", page)
             break
 
-        # Filtrar solo finalizados
-        finished = [
-            ev for ev in events
-            if ev.get("status", {}).get("code") == 100
-        ]
+        for ev in events:
+            if _is_finished(ev) and ev["id"] not in seen_ids:
+                seen_ids.add(ev["id"])
+                all_events.append(ev)
 
         logger.info(
-            "Ronda %d: %d eventos (%d finalizados)",
-            round_num, len(events), len(finished),
+            "Página %d: %d eventos (%d nuevos finalizados)",
+            page, len(events), len([e for e in events if _is_finished(e)]),
         )
 
-        all_events.extend(finished)
-
-        # Guardar JSON de la ronda completa (backup)
         client.save_json(
             data,
-            f"round_{round_num}_events.json",
-            directory=RAW_DIR / "rounds",
+            f"page_{page}_events.json",
+            directory=RAW_DIR / "pages",
         )
 
-    logger.info("TOTAL partidos finalizados: %d", len(all_events))
+        if not data.get("hasNextPage", False):
+            logger.info("Última página alcanzada (hasNextPage=False).")
+            break
+
+        page += 1
+
+    logger.info("TOTAL partidos finalizados únicos: %d", len(all_events))
     return all_events
 
 
 def fetch_event_data(event: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Dado un evento (dict), descarga estadísticas e incidentes.
-    Guarda todo en disco y retorna resumen.
+    Dado un evento (dict), descarga/actualiza estadísticas e incidentes.
+    Si el archivo ya existe en disco, lo reutiliza (evita requests redundantes).
     """
     event_id = event["id"]
     home = event.get("homeTeam", {}).get("name", "?")
     away = event.get("awayTeam", {}).get("name", "?")
 
-    logger.info("Descargando event %d: %s vs %s", event_id, home, away)
+    logger.info("Procesando event %d: %s vs %s", event_id, home, away)
 
     result = {
         "event_id": event_id,
@@ -111,48 +133,50 @@ def fetch_event_data(event: Dict[str, Any]) -> Dict[str, Any]:
         "detail_ok": False,
     }
 
-    # 1. Guardar el evento base
     client.save_json(
         event,
         f"event_{event_id}.json",
         directory=RAW_DIR / "events",
     )
 
-    # 2. Estadísticas
-    try:
-        stats = client.get_event_statistics(event_id)
-        client.save_json(
-            stats,
-            f"stats_{event_id}.json",
-            directory=RAW_DIR / "stats",
-        )
+    # Stats
+    stats_path = RAW_DIR / "stats" / f"stats_{event_id}.json"
+    if _load_existing_json(stats_path) is not None:
+        logger.info("  Stats ya existen en disco, reutilizando.")
         result["stats_ok"] = True
-    except client.SofascoreAPIError as exc:
-        logger.warning("Stats falló para %d: %s", event_id, exc)
+    else:
+        try:
+            stats = client.get_event_statistics(event_id)
+            client.save_json(stats, f"stats_{event_id}.json", directory=RAW_DIR / "stats")
+            result["stats_ok"] = True
+        except client.SofascoreAPIError as exc:
+            logger.warning("  Stats falló para %d: %s", event_id, exc)
 
-    # 3. Incidentes
-    try:
-        incidents = client.get_event_incidents(event_id)
-        client.save_json(
-            incidents,
-            f"incidents_{event_id}.json",
-            directory=RAW_DIR / "incidents",
-        )
+    # Incidents
+    incidents_path = RAW_DIR / "incidents" / f"incidents_{event_id}.json"
+    if _load_existing_json(incidents_path) is not None:
+        logger.info("  Incidents ya existen en disco, reutilizando.")
         result["incidents_ok"] = True
-    except client.SofascoreAPIError as exc:
-        logger.warning("Incidents falló para %d: %s", event_id, exc)
+    else:
+        try:
+            incidents = client.get_event_incidents(event_id)
+            client.save_json(incidents, f"incidents_{event_id}.json", directory=RAW_DIR / "incidents")
+            result["incidents_ok"] = True
+        except client.SofascoreAPIError as exc:
+            logger.warning("  Incidents falló para %d: %s", event_id, exc)
 
-    # 4. Detalle completo (opcional, por si tiene alineaciones)
-    try:
-        detail = client.get_event_detail(event_id)
-        client.save_json(
-            detail,
-            f"detail_{event_id}.json",
-            directory=RAW_DIR / "details",
-        )
+    # Detail
+    detail_path = RAW_DIR / "details" / f"detail_{event_id}.json"
+    if _load_existing_json(detail_path) is not None:
+        logger.info("  Detail ya existe en disco, reutilizando.")
         result["detail_ok"] = True
-    except client.SofascoreAPIError as exc:
-        logger.warning("Detail falló para %d: %s", event_id, exc)
+    else:
+        try:
+            detail = client.get_event_detail(event_id)
+            client.save_json(detail, f"detail_{event_id}.json", directory=RAW_DIR / "details")
+            result["detail_ok"] = True
+        except client.SofascoreAPIError as exc:
+            logger.warning("  Detail falló para %d: %s", event_id, exc)
 
     return result
 
@@ -164,8 +188,8 @@ def main():
     logger.info("Season ID: %d | Torneo ID: %d", SEASON_ID, TOURNAMENT_ID)
     logger.info("=" * 60)
 
-    # Paso 1: Obtener todos los partidos por ronda
-    events = fetch_all_rounds()
+    # Paso 1: Obtener todos los partidos por página
+    events = fetch_all_events()
 
     if not events:
         logger.error("No se encontraron partidos. Abortando.")

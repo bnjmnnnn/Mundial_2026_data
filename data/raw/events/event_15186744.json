@@ -52,7 +52,7 @@
           "shortNameTranslation": {}
         }
       },
-      "userCount": 1923839,
+      "userCount": 1936369,
       "hasPerformanceGraphFeature": false,
       "country": {},
       "id": 16,
@@ -147,6 +147,46 @@
     "type": "finished"
   },
   "winnerCode": 1,
+  "venue": {
+    "city": {
+      "name": "Monterrey",
+      "country": {
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "name": "Mexico",
+        "slug": "mexico"
+      },
+      "id": 18869
+    },
+    "venueCoordinates": {
+      "latitude": 25.669295827495,
+      "longitude": -100.24398156379
+    },
+    "hidden": false,
+    "slug": "estadio-bbva-",
+    "name": "Estadio BBVA",
+    "capacity": 53500,
+    "country": {
+      "alpha2": "MX",
+      "alpha3": "MEX",
+      "name": "Mexico",
+      "slug": "mexico"
+    },
+    "id": 15891,
+    "fieldTranslations": {
+      "nameTranslation": {
+        "hi": "एस्टेडियो बीबीवीए",
+        "bn": "এস্টাডিও বিবিভিএ",
+        "ar": "ملعب بي بي في إيه",
+        "ru": "Спортивный комплекс BBVA"
+      },
+      "shortNameTranslation": {}
+    },
+    "stadium": {
+      "name": "Estadio BBVA",
+      "capacity": 53500
+    }
+  },
   "homeTeam": {
     "name": "South Africa",
     "slug": "south-africa",
@@ -157,7 +197,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 238875,
+    "userCount": 239068,
     "nameCode": "RSA",
     "ranking": 60,
     "disabled": false,
@@ -196,7 +236,7 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 158098,
+    "userCount": 158088,
     "nameCode": "KOR",
     "ranking": 25,
     "disabled": false,

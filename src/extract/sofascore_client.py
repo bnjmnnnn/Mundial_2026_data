@@ -159,6 +159,24 @@ def get_events_by_round(
     return fetch_with_backoff(url)
 
 
+def get_events_last_page(
+    page: int = 0,
+    season_id: int = config.SEASON_ID,
+    tournament_id: int = config.UNIQUE_TOURNAMENT_ID,
+) -> dict:
+    """
+    GET /unique-tournament/{id}/season/{sid}/events/last/{page}
+
+    Retorna dict con lista de partidos paginados (más recientes primero).
+    Incluye campos ``events`` y ``hasNextPage``.
+    """
+    url = (
+        f"{config.BASE_URL}/unique-tournament/{tournament_id}"
+        f"/season/{season_id}/events/last/{page}"
+    )
+    return fetch_with_backoff(url)
+
+
 def get_event_statistics(event_id: int) -> dict:
     """
     GET /event/{event_id}/statistics
