@@ -131,6 +131,7 @@ def fetch_event_data(event: Dict[str, Any]) -> Dict[str, Any]:
         "stats_ok": False,
         "incidents_ok": False,
         "detail_ok": False,
+        "lineups_ok": False,
     }
 
     client.save_json(
@@ -178,6 +179,19 @@ def fetch_event_data(event: Dict[str, Any]) -> Dict[str, Any]:
         except client.SofascoreAPIError as exc:
             logger.warning("  Detail falló para %d: %s", event_id, exc)
 
+    # Lineups (player statistics)
+    lineups_path = RAW_DIR / "lineups" / f"lineups_{event_id}.json"
+    if _load_existing_json(lineups_path) is not None:
+        logger.info("  Lineups ya existen en disco, reutilizando.")
+        result["lineups_ok"] = True
+    else:
+        try:
+            lineups = client.get_event_lineups(event_id)
+            client.save_json(lineups, f"lineups_{event_id}.json", directory=RAW_DIR / "lineups")
+            result["lineups_ok"] = True
+        except client.SofascoreAPIError as exc:
+            logger.warning("  Lineups falló para %d: %s", event_id, exc)
+
     return result
 
 
@@ -206,6 +220,7 @@ def main():
     stats_success = sum(1 for r in summary if r["stats_ok"])
     incidents_success = sum(1 for r in summary if r["incidents_ok"])
     detail_success = sum(1 for r in summary if r["detail_ok"])
+    lineups_success = sum(1 for r in summary if r["lineups_ok"])
 
     logger.info("=" * 60)
     logger.info("EXTRACCIÓN COMPLETADA")
@@ -213,6 +228,7 @@ def main():
     logger.info("Stats descargadas: %d/%d", stats_success, len(summary))
     logger.info("Incidents descargados: %d/%d", incidents_success, len(summary))
     logger.info("Detalles descargados: %d/%d", detail_success, len(summary))
+    logger.info("Lineups descargados: %d/%d", lineups_success, len(summary))
     logger.info("=" * 60)
 
     # Guardar resumen

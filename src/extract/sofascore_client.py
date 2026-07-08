@@ -204,6 +204,15 @@ def get_event_detail(event_id: int) -> dict:
     return fetch_with_backoff(url)
 
 
+def get_event_lineups(event_id: int) -> dict:
+    """
+    GET /event/{event_id}/lineups
+    Retorna alineaciones y estadísticas individuales de cada jugador.
+    """
+    url = f"{config.BASE_URL}/event/{event_id}/lineups"
+    return fetch_with_backoff(url)
+
+
 # ---------------------------------------------------------------------------
 # Persistencia de capa raw (bronze)
 # ---------------------------------------------------------------------------
