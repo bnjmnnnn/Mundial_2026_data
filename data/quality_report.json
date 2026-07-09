@@ -1,0 +1,494 @@
+{
+  "timestamp": "2026-07-09T00:18:49.455288Z",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "category": "file_exists",
+      "table": "matches",
+      "status": "PASS",
+      "message": "✅ matches.csv encontrado"
+    },
+    {
+      "category": "file_exists",
+      "table": "team_stats",
+      "status": "PASS",
+      "message": "✅ team_stats.csv encontrado"
+    },
+    {
+      "category": "file_exists",
+      "table": "events_incidents",
+      "status": "PASS",
+      "message": "✅ events_incidents.csv encontrado"
+    },
+    {
+      "category": "file_exists",
+      "table": "player_stats",
+      "status": "PASS",
+      "message": "✅ player_stats.csv encontrado"
+    },
+    {
+      "category": "file_exists",
+      "table": "team_features",
+      "status": "PASS",
+      "message": "✅ team_features.csv encontrado"
+    },
+    {
+      "category": "file_exists",
+      "table": "match_ml_dataset",
+      "status": "PASS",
+      "message": "✅ match_ml_dataset.csv encontrado"
+    },
+    {
+      "category": "file_exists",
+      "table": "team_tournament_agg",
+      "status": "PASS",
+      "message": "✅ team_tournament_agg.csv encontrado"
+    },
+    {
+      "category": "file_exists",
+      "table": "player_match_stats",
+      "status": "PASS",
+      "message": "✅ player_match_stats.csv encontrado"
+    },
+    {
+      "category": "file_exists",
+      "table": "player_tournament_agg",
+      "status": "PASS",
+      "message": "✅ player_tournament_agg.csv encontrado"
+    },
+    {
+      "category": "file_exists",
+      "table": "position_comparison",
+      "status": "PASS",
+      "message": "✅ position_comparison.csv encontrado"
+    },
+    {
+      "category": "cardinality",
+      "table": "matches",
+      "rows": 96,
+      "expected": {
+        "min": 1,
+        "max": 200
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "required_cols",
+      "table": "matches",
+      "column": "match_id",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "matches",
+      "column": "home_team_name",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "matches",
+      "column": "away_team_name",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "matches",
+      "column": "home_score",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "matches",
+      "column": "away_score",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "range",
+      "table": "matches",
+      "column": "home_score",
+      "status": "PASS",
+      "min": 0.0,
+      "max": 7.0,
+      "expected_range": [
+        0,
+        20
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "range",
+      "table": "matches",
+      "column": "away_score",
+      "status": "PASS",
+      "min": 0.0,
+      "max": 5.0,
+      "expected_range": [
+        0,
+        20
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "range",
+      "table": "matches",
+      "column": "round",
+      "status": "PASS",
+      "min": 1.0,
+      "max": 6.0,
+      "expected_range": [
+        1,
+        20
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "cardinality",
+      "table": "team_stats",
+      "rows": 192,
+      "expected": {
+        "min": 2,
+        "max": 400
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "required_cols",
+      "table": "team_stats",
+      "column": "match_id",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "team_stats",
+      "column": "team",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "team_stats",
+      "column": "is_home",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "team_stats",
+      "column": "ballPossession",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "range",
+      "table": "team_stats",
+      "column": "ballPossession",
+      "status": "PASS",
+      "min": 21.0,
+      "max": 79.0,
+      "expected_range": [
+        0,
+        100
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "range",
+      "table": "team_stats",
+      "column": "expectedGoals",
+      "status": "PASS",
+      "min": 0.05,
+      "max": 4.6,
+      "expected_range": [
+        0,
+        10
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "cardinality",
+      "table": "events_incidents",
+      "rows": 1960,
+      "expected": {
+        "min": 1,
+        "max": 5000
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "cardinality",
+      "table": "player_stats",
+      "rows": 4914,
+      "expected": {
+        "min": 1,
+        "max": 5000
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "required_cols",
+      "table": "player_stats",
+      "column": "match_id",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "player_stats",
+      "column": "player_id",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "player_stats",
+      "column": "player_name",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "player_stats",
+      "column": "team_side",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "player_stats",
+      "column": "position",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "range",
+      "table": "player_stats",
+      "column": "rating",
+      "status": "PASS",
+      "min": 3.0,
+      "max": 10.0,
+      "expected_range": [
+        0,
+        10
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "range",
+      "table": "player_stats",
+      "column": "minutesPlayed",
+      "status": "PASS",
+      "min": 1.0,
+      "max": 120.0,
+      "expected_range": [
+        0,
+        120
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "cardinality",
+      "table": "team_features",
+      "rows": 192,
+      "expected": {
+        "min": 2,
+        "max": 400
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "required_cols",
+      "table": "team_features",
+      "column": "match_id",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "team_features",
+      "column": "team",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "team_features",
+      "column": "goals_scored",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "team_features",
+      "column": "goals_conceded",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "team_features",
+      "column": "result",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "range",
+      "table": "team_features",
+      "column": "goals_scored",
+      "status": "PASS",
+      "min": 0.0,
+      "max": 7.0,
+      "expected_range": [
+        0,
+        20
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "range",
+      "table": "team_features",
+      "column": "goals_conceded",
+      "status": "PASS",
+      "min": 0.0,
+      "max": 7.0,
+      "expected_range": [
+        0,
+        20
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "range",
+      "table": "team_features",
+      "column": "possession_pct",
+      "status": "PASS",
+      "min": 21.0,
+      "max": 79.0,
+      "expected_range": [
+        0,
+        100
+      ],
+      "out_of_range": 0
+    },
+    {
+      "category": "cardinality",
+      "table": "match_ml_dataset",
+      "rows": 96,
+      "expected": {
+        "min": 1,
+        "max": 200
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "required_cols",
+      "table": "match_ml_dataset",
+      "column": "match_id",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "match_ml_dataset",
+      "column": "home_team_name",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "match_ml_dataset",
+      "column": "away_team_name",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "required_cols",
+      "table": "match_ml_dataset",
+      "column": "result_1x2",
+      "status": "PASS",
+      "nulls": 0,
+      "null_pct": 0.0
+    },
+    {
+      "category": "cardinality",
+      "table": "team_tournament_agg",
+      "rows": 48,
+      "expected": {
+        "min": 1,
+        "max": 60
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "cardinality",
+      "table": "player_match_stats",
+      "rows": 4914,
+      "expected": {
+        "min": 1,
+        "max": 5000
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "cardinality",
+      "table": "player_tournament_agg",
+      "rows": 1248,
+      "expected": {
+        "min": 1,
+        "max": 1500
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "cardinality",
+      "table": "position_comparison",
+      "rows": 4,
+      "expected": {
+        "min": 1,
+        "max": 10
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "consistency",
+      "check": "match_id en team_stats",
+      "status": "PASS",
+      "missing_ids": [],
+      "total_missing": 0
+    },
+    {
+      "category": "consistency",
+      "check": "2 filas por match en team_stats",
+      "status": "PASS",
+      "wrong_matches": [],
+      "total_wrong": 0
+    }
+  ]
+}

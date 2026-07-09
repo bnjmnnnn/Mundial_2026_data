@@ -356,6 +356,13 @@ def main():
     team_agg = build_team_tournament_agg(team_features)
     save_gold(team_agg, "team_tournament_agg")
 
+    # 4. Player stats (jugadores por posición)
+    logger.info("=" * 60)
+    logger.info("GENERANDO DATASETS DE JUGADORES...")
+    logger.info("=" * 60)
+    from src.transform import player_gold
+    player_gold.main()
+
     logger.info("=" * 60)
     logger.info("CAPA GOLD COMPLETADA")
     logger.info("Archivos en: %s", GOLD_DIR)

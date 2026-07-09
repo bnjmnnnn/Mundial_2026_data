@@ -317,13 +317,13 @@ def build_player_stats_table(event_ids: List[int]) -> pd.DataFrame:
 
         for side in ["home", "away"]:
             team_data = lineups.get(side, {})
-            team_id = team_data.get("teamId")
             formation = team_data.get("formation")
             players = team_data.get("players", [])
 
             for p in players:
                 player_info = p.get("player", {})
                 stats = p.get("statistics", {})
+                team_id = p.get("teamId")  # teamId está en el jugador, no en el nodo home/away
 
                 row = {
                     "match_id": eid,
@@ -342,13 +342,14 @@ def build_player_stats_table(event_ids: List[int]) -> pd.DataFrame:
 
                 # Aplanar estadísticas numéricas
                 for stat_key, stat_val in stats.items():
-                    if stat_key in ("ratingVersions", "statisticsType"):
+                    if stat_key == "statisticsType":
+                        continue
+                    if stat_key == "ratingVersions" and isinstance(stat_val, dict):
+                        row["rating_original"] = stat_val.get("original")
+                        row["rating_alternative"] = stat_val.get("alternative")
                         continue
                     if isinstance(stat_val, (int, float)):
                         row[stat_key] = stat_val
-                    elif stat_key == "ratingVersions" and isinstance(stat_val, dict):
-                        row["rating_original"] = stat_val.get("original")
-                        row["rating_alternative"] = stat_val.get("alternative")
 
                 rows.append(row)
 

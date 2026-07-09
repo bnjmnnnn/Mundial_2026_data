@@ -41,7 +41,10 @@ OUTPUT_DIR = Path("data")
 # ---------------------------------------------------------------------------
 REQUIRED_FILES = {
     "silver": ["matches.csv", "team_stats.csv", "events_incidents.csv", "player_stats.csv"],
-    "gold": ["team_features.csv", "match_ml_dataset.csv", "team_tournament_agg.csv"],
+    "gold": [
+        "team_features.csv", "match_ml_dataset.csv", "team_tournament_agg.csv",
+        "player_match_stats.csv", "player_tournament_agg.csv", "position_comparison.csv",
+    ],
 }
 
 REQUIRED_COLS = {
@@ -81,6 +84,9 @@ CARDINALITY = {
     "match_ml_dataset": {"min": 1, "max": 200},
     "team_tournament_agg": {"min": 1, "max": 60},
     "player_stats": {"min": 1, "max": 5000},
+    "player_match_stats": {"min": 1, "max": 5000},
+    "player_tournament_agg": {"min": 1, "max": 1500},
+    "position_comparison": {"min": 1, "max": 10},
 }
 
 
@@ -232,6 +238,9 @@ def main():
         ("team_features", GOLD_DIR),
         ("match_ml_dataset", GOLD_DIR),
         ("team_tournament_agg", GOLD_DIR),
+        ("player_match_stats", GOLD_DIR),
+        ("player_tournament_agg", GOLD_DIR),
+        ("position_comparison", GOLD_DIR),
     ]
 
     loaded = {}
