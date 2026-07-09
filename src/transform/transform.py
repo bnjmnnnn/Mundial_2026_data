@@ -8,6 +8,7 @@ Tablas generadas:
   - match_goals     : subconjunto de incidentes tipo 'goal'
   - match_cards     : subconjunto de incidentes tipo 'card'
   - match_subs      : subconjunto de incidentes tipo 'substitution'
+  - player_stats    : estadísticas individuales por jugador / partido
 
 Exporta todo a CSV y Parquet en data/silver/.
 
@@ -300,6 +301,63 @@ def build_substitutions_table(incidents_df: pd.DataFrame) -> pd.DataFrame:
 
 
 # =============================================================================
+# 5. PLAYER STATS (lineups)
+# =============================================================================
+def build_player_stats_table(event_ids: List[int]) -> pd.DataFrame:
+    """
+    Extrae estadísticas individuales por jugador para cada partido.
+    Cada fila = un jugador en un partido.
+    """
+    rows: List[dict] = []
+
+    for eid in event_ids:
+        lineups = load_json(RAW_DIR / "lineups" / f"lineups_{eid}.json")
+        if lineups is None:
+            continue
+
+        for side in ["home", "away"]:
+            team_data = lineups.get(side, {})
+            team_id = team_data.get("teamId")
+            formation = team_data.get("formation")
+            players = team_data.get("players", [])
+
+            for p in players:
+                player_info = p.get("player", {})
+                stats = p.get("statistics", {})
+
+                row = {
+                    "match_id": eid,
+                    "team_id": team_id,
+                    "team_side": side,
+                    "formation": formation,
+                    "player_id": player_info.get("id"),
+                    "player_name": player_info.get("name"),
+                    "player_short_name": player_info.get("shortName"),
+                    "player_slug": player_info.get("slug"),
+                    "shirt_number": p.get("shirtNumber") or p.get("jerseyNumber"),
+                    "position": p.get("position"),
+                    "is_substitute": p.get("substitute", False),
+                    "is_captain": p.get("captain", False),
+                }
+
+                # Aplanar estadísticas numéricas
+                for stat_key, stat_val in stats.items():
+                    if stat_key in ("ratingVersions", "statisticsType"):
+                        continue
+                    if isinstance(stat_val, (int, float)):
+                        row[stat_key] = stat_val
+                    elif stat_key == "ratingVersions" and isinstance(stat_val, dict):
+                        row["rating_original"] = stat_val.get("original")
+                        row["rating_alternative"] = stat_val.get("alternative")
+
+                rows.append(row)
+
+    df = pd.DataFrame(rows)
+    logger.info("Tabla player_stats: %d filas, %d columnas", len(df), len(df.columns))
+    return df
+
+
+# =============================================================================
 # PERSISTENCIA SILVER
 # =============================================================================
 def save_silver(df: pd.DataFrame, name: str) -> None:
@@ -359,6 +417,10 @@ def main():
 
     subs_df = build_substitutions_table(incidents_df)
     save_silver(subs_df, "match_substitutions")
+
+    # 5. Player stats (lineups)
+    player_stats_df = build_player_stats_table(event_ids)
+    save_silver(player_stats_df, "player_stats")
 
     # Resumen
     logger.info("=" * 60)

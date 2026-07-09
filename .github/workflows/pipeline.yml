@@ -34,23 +34,31 @@ jobs:
       - name: Check raw data exists
         id: check
         run: |
-          RAW_DIR="data/raw/events"
-          if [ ! -d "$RAW_DIR" ] || [ -z "$(ls -A $RAW_DIR)" ]; then
-            echo "❌ No se encontraron datos raw"
+          EVENTS_DIR="data/raw/events"
+          LINEUPS_DIR="data/raw/lineups"
+          if [ ! -d "$EVENTS_DIR" ] || [ -z "$(ls -A $EVENTS_DIR)" ]; then
+            echo "❌ No se encontraron datos raw de eventos"
             echo "status=missing" >> $GITHUB_OUTPUT
             echo "raw_count=0" >> $GITHUB_OUTPUT
+            echo "lineups_count=0" >> $GITHUB_OUTPUT
             exit 1
           fi
-          COUNT=$(ls $RAW_DIR | wc -l)
-          echo "✅ Datos raw encontrados: $COUNT eventos"
+          EVENT_COUNT=$(ls $EVENTS_DIR | wc -l)
+          LINEUP_COUNT=0
+          if [ -d "$LINEUPS_DIR" ]; then
+            LINEUP_COUNT=$(ls $LINEUPS_DIR | wc -l)
+          fi
+          echo "✅ Datos raw encontrados: $EVENT_COUNT eventos, $LINEUP_COUNT lineups"
           echo "status=ok" >> $GITHUB_OUTPUT
-          echo "raw_count=$COUNT" >> $GITHUB_OUTPUT
+          echo "raw_count=$EVENT_COUNT" >> $GITHUB_OUTPUT
+          echo "lineups_count=$LINEUP_COUNT" >> $GITHUB_OUTPUT
 
       - name: Summary — Raw Validation
         if: always()
         run: |
           echo "## 📥 Validación de Datos Raw" >> $GITHUB_STEP_SUMMARY
           echo "- Eventos encontrados: ${{ steps.check.outputs.raw_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Lineups encontrados: ${{ steps.check.outputs.lineups_count }}" >> $GITHUB_STEP_SUMMARY
           echo "- Status: ${{ steps.check.outputs.status }}" >> $GITHUB_STEP_SUMMARY
 
   # ===========================================================================

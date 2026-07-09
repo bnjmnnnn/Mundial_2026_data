@@ -40,7 +40,7 @@ OUTPUT_DIR = Path("data")
 # Configuración de validaciones
 # ---------------------------------------------------------------------------
 REQUIRED_FILES = {
-    "silver": ["matches.csv", "team_stats.csv", "events_incidents.csv"],
+    "silver": ["matches.csv", "team_stats.csv", "events_incidents.csv", "player_stats.csv"],
     "gold": ["team_features.csv", "match_ml_dataset.csv", "team_tournament_agg.csv"],
 }
 
@@ -49,6 +49,7 @@ REQUIRED_COLS = {
     "team_stats": ["match_id", "team", "is_home", "ballPossession"],
     "team_features": ["match_id", "team", "goals_scored", "goals_conceded", "result"],
     "match_ml_dataset": ["match_id", "home_team_name", "away_team_name", "result_1x2"],
+    "player_stats": ["match_id", "player_id", "player_name", "team_side", "position"],
 }
 
 RANGE_CHECKS = {
@@ -66,6 +67,10 @@ RANGE_CHECKS = {
         "goals_conceded": (0, 20),
         "possession_pct": (0, 100),
     },
+    "player_stats": {
+        "rating": (0, 10),
+        "minutesPlayed": (0, 120),
+    },
 }
 
 CARDINALITY = {
@@ -75,6 +80,7 @@ CARDINALITY = {
     "team_features": {"min": 2, "max": 400},
     "match_ml_dataset": {"min": 1, "max": 200},
     "team_tournament_agg": {"min": 1, "max": 60},
+    "player_stats": {"min": 1, "max": 5000},
 }
 
 
@@ -222,6 +228,7 @@ def main():
         ("matches", SILVER_DIR),
         ("team_stats", SILVER_DIR),
         ("events_incidents", SILVER_DIR),
+        ("player_stats", SILVER_DIR),
         ("team_features", GOLD_DIR),
         ("match_ml_dataset", GOLD_DIR),
         ("team_tournament_agg", GOLD_DIR),
